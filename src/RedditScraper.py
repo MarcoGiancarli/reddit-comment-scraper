@@ -1,18 +1,11 @@
 __author__ = 'Marco Giancarli -- m.a.giancarli@gmail.com'
 
 
-import socks
-import socket
-import requesocks
 import requests
-import subprocess
-import signal
 import random
 import csv
 import time
 import nltk
-import htmlentitydefs
-from HTMLParser import HTMLParser
 from datetime import datetime
 from lxml import html
 
@@ -71,34 +64,11 @@ class CommentScraper():
         self.log('Your network IP is ' + self.my_ip)
 
 
-    # def setup_proxy(self):
-    #     # start tor in the background
-    #     self.tor_process = subprocess.Popen(
-    #         'tor'.split(),
-    #         stdout=subprocess.PIPE
-    #     )
-    #
-    #     # wait until tor is ready
-    #     is_finished_output = 'Bootstrapped 100%: Done.'
-    #     for line in iter(self.tor_process.stdout.readline, b''):
-    #         self.log(line.strip())
-    #         if is_finished_output in line:
-    #             break
-    #
-    #     # # set tor as the default proxy
-    #     # socks.setdefaultproxy(socks.PROXY_TYPE_SOCKS5, "127.0.0.1", 9050)
-    #     # socket.socket = socks.socksocket
-    #
-    #     self.session = requesocks.session()
-    #     self.session.proxies = {
-    #         'http': 'socks5://127.0.0.1:9050',
-    #         'https': 'socks5://127.0.0.1:9050'
-    #     }
-    #
-    #     # confirm that tor ip is different
-    #     self.tor_ip = self.get_current_ip()
-    #     self.log('New tor exit node IP is ' + self.tor_ip)
-    #     assert(self.tor_ip != self.my_ip)
+    @staticmethod
+    def make_scrapers(http_proxy_urls):
+        pass
+        # TODO: make a bunch of scraper instances and run them concurrently
+        # TODO: make one for each proxy(s)
 
 
     def get_subreddits(self, delay=3):
@@ -223,7 +193,6 @@ class CommentScraper():
             subreddit_name=subreddit_name,
             post_id=post_id
         )
-        print post_url
         
         self.log('Scraping comments from ' + post_url + '...')
 
@@ -237,17 +206,13 @@ class CommentScraper():
             (
                 subreddit_name,
                 post_id,
-                nltk.clean_html(comment.text_content())
+                CommentScraper.html_to_text(comment)
             )
             for comment
             in comment_texts
         ]
 
-        print comment_texts[0]
-        print comments[0]
-        print comment_texts[1]
-        print comments[1]
-        # TODO: somehow store data
+        # TODO: somehow store data -- does it need to be thread-safe?
 
 
     def log(self, text):
@@ -302,6 +267,14 @@ class CommentScraper():
             response_text = ''
 
         return response_text
+
+
+    @staticmethod
+    def html_to_text(html_string):
+        # TODO: make this more robust
+        retval = nltk.clean_html(html_string.text_content())
+        retval = retval.replace('\\n', ' ')
+        return retval
 
 
     @staticmethod

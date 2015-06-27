@@ -6,6 +6,8 @@ import random
 import csv
 import time
 import nltk
+import threading
+import Queue
 from datetime import datetime
 from lxml import html
 
@@ -65,10 +67,31 @@ class CommentScraper():
 
 
     @staticmethod
-    def make_scrapers(http_proxy_urls):
-        pass
-        # TODO: make a bunch of scraper instances and run them concurrently
-        # TODO: make one for each proxy(s)
+    def make_scrapers(http_proxy_urls,
+                      subreddits_filename='data/subreddits.csv'):
+        scraper_queue = Queue.Queue(maxsize=len(scraper_threads))
+        scraper_threads = [
+            ScraperThread(
+                scraper_queue,
+                [proxy],
+                1
+            )
+            for proxy
+            in http_proxy_urls
+        ]
+
+        subreddits_file = open(subreddits_filename, 'w')
+        subreddits = subreddits_file.readall().split('\n')
+
+        for scraper in scraper_threads:
+            scraper_queue.put(scraper)
+
+        for sub in subreddits:
+            while True:
+                if not scraper_queue.empty():
+                    break
+            # TODO: figure out how to feed subs into scraper threads
+            scraper_queue.join()
 
 
     def get_subreddits(self, delay=3):
@@ -128,6 +151,8 @@ class CommentScraper():
         subreddits_filename = self.data_dir + 'subreddits.csv'
         self.write_list_to_file(subreddit_names, subreddits_filename)
 
+        return subreddit_names
+
 
     def scrape_subreddit(self, subreddit_name, delay=0.2):
         subreddit_url = 'http://www.reddit.com/r/{subreddit_name}/top'  # seed url
@@ -177,7 +202,12 @@ class CommentScraper():
             # sleep between requests to avoid pissing off reddit
             time.sleep(delay)
             for sub_name, post_id in new_post_data:
-                self.scrape_post(sub_name, post_id)
+                comments = self.scrape_post(sub_name, post_id)
+                self.write_list_to_file(
+                    comments,
+                    subreddit_name + '.csv',
+                    mode='a'
+                )
 
         num_total_posts = str(len(post_data))
         self.log('Next button not found. Finished getting posts.')
@@ -185,6 +215,8 @@ class CommentScraper():
 
         posts_filename = self.posts_dir + subreddit_name + '.csv'
         self.write_list_to_file(post_data, posts_filename)
+
+        return post_data
 
 
     def scrape_post(self, subreddit_name, post_id):
@@ -212,19 +244,28 @@ class CommentScraper():
             in comment_texts
         ]
 
-        # TODO: somehow store data -- does it need to be thread-safe?
+        num_total_comments = str(len(comments))
+        self.log('Collected ' + num_total_comments + ' comments.')
+
+        return comments
 
 
     def log(self, text):
         current_time = datetime.utcnow()
         sec = current_time.second
-        min = current_time.minute
+        min_ = current_time.minute
         hour = current_time.hour
         mday = current_time.day
         mon = current_time.month
+        year = current_time.year
 
-        current_time = '[{mon}/{mday} {hour}:{min}:{sec}] '.format(
-            sec=sec, min=min, hour=hour, mday=mday, mon=mon
+        # add leading '0' when necessary
+        sec = '0' + sec if sec < 10 else sec
+        min_ = '0' + min_ if min_ < 10 else min_
+        hour = '0' + hour if hour < 10 else hour
+
+        current_time = '[{year}/{mon}/{mday} {hour}:{min}:{sec}] '.format(
+            sec=sec, min=min_, hour=hour, mday=mday, mon=mon, year=year
         )
 
         text = current_time + str(text)
@@ -241,9 +282,9 @@ class CommentScraper():
             return None
 
 
-    def write_list_to_file(self, list_, filename):
+    def write_list_to_file(self, list_, filename, mode='w'):
         # store the subreddits in a text file in data/
-        with open(filename, 'w') as output_file:
+        with open(filename, mode) as output_file:
             writer = csv.writer(output_file, delimiter=',', quotechar='"')
             for sub in list_:
                 writer.writerow(sub)
@@ -273,7 +314,7 @@ class CommentScraper():
     def html_to_text(html_string):
         # TODO: make this more robust
         retval = nltk.clean_html(html_string.text_content())
-        retval = retval.replace('\\n', ' ')
+        retval = retval.replace('\\n', ' \\n ')
         return retval
 
 
@@ -285,3 +326,17 @@ class CommentScraper():
         url_end = url[start:]
         post_id = url_end.split('/')[0]
         return post_id
+
+
+class ScraperThread(threading.Thread):
+    def __init__(self, queue, http_proxy_urls, delay):
+        threading.Thread.__init__(self)
+        self.queue = queue
+        self.http_proxy_urls = http_proxy_urls
+        self.delay = delay
+        self.cs = CommentScraper(http_proxy_urls=http_proxy_urls)
+
+    def run(self):
+        subreddit_name = self.queue.get()
+        self.cs.scrape_subreddit(subreddit_name, delay=self.delay)
+        self.queue.task_done()

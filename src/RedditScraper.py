@@ -69,29 +69,25 @@ class CommentScraper():
     @staticmethod
     def make_scrapers(http_proxy_urls,
                       subreddits_filename='data/subreddits.csv'):
-        scraper_queue = Queue.Queue(maxsize=len(scraper_threads))
+        scraper_queue = Queue.Queue(maxsize=len(http_proxy_urls))
         scraper_threads = [
-            ScraperThread(
-                scraper_queue,
-                [proxy],
-                1
-            )
+            ScraperThread(scraper_queue, [proxy], 1)
             for proxy
             in http_proxy_urls
         ]
 
-        subreddits_file = open(subreddits_filename, 'w')
-        subreddits = subreddits_file.readall().split('\n')
-
+        # start daemon for each scraper
         for scraper in scraper_threads:
-            scraper_queue.put(scraper)
+            scraper.setDaemon(True)
+            scraper.start()
 
+        # load subreddits and put them in the queue
+        subreddits_file = open(subreddits_filename, 'r')
+        subreddits = [sub.strip() for sub in subreddits_file.readlines()]
         for sub in subreddits:
-            while True:
-                if not scraper_queue.empty():
-                    break
-            # TODO: figure out how to feed subs into scraper threads
-            scraper_queue.join()
+            scraper_queue.put(sub)
+
+        scraper_queue.join()
 
 
     def get_subreddits(self, delay=3):
@@ -131,7 +127,7 @@ class CommentScraper():
                 if consecutive_fails < 2:
                     consecutive_fails += 1
                     self.log('Trying again...')
-                    time.sleep(1)
+                    time.sleep(delay)
                     continue
                 else:
                     break
@@ -189,7 +185,7 @@ class CommentScraper():
                 if consecutive_fails < 2:
                     consecutive_fails += 1
                     self.log('Trying again...')
-                    time.sleep(1)
+                    time.sleep(delay)
                     continue
                 else:
                     break
@@ -260,9 +256,9 @@ class CommentScraper():
         year = current_time.year
 
         # add leading '0' when necessary
-        sec = '0' + sec if sec < 10 else sec
-        min_ = '0' + min_ if min_ < 10 else min_
-        hour = '0' + hour if hour < 10 else hour
+        sec = '0' + str(sec) if sec < 10 else sec
+        min_ = '0' + str(min_) if min_ < 10 else min_
+        hour = '0' + str(hour) if hour < 10 else hour
 
         current_time = '[{year}/{mon}/{mday} {hour}:{min}:{sec}] '.format(
             sec=sec, min=min_, hour=hour, mday=mday, mon=mon, year=year
@@ -329,7 +325,7 @@ class CommentScraper():
 
 
 class ScraperThread(threading.Thread):
-    def __init__(self, queue, http_proxy_urls, delay):
+    def __init__(self, queue, http_proxy_urls, delay=4):
         threading.Thread.__init__(self)
         self.queue = queue
         self.http_proxy_urls = http_proxy_urls

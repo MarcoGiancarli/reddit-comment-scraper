@@ -83,7 +83,7 @@ class CommentScraper():
         # load subreddits and put them in the queue
         subreddits_file = open(subreddits_filename, 'r')
         subreddits = [sub.strip() for sub in subreddits_file.readlines()]
-        scraper_queue = Queue.Queue(maxsize=len(http_proxy_urls))
+        scraper_queue = Queue.Queue(maxsize=len(subreddits))
         for sub in subreddits:
             scraper_queue.put(sub)
 
@@ -320,7 +320,7 @@ class CommentScraper():
                 self.log(e.message)
                 if 'Errno 104' not in e.message:
                     failures += 1
-                    if failures > 10:
+                    if failures > 3:
                         # return dummy data
                         response_text = '<!doctype html><head></head><body></body>'
                         break
@@ -371,7 +371,7 @@ class ScraperThread(threading.Thread):
         )
 
     def run(self):
-        while not self.queue.empty():
+        while True:
             subreddit_name = self.queue.get()
             self.cs.scrape_subreddit(subreddit_name)
             self.queue.task_done()

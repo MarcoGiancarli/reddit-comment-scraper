@@ -3,7 +3,8 @@ __author__ = 'Marco Giancarli -- m.a.giancarli@gmail.com'
 
 import requests
 import random
-import csv
+import unicodecsv as csv
+import sys
 import time
 import nltk
 import threading
@@ -18,12 +19,18 @@ class CommentScraper():
                  data_dir='data/',
                  posts_dir='data/posts/',
                  comments_dir='data/comments/',
-                 http_proxy_urls=None):
+                 http_proxy_urls=None,
+                 delay=5,
+                 id=None):
         self.verbose = verbose
         self.data_dir = data_dir
         self.posts_dir = posts_dir
         self.comments_dir = comments_dir
-        self.session = None
+        self.session = requests.session()
+        self.delay = delay
+
+        if id is None:
+            self.id = CommentScraper.make_id().next()
 
         popular_user_agents = [
             'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FSL 7.0.6.01001)',
@@ -49,29 +56,40 @@ class CommentScraper():
         ]
 
         # use some random subset of the user agents for any given
-        self.user_agents = [
-            user_agent
-            for user_agent
-            in popular_user_agents
-            if random.random() < 0.25
-        ]
+        self.user_agents = []
+        while len(self.user_agents) == 0:
+            self.user_agents = [
+                user_agent
+                for user_agent
+                in popular_user_agents
+                if random.random() < 0.25
+            ]
 
-        # user-supplied proxy urls
-        if http_proxy_urls:
+        # use user-supplied proxy urls
+        if http_proxy_urls is None:
             self.log('Warning: No proxies are being used.')
         self.http_proxy_urls = http_proxy_urls
 
         # get ip for current network
-        self.my_ip = requests.get('http://icanhazip.com').text
+        self.my_ip = requests.get('http://icanhazip.com').text.strip()
         self.log('Your network IP is ' + self.my_ip)
+        self.proxy_ip_test = self.request('http://icanhazip.com').strip()
+        self.log('Proxy IP is currently ' + self.proxy_ip_test)
 
 
     @staticmethod
     def make_scrapers(http_proxy_urls,
                       subreddits_filename='data/subreddits.csv'):
+        # load subreddits and put them in the queue
+        subreddits_file = open(subreddits_filename, 'r')
+        subreddits = [sub.strip() for sub in subreddits_file.readlines()]
         scraper_queue = Queue.Queue(maxsize=len(http_proxy_urls))
+        for sub in subreddits:
+            scraper_queue.put(sub)
+
+        # start threads for scrapers for each proxy available.
         scraper_threads = [
-            ScraperThread(scraper_queue, [proxy], 1)
+            ScraperThread(scraper_queue, [proxy], 3)
             for proxy
             in http_proxy_urls
         ]
@@ -81,26 +99,22 @@ class CommentScraper():
             scraper.setDaemon(True)
             scraper.start()
 
-        # load subreddits and put them in the queue
-        subreddits_file = open(subreddits_filename, 'r')
-        subreddits = [sub.strip() for sub in subreddits_file.readlines()]
-        for sub in subreddits:
-            scraper_queue.put(sub)
-
         scraper_queue.join()
 
 
-    def get_subreddits(self, delay=3):
+    @staticmethod
+    def make_id():
+        while True:
+            CommentScraper.id_num += 1
+            yield 'scraper_' + str(CommentScraper.id_num)
+
+
+    def get_subreddits(self):
         subreddit_list_url = 'http://www.reddit.com/subreddits'  # seed url
         subreddit_names = []
-        consecutive_fails = 0
 
         for dummy in range(200):  # 200 pages == top 5000 subreddit cap
-            self.log(
-                'Scraping subreddit urls from ' +
-                subreddit_list_url +
-                '...'
-            )
+            self.log('Scraping subreddit urls from %s...' % subreddit_list_url)
 
             response_text = self.request(subreddit_list_url)
             root = html.fromstring(response_text)
@@ -124,25 +138,16 @@ class CommentScraper():
             # if we can't find the next button three times in a row, give up.
             next_links = root.xpath('//a[@rel="nofollow next"]/@href')
             if len(next_links) < 1:
-                if consecutive_fails < 2:
-                    consecutive_fails += 1
-                    self.log('Trying again...')
-                    time.sleep(delay)
-                    continue
-                else:
-                    break
-            else:
-                consecutive_fails = 0
+                break
 
             next_link = next_links[0]  # should be only one
             self.log('Following link to next page ' + next_link + '...')
             subreddit_list_url = next_link
             # sleep to avoid reddit getting mad
-            time.sleep(delay)
+            time.sleep(self.delay)
 
-        num_total_subreddits = str(len(subreddit_names))
         self.log('Next button not found. Finished getting subreddits.')
-        self.log('Found ' + num_total_subreddits + ' total subreddits.')
+        self.log('Found %d total subreddits.' % len(subreddit_names))
 
         subreddits_filename = self.data_dir + 'subreddits.csv'
         self.write_list_to_file(subreddit_names, subreddits_filename)
@@ -150,11 +155,10 @@ class CommentScraper():
         return subreddit_names
 
 
-    def scrape_subreddit(self, subreddit_name, delay=0.2):
+    def scrape_subreddit(self, subreddit_name):
         subreddit_url = 'http://www.reddit.com/r/{subreddit_name}/top'  # seed url
         subreddit_url = subreddit_url.format(subreddit_name=subreddit_name)
-        post_data = []
-        consecutive_fails = 0
+        # post_data = []
 
         for dummy in range(400):  # 400 pages == 10000 post cap
             self.log('Scraping post links from ' + subreddit_url + '...')
@@ -174,45 +178,30 @@ class CommentScraper():
                 in comments_urls
             ]
 
-            # add to total names list
-            post_data.extend(new_post_data)
-
-            num_new_posts = str(len(new_post_data))
-            self.log('Found ' + num_new_posts + ' new posts.')
+            self.log('Found %d new posts.' % len(new_post_data))
 
             next_links = root.xpath('//a[@rel="nofollow next"]/@href')
             if len(next_links) < 1:
-                if consecutive_fails < 2:
-                    consecutive_fails += 1
-                    self.log('Trying again...')
-                    time.sleep(delay)
-                    continue
-                else:
-                    break
-            else:
-                consecutive_fails = 0
+                break
 
             next_link = next_links[0]  # should be only one
             self.log('Following link to next page ' + next_link + '...')
             subreddit_url = next_link
             # sleep between requests to avoid pissing off reddit
-            time.sleep(delay)
+            time.sleep(self.delay)
+
+            # write the comments to file
+            comments_filename = self.comments_dir + subreddit_name + '.csv'
             for sub_name, post_id in new_post_data:
                 comments = self.scrape_post(sub_name, post_id)
-                self.write_list_to_file(
-                    comments,
-                    subreddit_name + '.csv',
-                    mode='a'
-                )
+                self.write_list_to_file(comments, comments_filename, mode='a')
+            # write the post data to file
+            posts_filename = self.posts_dir + subreddit_name + '.csv'
+            self.write_list_to_file(new_post_data, posts_filename, 'a')
 
-        num_total_posts = str(len(post_data))
         self.log('Next button not found. Finished getting posts.')
-        self.log('Found ' + num_total_posts + ' total posts.')
-
-        posts_filename = self.posts_dir + subreddit_name + '.csv'
-        self.write_list_to_file(post_data, posts_filename)
-
-        return post_data
+        # self.log('Found %d total posts.' % len(post_data))
+        # return post_data
 
 
     def scrape_post(self, subreddit_name, post_id):
@@ -227,21 +216,35 @@ class CommentScraper():
         response_text = self.request(post_url)
         root = html.fromstring(response_text)
 
-        comment_texts = root.xpath(
-            '//div[@class="usertext-body may-blank-within md-container "]/div'
+        comment_elements = root.xpath(
+            '//div[@class="entry unvoted"]/form/div[@class="usertext-body m' + \
+            'ay-blank-within md-container "]/div'
         )
+        author_elements = root.xpath(
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/a[contains(@class, "author may-blank")]'
+        )
+        comment_texts = [
+            unicode(comment_element.text_content())
+            for comment_element
+            in comment_elements
+        ]
+        author_texts = [
+            unicode(author_element.text_content())
+            for author_element
+            in author_elements
+        ]
         comments = [
             (
                 subreddit_name,
                 post_id,
-                CommentScraper.html_to_text(comment)
+                author,
+                CommentScraper.format_comment_text(comment)
             )
-            for comment
-            in comment_texts
+            for author, comment
+            in zip(author_texts, comment_texts)
         ]
 
-        num_total_comments = str(len(comments))
-        self.log('Collected ' + num_total_comments + ' comments.')
+        self.log('Collected %d comments.' % len(comments))
 
         return comments
 
@@ -260,13 +263,16 @@ class CommentScraper():
         min_ = '0' + str(min_) if min_ < 10 else min_
         hour = '0' + str(hour) if hour < 10 else hour
 
-        current_time = '[{year}/{mon}/{mday} {hour}:{min}:{sec}] '.format(
+        current_time = '[{year}/{mon}/{mday} {hour}:{min}:{sec}]'.format(
             sec=sec, min=min_, hour=hour, mday=mday, mon=mon, year=year
         )
 
-        text = current_time + str(text)
+        text = '%s %s: %s\n' % (current_time, self.id, str(text))
         if self.verbose:
-            print text
+            # Use this (NOT print) because print separates the text and \n when
+            # it prints in a multithreaded environment. This prints everything
+            # to stdout at once, making threads play nice with each other.
+            sys.stdout.write(text)
 
         # TODO: add actual logging if a location is specified in constructor
 
@@ -278,12 +284,20 @@ class CommentScraper():
             return None
 
 
+    # accepts a list of tuples, an output name, and a file open mode
     def write_list_to_file(self, list_, filename, mode='w'):
+        list_ = list(list_)  # just in case
         # store the subreddits in a text file in data/
         with open(filename, mode) as output_file:
-            writer = csv.writer(output_file, delimiter=',', quotechar='"')
-            for sub in list_:
-                writer.writerow(sub)
+            writer = csv.writer(
+                output_file,
+                delimiter=',',
+                quotechar='"',
+                encoding='utf-8'
+            )
+            for vals in list_:
+                vals = tuple(unicode(val) for val in vals)
+                writer.writerow(vals)
 
 
     def request(self, url):
@@ -293,15 +307,24 @@ class CommentScraper():
         else:
             proxies = None
 
-        try:
-            response_text = requests.get(
-                url,
-                headers=user_agent,
-                proxies=proxies
-            ).text
-        except Exception as e:
-            self.log(e.message)
-            response_text = ''
+        failures = 0
+        while True:
+            try:
+                response_text = self.session.get(
+                    url,
+                    headers=user_agent,
+                    proxies=proxies
+                ).text
+                break
+            except Exception as e:
+                self.log(e.message)
+                if 'Errno 104' not in e.message:
+                    failures += 1
+                    if failures > 10:
+                        # return dummy data
+                        response_text = '<!doctype html><head></head><body></body>'
+                        break
+                    time.sleep(self.delay)
 
         return response_text
 
@@ -310,7 +333,6 @@ class CommentScraper():
     def html_to_text(html_string):
         # TODO: make this more robust
         retval = nltk.clean_html(html_string.text_content())
-        retval = retval.replace('\\n', ' \\n ')
         return retval
 
 
@@ -324,15 +346,32 @@ class CommentScraper():
         return post_id
 
 
+    @staticmethod
+    def format_comment_text(comment_text):
+        comment_text = comment_text.strip()
+        comment_text = comment_text.replace('\n', '\\n')
+        comment_text = comment_text.replace('\r', '\\r')
+        comment_text = comment_text.replace('\t', '\\t')
+        return comment_text
+
+
+CommentScraper.id_num = 0
+
+
 class ScraperThread(threading.Thread):
     def __init__(self, queue, http_proxy_urls, delay=4):
         threading.Thread.__init__(self)
         self.queue = queue
         self.http_proxy_urls = http_proxy_urls
         self.delay = delay
-        self.cs = CommentScraper(http_proxy_urls=http_proxy_urls)
+        self.cs = CommentScraper(
+            http_proxy_urls=http_proxy_urls,
+            delay=self.delay,
+            verbose=True,
+        )
 
     def run(self):
-        subreddit_name = self.queue.get()
-        self.cs.scrape_subreddit(subreddit_name, delay=self.delay)
-        self.queue.task_done()
+        while not self.queue.empty():
+            subreddit_name = self.queue.get()
+            self.cs.scrape_subreddit(subreddit_name)
+            self.queue.task_done()

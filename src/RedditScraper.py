@@ -19,8 +19,8 @@ class CommentScraper():
                  data_dir='data/',
                  posts_dir='data/posts/',
                  comments_dir='data/comments/',
-                 http_proxy_urls=None,
-                 delay=5,
+                 proxy_queue=None,
+                 delay=4,
                  id=None):
         self.verbose = verbose
         self.data_dir = data_dir
@@ -66,15 +66,19 @@ class CommentScraper():
             ]
 
         # use user-supplied proxy urls
-        if http_proxy_urls is None:
+        if proxy_queue is None:
             self.log('Warning: No proxies are being used.')
-        self.http_proxy_urls = http_proxy_urls
+            self.proxy = None
+        else:
+            self.proxy = proxy_queue.get()
+
+        self.proxy_queue = proxy_queue
 
         # get ip for current network
-        self.my_ip = requests.get('http://icanhazip.com').text.strip()
-        self.log('Your network IP is ' + self.my_ip)
-        self.proxy_ip_test = self.request('http://icanhazip.com').strip()
-        self.log('Proxy IP is currently ' + self.proxy_ip_test)
+        # self.my_ip = requests.get('http://icanhazip.com').text.strip()
+        # self.log('Your network IP is ' + self.my_ip)
+        # self.proxy_ip_test = self.request('http://icanhazip.com').strip()
+        # self.log('Proxy IP is currently ' + self.proxy_ip_test)
 
 
     @staticmethod
@@ -87,11 +91,20 @@ class CommentScraper():
         for sub in subreddits:
             scraper_queue.put(sub)
 
+        # make thread-safe queue for the proxies
+        proxy_queue = Queue.Queue()
+        for url in http_proxy_urls:
+            proxy_queue.put(url)
+
         # start threads for scrapers for each proxy available.
         scraper_threads = [
-            ScraperThread(scraper_queue, [proxy], 3)
-            for proxy
-            in http_proxy_urls
+            ScraperThread(
+                queue=scraper_queue,
+                proxy_queue=proxy_queue,
+                delay=3
+            )
+            for dummy
+            in range(min(100, proxy_queue.qsize()))
         ]
 
         # start daemon for each scraper
@@ -302,31 +315,36 @@ class CommentScraper():
 
     def request(self, url):
         user_agent = {'User-agent': random.choice(self.user_agents)}
-        if self.http_proxy_urls:
-            proxies = {'http': random.choice(self.http_proxy_urls)}
+        if self.proxy:
+            proxies = {'http': self.proxy}
         else:
             proxies = None
 
         failures = 0
-        while True:
+        response_text = None
+        while not response_text:
             try:
                 response_text = self.session.get(
                     url,
                     headers=user_agent,
-                    proxies=proxies
+                    proxies=proxies,
+                    timeout=10,
                 ).text
-                break
             except Exception as e:
                 self.log(e.message)
                 if 'Errno 104' not in e.message:
                     failures += 1
                     if failures > 3:
-                        # return dummy data
-                        response_text = '<!doctype html><head></head><body></body>'
-                        break
+                        self.swap_proxies()
                     time.sleep(self.delay)
 
         return response_text
+
+
+    def swap_proxies(self):
+        old_proxy = self.proxy  # maybe it'll work later? put it back
+        self.proxy = self.proxy_queue.get()
+        self.proxy_queue.put(old_proxy)
 
 
     @staticmethod
@@ -355,17 +373,18 @@ class CommentScraper():
         return comment_text
 
 
+# initialize the id number for the static method make_id()
 CommentScraper.id_num = 0
 
 
 class ScraperThread(threading.Thread):
-    def __init__(self, queue, http_proxy_urls, delay=4):
+    def __init__(self, queue, proxy_queue, delay=4):
         threading.Thread.__init__(self)
         self.queue = queue
-        self.http_proxy_urls = http_proxy_urls
+        self.proxy_queue = proxy_queue
         self.delay = delay
         self.cs = CommentScraper(
-            http_proxy_urls=http_proxy_urls,
+            proxy_queue=proxy_queue,
             delay=self.delay,
             verbose=True,
         )
@@ -374,4 +393,5 @@ class ScraperThread(threading.Thread):
         while True:
             subreddit_name = self.queue.get()
             self.cs.scrape_subreddit(subreddit_name)
+            self.proxy_queue.put(self.cs.proxy)
             self.queue.task_done()

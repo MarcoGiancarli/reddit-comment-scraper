@@ -169,7 +169,7 @@ class CommentScraper():
 
 
     def scrape_subreddit(self, subreddit_name):
-        subreddit_url = 'http://www.reddit.com/r/{subreddit_name}/top'  # seed url
+        subreddit_url = 'http://www.reddit.com/r/{subreddit_name}'  # seed url
         subreddit_url = subreddit_url.format(subreddit_name=subreddit_name)
         # post_data = []
 

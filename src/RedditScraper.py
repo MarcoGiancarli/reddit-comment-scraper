@@ -83,28 +83,31 @@ class CommentScraper():
 
     @staticmethod
     def make_scrapers(http_proxy_urls,
-                      subreddits_filename='data/subreddits.csv'):
+                      subreddits_filename='data/subreddits.csv',
+                      num_threads=100):
         # load subreddits and put them in the queue
         subreddits_file = open(subreddits_filename, 'r')
         subreddits = [sub.strip() for sub in subreddits_file.readlines()]
-        scraper_queue = Queue.Queue(maxsize=len(subreddits))
+        
+        # set up queue for subreddits
+        subreddit_queue = Queue.Queue(maxsize=len(subreddits))
         for sub in subreddits:
-            scraper_queue.put(sub)
+            subreddit_queue.put(sub)
 
         # make thread-safe queue for the proxies
-        proxy_queue = Queue.Queue()
+        proxy_queue = Queue.PriorityQueue(len(http_proxy_urls))
         for url in http_proxy_urls:
-            proxy_queue.put(url)
+            proxy_queue.put(Proxy(url))
 
         # start threads for scrapers for each proxy available.
         scraper_threads = [
             ScraperThread(
-                queue=scraper_queue,
+                queue=subreddit_queue,
                 proxy_queue=proxy_queue,
                 delay=3
             )
             for dummy
-            in range(min(100, proxy_queue.qsize()))
+            in range(min(num_threads, proxy_queue.qsize()))
         ]
 
         # start daemon for each scraper
@@ -112,7 +115,7 @@ class CommentScraper():
             scraper.setDaemon(True)
             scraper.start()
 
-        scraper_queue.join()
+        subreddit_queue.join()
 
 
     @staticmethod
@@ -126,7 +129,7 @@ class CommentScraper():
         subreddit_list_url = 'http://www.reddit.com/subreddits'  # seed url
         subreddit_names = []
 
-        for dummy in range(200):  # 200 pages == top 5000 subreddit cap
+        for dummy in range(400):  # 400 pages == top 10,000 subreddit cap
             self.log('Scraping subreddit urls from %s...' % subreddit_list_url)
 
             response_text = self.request(subreddit_list_url)
@@ -171,17 +174,24 @@ class CommentScraper():
     def scrape_subreddit(self, subreddit_name):
         subreddit_url = 'http://www.reddit.com/r/{subreddit_name}'  # seed url
         subreddit_url = subreddit_url.format(subreddit_name=subreddit_name)
+        got_first_page = False
         # post_data = []
 
-        for dummy in range(400):  # 400 pages == 10000 post cap
+        for dummy in range(4000):  # 4000 pages == 100,000 post cap
             self.log('Scraping post links from ' + subreddit_url + '...')
 
             response_text = self.request(subreddit_url)
             root = html.fromstring(response_text)
 
             comments_urls = root.xpath(
-                '//ul[@class="flat-list buttons"]/li[@class="first"]/a/@href'
+                '//div[@id="siteTable"]//ul[@class="flat-list buttons"]/li[' + \
+                '@class="first"]/a/@href'
             )
+            # there shouldn't be more than 25 of these.
+            # if there are, some are likely in the side bar, which comes first.
+            if len(comments_urls) > 25:
+                comments_urls = comments_urls[-25:]
+
             new_post_data = [
                 (
                     subreddit_name,
@@ -191,11 +201,20 @@ class CommentScraper():
                 in comments_urls
             ]
 
-            self.log('Found %d new posts.' % len(new_post_data))
-
             next_links = root.xpath('//a[@rel="nofollow next"]/@href')
+
+            if not got_first_page:
+                got_first_page = len(new_post_data) > 0
+
             if len(next_links) < 1:
-                break
+                if got_first_page:
+                    break
+                else:  # if first page has no posts/link, the proxy is faulty
+                    self.swap_proxies(replace=False)
+                    self.log('Failed to get first page. Dropping bad proxy.')
+                    continue
+
+            self.log('Found %d new posts.' % len(new_post_data))
 
             next_link = next_links[0]  # should be only one
             self.log('Following link to next page ' + next_link + '...')
@@ -234,27 +253,45 @@ class CommentScraper():
             'ay-blank-within md-container "]/div'
         )
         author_elements = root.xpath(
-            '//div[@class="entry unvoted"]/p[@class="tagline"]/a[contains(@class, "author may-blank")]'
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/a[contains(@' + \
+            'class, "author may-blank")]'
         )
+        score_elements = root.xpath(
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/span[@class=' + \
+            '"score unvoted"]'
+        )
+        time_elements = root.xpath(
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/time[@class=' + \
+            '"live-timestamp"]/@title'
+        )
+
         comment_texts = [
-            unicode(comment_element.text_content())
-            for comment_element
+            CommentScraper.format_comment_text(
+                unicode(element.text_content())
+            )
+            for element
             in comment_elements
         ]
         author_texts = [
-            unicode(author_element.text_content())
-            for author_element
+            unicode(element.text_content())
+            for element
             in author_elements
         ]
+        score_texts = [
+            unicode(element.text_content().replace(u' points', u''))
+            for element
+            in score_elements
+        ]
+        time_texts = [
+            unicode(element)
+            for element
+            in time_elements
+        ]
+
         comments = [
-            (
-                subreddit_name,
-                post_id,
-                author,
-                CommentScraper.format_comment_text(comment)
-            )
-            for author, comment
-            in zip(author_texts, comment_texts)
+            (subreddit_name, post_id, author, score, time, comment)
+            for author, score, time, comment
+            in zip(author_texts, score_texts, time_texts, comment_texts)
         ]
 
         self.log('Collected %d comments.' % len(comments))
@@ -296,7 +333,6 @@ class CommentScraper():
         else:
             return None
 
-
     # accepts a list of tuples, an output name, and a file open mode
     def write_list_to_file(self, list_, filename, mode='w'):
         list_ = list(list_)  # just in case
@@ -316,7 +352,7 @@ class CommentScraper():
     def request(self, url):
         user_agent = {'User-agent': random.choice(self.user_agents)}
         if self.proxy:
-            proxies = {'http': self.proxy}
+            proxies = {'http': self.proxy.url}
         else:
             proxies = None
 
@@ -328,23 +364,26 @@ class CommentScraper():
                     url,
                     headers=user_agent,
                     proxies=proxies,
-                    timeout=10,
+                    timeout=20,
                 ).text
+                self.proxy.on_success()  # raise confidence
             except Exception as e:
                 self.log(e.message)
-                if 'Errno 104' not in e.message:
-                    failures += 1
-                    if failures > 3:
-                        self.swap_proxies()
-                    time.sleep(self.delay)
+                self.proxy.on_failure(e.message)  # lower confidence
+                failures += 1
+                if failures > 4:
+                    self.swap_proxies()
+                time.sleep(self.delay)
 
         return response_text
 
 
-    def swap_proxies(self):
-        old_proxy = self.proxy  # maybe it'll work later? put it back
+    def swap_proxies(self, replace=True):
+        old_proxy = self.proxy
+        # queue.get() waits until a proxy is available in the queue
         self.proxy = self.proxy_queue.get()
-        self.proxy_queue.put(old_proxy)
+        if replace:
+            self.proxy_queue.put(old_proxy)
 
 
     @staticmethod
@@ -367,9 +406,10 @@ class CommentScraper():
     @staticmethod
     def format_comment_text(comment_text):
         comment_text = comment_text.strip()
-        comment_text = comment_text.replace('\n', '\\n')
-        comment_text = comment_text.replace('\r', '\\r')
-        comment_text = comment_text.replace('\t', '\\t')
+        # We're only really interested in the words, so make whitespace simple.
+        comment_text = comment_text.replace(u'\n', u' ')
+        comment_text = comment_text.replace(u'\r', u' ')
+        comment_text = comment_text.replace(u'\t', u' ')
         return comment_text
 
 
@@ -395,3 +435,34 @@ class ScraperThread(threading.Thread):
             self.cs.scrape_subreddit(subreddit_name)
             self.proxy_queue.put(self.cs.proxy)
             self.queue.task_done()
+
+
+class Proxy:
+    def __init__(self, url):
+        self.url = url
+        self.failure = 0
+        # make this 1 to avoid divide by zero errors and prioritize new proxies
+        self.success = 1
+
+    failure_message_substrings = [
+        'timed out', 'Connection refused', 'reset by peer'
+    ]
+
+    ''' Compare proxies by "uncertainty". Lower is better. '''
+    def __lt__(self, other):
+        return self.failure / self.success < other.failure / other.success
+    def __gt__(self, other):
+        return self.failure / self.success > other.failure / other.success
+    def __le__(self, other):
+        return self.failure / self.success <= other.failure / other.success
+    def __ge__(self, other):
+        return self.failure / self.success >= other.failure / other.success
+    def __eq__(self, other):
+        return self.failure / self.success == other.failure / other.success
+
+    def on_success(self):
+        self.success += 1
+    def on_failure(self, message=None):
+        if message:
+            if any(sub in message for sub in Proxy.failure_message_substrings):
+                self.failure += 1

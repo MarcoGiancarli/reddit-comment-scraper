@@ -3,13 +3,13 @@ from selenium import webdriver
 
 def main():
     http_proxy_urls = scrape_hma()
-    print http_proxy_urls
     # NOTE: using a sample of around 5000 comments from r/funny, it seems that
     # comments there are on average about 90 characters each. I'll round to 100.
-    # NOTE: each thread gets maybe 10000 comments per hour. With 100 proxies
+    # NOTE: each thread gets around 5K-15K comments per hour. With 100 threads
     # the scraper should get a million comments per hour == 100 million chars
-    # per hour. Fun stuff!
-    # TODO: figure out a good way to detect and swap out bad proxies
+    # per hour. Fun stuff.
+    # TODO: remove unnecessary methods and shit
+
     CS.make_scrapers(http_proxy_urls=http_proxy_urls)
 
 

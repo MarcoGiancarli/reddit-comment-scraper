@@ -16,7 +16,7 @@ from lxml import html
 
 class CommentScraper():
     def __init__(self,
-                 verbose=False,
+                 verbose=True,
                  log_level=logging.ERROR,
                  data_dir='data/',
                  posts_dir='data/posts/',

@@ -15,7 +15,11 @@ def main():
     # to faulty proxies and low-comment subreddits.
     # TODO: remove unnecessary methods and shit
 
-    CS.make_scrapers(http_proxy_urls=http_proxy_urls, log_level=logging.CRITICAL)
+    CS.make_scrapers(
+        http_proxy_urls=http_proxy_urls,
+        log_level=logging.CRITICAL,
+        verbose=True
+    )
 
 
 def scrape_hma():

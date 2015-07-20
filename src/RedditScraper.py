@@ -1,6 +1,7 @@
 __author__ = 'Marco Giancarli -- m.a.giancarli@gmail.com'
 
 
+import logging
 import requests
 import random
 import unicodecsv as csv
@@ -16,48 +17,38 @@ from lxml import html
 class CommentScraper():
     def __init__(self,
                  verbose=False,
+                 log_level=logging.ERROR,
                  data_dir='data/',
                  posts_dir='data/posts/',
                  comments_dir='data/comments/',
                  proxy_queue=None,
                  delay=4,
-                 id=None):
+                 scraper_id=None):
         self.verbose = verbose
+        self.log_level = log_level
         self.data_dir = data_dir
         self.posts_dir = posts_dir
         self.comments_dir = comments_dir
         self.session = requests.session()
         self.delay = delay
 
-        if id is None:
+        logging.basicConfig(
+            filename='comment_scraper.log',
+            filemode='w',
+            level=log_level
+        )
+
+        if scraper_id is None:
             self.id = CommentScraper.make_id().next()
 
-        popular_user_agents = [
-            'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FSL 7.0.6.01001)',
-            'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FSL 7.0.7.01001)',
-            'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; FSL 7.0.5.01003)',
-            'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:12.0) Gecko/20100101 Firefox/12.0',
-            'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.2.8) Gecko/20100723 Ubuntu/10.04 (lucid) Firefox/3.6.8',
-            'Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20100101 Firefox/13.0.1',
-            'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:11.0) Gecko/20100101 Firefox/11.0',
-            'Mozilla/5.0 (X11; U; Linux x86_64; de; rv:1.9.2.8) Gecko/20100723 Ubuntu/10.04 (lucid) Firefox/3.6.8',
-            'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.0; .NET CLR 1.0.3705)',
-            'Mozilla/5.0 (Windows NT 5.1; rv:13.0) Gecko/20100101 Firefox/13.0.1',
-            'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:13.0) Gecko/20100101 Firefox/13.0.1',
-            'Mozilla/5.0 (compatible; Baiduspider/2.0; +http://www.baidu.com/search/spider.html)',
-            'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
-            'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)',
-            'Opera/9.80 (Windows NT 5.1; U; en) Presto/2.10.289 Version/12.01',
-            'Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)',
-            'Mozilla/5.0 (Windows NT 5.1; rv:5.0.1) Gecko/20100101 Firefox/5.0.1',
-            'Mozilla/5.0 (Windows NT 6.1; rv:5.0) Gecko/20100101 Firefox/5.02',
-            'Mozilla/5.0 (Windows NT 6.0) AppleWebKit/535.1 (KHTML, like Gecko) Chrome/13.0.782.112 Safari/535.1',
-            'Mozilla/4.0 (compatible; MSIE 6.0; MSIE 5.5; Windows NT 5.0) Opera 7.02 Bork-edition [en]',
-        ]
+        popular_user_agents = []
+        with open('res/popular_user_agents.txt', 'r') as user_agent_file:
+            for user_agent in user_agent_file.readlines():
+                popular_user_agents.append(user_agent.strip())
 
         # use some random subset of the user agents for any given
         self.user_agents = []
-        while len(self.user_agents) == 0:
+        while len(self.user_agents) == 0:  # loop if, by chance, we pick nothing
             self.user_agents = [
                 user_agent
                 for user_agent
@@ -67,7 +58,7 @@ class CommentScraper():
 
         # use user-supplied proxy urls
         if proxy_queue is None:
-            self.log('Warning: No proxies are being used.')
+            self.log('Warning: No proxies are being used.', level='warning')
             self.proxy = None
         else:
             self.proxy = proxy_queue.get()
@@ -80,11 +71,12 @@ class CommentScraper():
         # self.proxy_ip_test = self.request('http://icanhazip.com').strip()
         # self.log('Proxy IP is currently ' + self.proxy_ip_test)
 
-
     @staticmethod
     def make_scrapers(http_proxy_urls,
                       subreddits_filename='data/subreddits.csv',
-                      num_threads=100):
+                      num_threads=100,
+                      verbose=True,
+                      log_level=logging.ERROR):
         # load subreddits and put them in the queue
         subreddits_file = open(subreddits_filename, 'r')
         subreddits = [sub.strip() for sub in subreddits_file.readlines()]
@@ -104,7 +96,9 @@ class CommentScraper():
             ScraperThread(
                 queue=subreddit_queue,
                 proxy_queue=proxy_queue,
-                delay=3
+                delay=3,
+                verbose=verbose,
+                log_level=log_level
             )
             for dummy
             in range(min(num_threads, proxy_queue.qsize()))
@@ -117,13 +111,11 @@ class CommentScraper():
 
         subreddit_queue.join()
 
-
     @staticmethod
     def make_id():
         while True:
             CommentScraper.id_num += 1
             yield 'scraper_' + str(CommentScraper.id_num)
-
 
     def get_subreddits(self):
         subreddit_list_url = 'http://www.reddit.com/subreddits'  # seed url
@@ -170,7 +162,6 @@ class CommentScraper():
 
         return subreddit_names
 
-
     def scrape_subreddit(self, subreddit_name):
         subreddit_url = 'http://www.reddit.com/r/{subreddit_name}'  # seed url
         subreddit_url = subreddit_url.format(subreddit_name=subreddit_name)
@@ -184,8 +175,8 @@ class CommentScraper():
             root = html.fromstring(response_text)
 
             comments_urls = root.xpath(
-                '//div[@id="siteTable"]//ul[@class="flat-list buttons"]/li[' + \
-                '@class="first"]/a/@href'
+                '//div[@id="siteTable"]//ul[@class="flat-list buttons"]/li[@cla'
+                'ss="first"]/a/@href'
             )
             # there shouldn't be more than 25 of these.
             # if there are, some are likely in the side bar, which comes first.
@@ -210,8 +201,8 @@ class CommentScraper():
                 if got_first_page:
                     break
                 else:  # if first page has no posts/link, the proxy is faulty
-                    self.swap_proxies(replace=False)
-                    self.log('Failed to get first page. Dropping bad proxy.')
+                    self.swap_proxies()
+                    self.log('First page is invalid. Trying again...', 'error')
                     continue
 
             self.log('Found %d new posts.' % len(new_post_data))
@@ -235,11 +226,10 @@ class CommentScraper():
         # self.log('Found %d total posts.' % len(post_data))
         # return post_data
 
-
     def scrape_post(self, subreddit_name, post_id):
-        post_url = 'http://www.reddit.com/r/{subreddit_name}/comments/{post_id}/'
+        post_url = 'http://www.reddit.com/r/{sub_name}/comments/{post_id}/'
         post_url = post_url.format(
-            subreddit_name=subreddit_name,
+            sub_name=subreddit_name,
             post_id=post_id
         )
         
@@ -249,20 +239,20 @@ class CommentScraper():
         root = html.fromstring(response_text)
 
         comment_elements = root.xpath(
-            '//div[@class="entry unvoted"]/form/div[@class="usertext-body m' + \
-            'ay-blank-within md-container "]/div'
+            '//div[@class="entry unvoted"]/form/div[@class="usertext-body may-b'
+            'lank-within md-container "]/div'
         )
         author_elements = root.xpath(
-            '//div[@class="entry unvoted"]/p[@class="tagline"]/a[contains(@' + \
-            'class, "author may-blank")]'
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/a[contains(@clas'
+            's, "author may-blank")]'
         )
         score_elements = root.xpath(
-            '//div[@class="entry unvoted"]/p[@class="tagline"]/span[@class=' + \
-            '"score unvoted"]'
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/span[@class="sco'
+            're unvoted"]'
         )
         time_elements = root.xpath(
-            '//div[@class="entry unvoted"]/p[@class="tagline"]/time[@class=' + \
-            '"live-timestamp"]/@title'
+            '//div[@class="entry unvoted"]/p[@class="tagline"]/time[@class="liv'
+            'e-timestamp"]/@title'
         )
 
         comment_texts = [
@@ -289,8 +279,8 @@ class CommentScraper():
         ]
 
         comments = [
-            (subreddit_name, post_id, author, score, time, comment)
-            for author, score, time, comment
+            (subreddit_name, post_id, author, score, post_time, comment)
+            for author, score, post_time, comment
             in zip(author_texts, score_texts, time_texts, comment_texts)
         ]
 
@@ -298,8 +288,7 @@ class CommentScraper():
 
         return comments
 
-
-    def log(self, text):
+    def log(self, text, level='info'):
         current_time = datetime.utcnow()
         sec = current_time.second
         min_ = current_time.minute
@@ -321,11 +310,19 @@ class CommentScraper():
         if self.verbose:
             # Use this (NOT print) because print separates the text and \n when
             # it prints in a multithreaded environment. This prints everything
-            # to stdout at once, making threads play nice with each other.
+            # to stdout at once, making threads play nicely with each other.
             sys.stdout.write(text)
 
-        # TODO: add actual logging if a location is specified in constructor
-
+        if level == 'info':
+            logging.info(text)
+        if level == 'error':
+            logging.error(text)
+        if level == 'warning':
+            logging.warning(text)
+        if level == 'debug':
+            logging.debug(text)
+        if level == 'critical':
+            logging.critical(text)
 
     def get_current_ip(self):
         if self.session:
@@ -334,7 +331,8 @@ class CommentScraper():
             return None
 
     # accepts a list of tuples, an output name, and a file open mode
-    def write_list_to_file(self, list_, filename, mode='w'):
+    @staticmethod
+    def write_list_to_file(list_, filename, mode='w'):
         list_ = list(list_)  # just in case
         # store the subreddits in a text file in data/
         with open(filename, mode) as output_file:
@@ -347,7 +345,6 @@ class CommentScraper():
             for vals in list_:
                 vals = tuple(unicode(val) for val in vals)
                 writer.writerow(vals)
-
 
     def request(self, url):
         user_agent = {'User-agent': random.choice(self.user_agents)}
@@ -368,7 +365,7 @@ class CommentScraper():
                 ).text
                 self.proxy.on_success()  # raise confidence
             except Exception as e:
-                self.log(e.message)
+                self.log(e.message, level='error')
                 self.proxy.on_failure(e.message)  # lower confidence
                 failures += 1
                 if failures > 4:
@@ -377,7 +374,6 @@ class CommentScraper():
 
         return response_text
 
-
     def swap_proxies(self, replace=True):
         old_proxy = self.proxy
         # queue.get() waits until a proxy is available in the queue
@@ -385,13 +381,11 @@ class CommentScraper():
         if replace:
             self.proxy_queue.put(old_proxy)
 
-
     @staticmethod
     def html_to_text(html_string):
         # TODO: make this more robust
         retval = nltk.clean_html(html_string.text_content())
         return retval
-
 
     @staticmethod
     def get_post_id_from_url(url):
@@ -401,7 +395,6 @@ class CommentScraper():
         url_end = url[start:]
         post_id = url_end.split('/')[0]
         return post_id
-
 
     @staticmethod
     def format_comment_text(comment_text):
@@ -418,7 +411,8 @@ CommentScraper.id_num = 0
 
 
 class ScraperThread(threading.Thread):
-    def __init__(self, queue, proxy_queue, delay=4):
+    def __init__(self, queue, proxy_queue, delay=4,
+                 verbose=True, log_level=logging.ERROR):
         threading.Thread.__init__(self)
         self.queue = queue
         self.proxy_queue = proxy_queue
@@ -426,7 +420,8 @@ class ScraperThread(threading.Thread):
         self.cs = CommentScraper(
             proxy_queue=proxy_queue,
             delay=self.delay,
-            verbose=True,
+            verbose=verbose,
+            log_level=log_level,
         )
 
     def run(self):
@@ -451,17 +446,22 @@ class Proxy:
     ''' Compare proxies by "uncertainty". Lower is better. '''
     def __lt__(self, other):
         return self.failure / self.success < other.failure / other.success
+
     def __gt__(self, other):
         return self.failure / self.success > other.failure / other.success
+
     def __le__(self, other):
         return self.failure / self.success <= other.failure / other.success
+
     def __ge__(self, other):
         return self.failure / self.success >= other.failure / other.success
+
     def __eq__(self, other):
         return self.failure / self.success == other.failure / other.success
 
     def on_success(self):
         self.success += 1
+
     def on_failure(self, message=None):
         if message:
             if any(sub in message for sub in Proxy.failure_message_substrings):

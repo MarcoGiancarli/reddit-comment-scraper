@@ -1,16 +1,21 @@
+__author__ = 'Marco Giancarli -- m.a.giancarli@gmail.com'
+
+
 from RedditScraper import CommentScraper as CS
 from selenium import webdriver
+import logging
 
 def main():
     http_proxy_urls = scrape_hma()
     # NOTE: using a sample of around 5000 comments from r/funny, it seems that
     # comments there are on average about 90 characters each. I'll round to 100.
-    # NOTE: each thread gets around 5K-15K comments per hour. With 100 threads
+    # NOTE: each thread can get around 10K comments per hour. With 100 threads
     # the scraper should get a million comments per hour == 100 million chars
-    # per hour. Fun stuff.
+    # per hour in ideal conditions. It's probably slightly less in reality due
+    # to faulty proxies and low-comment subreddits.
     # TODO: remove unnecessary methods and shit
 
-    CS.make_scrapers(http_proxy_urls=http_proxy_urls)
+    CS.make_scrapers(http_proxy_urls=http_proxy_urls, log_level=logging.CRITICAL)
 
 
 def scrape_hma():

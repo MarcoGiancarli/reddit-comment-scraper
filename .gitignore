@@ -1,3 +1,9 @@
+# phantomJS selenium log
+ghostdriver.log
+
+# scraper log
+comment_scraper.log
+
 # jetbrains
 .idea/
 

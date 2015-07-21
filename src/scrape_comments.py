@@ -26,25 +26,27 @@ def scrape_hma():
     proxies = []
 
     driver = webdriver.PhantomJS()
-    page = 'http://proxylist.hidemyass.com/search-1314945'
+    page = 'http://proxylist.hidemyass.com/search-1314945/'
     # This should contain ~150-200 proxies. Thank you China.
 
     try:
-        driver.get(page)
-        rows = driver.find_elements_by_tag_name('tr')
-        row = 1  # ignore title row
-        while row < len(rows):
-            fields = rows[row].find_elements_by_tag_name('td')
-            # get ip, port, and protocol for proxy
-            ip = fields[1].text
-            port = fields[2].text
+        for page_num in range(1, 11):  # we won't get all 10 pages
+            driver.get(page + str(page_num))
+            rows = driver.find_elements_by_tag_name('tr')
+            row = 1  # ignore title row
+            while row < len(rows):
+                fields = rows[row].find_elements_by_tag_name('td')
+                # get ip, port, and protocol for proxy
+                ip = fields[1].text
+                port = fields[2].text
 
-            proxy_url = 'http://%s:%s' % (ip, port)
-            proxies.append(proxy_url)
-            row += 1
+                proxy_url = 'http://%s:%s' % (ip, port)
+                proxies.append(proxy_url)
+                row += 1
     except:
-        print 'Could not reach the HideMyAss site. You\'re shit out of luck'
-        exit(1)
+        if len(proxies) == 0:
+            print 'Could not reach the HideMyAss site. You\'re shit out of luck'
+            exit(1)
 
     return proxies
 

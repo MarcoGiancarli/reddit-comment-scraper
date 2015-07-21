@@ -460,7 +460,8 @@ class Proxy:
         self.success = 1
 
     failure_message_substrings = [
-        'timed out', 'Connection refused', 'reset by peer', 'failed to validate'
+        'timed out', 'Connection refused', 'reset by peer', 'Max retries',
+        'failed to validate'
     ]
 
     ''' Compare proxies by "uncertainty". Lower is better. '''

@@ -166,7 +166,6 @@ class CommentScraper():
         subreddit_url = 'http://www.reddit.com/r/{subreddit_name}'  # seed url
         subreddit_url = subreddit_url.format(subreddit_name=subreddit_name)
         got_first_page = False
-        # post_data = []
 
         for dummy in range(4000):  # 4000 pages == 100,000 post cap
             self.log('Scraping post links from ' + subreddit_url + '...')
@@ -353,6 +352,11 @@ class CommentScraper():
         else:
             proxies = None
 
+        # this is in all reddit pages, so if we don't see this, we failed
+        verify_text = \
+            '<meta name="keywords" content=" reddit, reddit.com, vote, comm' + \
+            'ent, submit " />'
+
         failures = 0
         response_text = None
         while not response_text:
@@ -363,7 +367,11 @@ class CommentScraper():
                     proxies=proxies,
                     timeout=20,
                 ).text
-                self.proxy.on_success()  # raise confidence
+                if verify_text in response_text:
+                    self.proxy.on_success()  # raise confidence
+                    break
+                else:
+                    raise Exception(message='failed to validate')
             except Exception as e:
                 self.log(e.message, level='error')
                 self.proxy.on_failure(e.message)  # lower confidence
@@ -375,11 +383,21 @@ class CommentScraper():
         return response_text
 
     def swap_proxies(self, replace=True):
+        self.log(
+            'Swapping proxies... (Proxy queue size: %d)' %
+            self.proxy_queue.qsize()
+        )
         old_proxy = self.proxy
         # queue.get() waits until a proxy is available in the queue
         self.proxy = self.proxy_queue.get()
         if replace:
-            self.proxy_queue.put(old_proxy)
+            try:
+                self.proxy_queue.put(old_proxy, timeout=10)
+            except Exception as e:
+                self.log(
+                    'Could not insert proxy into proxy queue: ' + e.message,
+                    'error'
+                )
 
     @staticmethod
     def html_to_text(html_string):
@@ -426,6 +444,8 @@ class ScraperThread(threading.Thread):
 
     def run(self):
         while True:
+            qsize = self.queue.qsize()
+            self.cs.log('Estimated subreddits remaining: %d' % qsize)
             subreddit_name = self.queue.get()
             self.cs.scrape_subreddit(subreddit_name)
             self.proxy_queue.put(self.cs.proxy)
@@ -440,7 +460,7 @@ class Proxy:
         self.success = 1
 
     failure_message_substrings = [
-        'timed out', 'Connection refused', 'reset by peer'
+        'timed out', 'Connection refused', 'reset by peer', 'failed to validate'
     ]
 
     ''' Compare proxies by "uncertainty". Lower is better. '''

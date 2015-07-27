@@ -1,0 +1,67 @@
+desktops,3e4vp4,Suicidal360Flip,3,Tue Jul 21 23:47:55 2015 UTC,This is actually really sexy
+desktops,3e4vp4,Pyro1923,1 point,Wed Jul 22 01:42:15 2015 UTC,"Looks like ubuntu, win10 is so simple i love it."
+desktops,3e4vp4,Nazfera2,3,Wed Jul 22 07:13:45 2015 UTC,Does Clover not run like crap for you and flicker every time you try to move the window?
+desktops,3e4vp4,-haven,1 point,Wed Jul 22 05:53:50 2015 UTC,"The flickering is caused by the fact that the Clover window and the Explorer windows it handles are running in separate processes. For some reason, Windows is not good at synchronizing UI events across processes. You can also see this effect when resizing any window - because the window border and title bars of windows are handled by a separate process (DWM), the client area of the window appears to flicker, because it is drawn by the process which created the window."
+desktops,3e4vp4,baggyzed,2,Wed Jul 22 07:18:03 2015 UTC,"What is the theme for Clover? Also, what is all the stuff at the bottom, which apps, why so much?"
+desktops,3e4vp4,bmancreations,4,Wed Jul 22 02:26:31 2015 UTC,"I made it myself using my background to be my titlebar so they match. Everything else is left to default other then a few that were changed to be white. You can make one yourself here.  Starting from the left I have:   SVP Manager - For Realtime interpolation of my videos to 60 FPS. f.lux - For automatic color change of my screen from sunset to sunrise. Xonarswitch - Its used for my global audio settings for my soundcard. Eagleget - Used to replace the chrome downloader, much faster and helps to organize all my downloads into folders like media, compressed, documents, and software. Also can download videos off of any site. Steam - Gaming platform Discord - A new VOIP program that means to replace teamspeak and Skype. It has done it for me and my friends. We all use it for regular talk and gaming. Teamviewer - Lets me remote into peoples computers that I have worked on before including family and friends so anytime they have a problem I can just show myself in. Also lets me remote into my own computer from my phone. Google Chrome - Browser Process Lasso - Dynamically controls the priority class of programs on my system to make sure I always have control over my system even under 100% CPU load. Windows does a terrible job on its own. With the program I get guarantee that no hiccups or freezes will ever occur with it on and I never have gotten any hiccups with my system in the last year with it on. It also has no performance reduction on encoding or gaming. Tested that too. This sounds like snake oil but they have a demo program you can use to test out their system. What it does is puts insane load on your system and lets you switch the Process Lasso core service on and off. MSI Afterburner - GPU overclocking and system monitoring program. Rivatuner - Displays an FPS counter when I play games. Malwarebytes Antimalware - Protects from malware Everything Search Engine - Lets you search your whole system with instant results, no loading as everything is already indexed. Displayfusion - Lets you customize how your multi-monitor setup works. Has a lot of features for just default windows use as well as well as global hotkeys for anything you want."
+desktops,3e4vp4,Gordonpn,2,Wed Jul 22 02:47:02 2015 UTC,"Thanks so much for mentioning Process Lasso, I've been looking for something like that!  Also, Eagleget sounds cool, will definitely try :)"
+desktops,3e4vp4,Gordonpn,2,Wed Jul 22 03:09:51 2015 UTC,"Glad I could help. You will need to enable the auto-categorize feature if want that, its disabled by default."
+desktops,3e4vp4,dia112358,1 point,Wed Jul 22 03:47:37 2015 UTC,Thanks again
+desktops,3e4vp4,dia112358,2,Wed Jul 22 03:52:36 2015 UTC,"Oh hey I just remembered, Process Lasso also lets you use its own power setting for the system, Like Power saving, balanced and performance. Also lets you disable Core Parking. Check the site for a rundown on what they do."
+desktops,3dyte3,Egeste_,1 point,Mon Jul 20 17:15:19 2015 UTC,What OS are you using? Or is it just tweaks? :)
+desktops,3dyte3,Euqah,1 point,Mon Jul 20 17:49:17 2015 UTC,"Kubuntu 15.10, Plasma 5.1.3? 5.3.1? Something like that"
+desktops,3dyte3,Euqah,1 point,Mon Jul 20 19:30:40 2015 UTC,"Nice, haa. Thanks."
+desktops,3dtylq,quantoo,1 point,Sun Jul 19 13:06:44 2015 UTC,mpv lua script?
+desktops,3dtylq,LostMyTrain,3,Sun Jul 19 15:50:20 2015 UTC,potplayer--mpv looks really cool tho. how is it?
+desktops,3dtylq,LostMyTrain,1 point,Sun Jul 19 15:56:29 2015 UTC,It's great!  On linux anway it ties in with youtube-dl so you can give it a video url and it'll play it.
+desktops,3dtylq,chinesandtwines,1 point,Sun Jul 19 16:05:14 2015 UTC,Could you post the wallpaper?
+desktops,3dtylq,chinesandtwines,1 point,Sun Jul 19 15:50:41 2015 UTC,http://i.imgur.com/ruPk1JC.jpg : )
+desktops,3dvetx,cerebrix,1 point,Sun Jul 19 21:12:36 2015 UTC,Stevey G!   Wallpaper sauce?
+desktops,3dvetx,Tropicole,2,Sun Jul 19 22:48:12 2015 UTC,here ya go mate
+desktops,3dtlrp,mattyscott23,3,Sun Jul 19 09:35:40 2015 UTC,"Wrong type of desktops in afraid, this is for picture of people's screens with their wallpapers and rain meter etc, you want /r/buildapc and don't get a pre made system build it yourself, you will do much much better for the money and have a good experience too!"
+desktops,3dpciq,_Chimmy_Chonga,1 point,Sat Jul 18 03:59:01 2015 UTC,Is flat arch the name of the wallpaper?
+desktops,3dpciq,OfficialZino,1 point,Sat Jul 18 19:14:04 2015 UTC,I just call it Flat Arch b/c the wallpaper in combination with the icon theme gives it a rather flat looking theme.   The wallpaper can be found here: http://thepaperwall.com/wallpaper.php?view=dc632b768e995542f784730277caf39e689bd3e6
+desktops,3dpciq,b10011,1 point,Sat Jul 18 20:10:37 2015 UTC,Shell theme? Nice topbar :3
+desktops,3deau7,shinyanimic,2,Wed Jul 15 16:29:12 2015 UTC,"You should really do something about that panel... it looks pretty bad, especially considering it doesn't matchup at all with the wallpaper.  Also why do you have both chrome and chromium set to run in the background?"
+desktops,3deau7,that1communist,0,Wed Jul 15 19:24:30 2015 UTC,"My setup is for function NOT ascetics, outside of the random wallpaper script I run. that is a good question! I think the plugins I have installed changed the settings but I have now corrected it thank you sir!"
+desktops,3deau7,that1communist,2,Wed Jul 15 20:23:18 2015 UTC,"Uh, you can make it look nice and be fully functional, m8.  As is it actually loses function because of the insane clutter.  Look into launchers like j4-dmenu"
+desktops,3deau7,HansJobb,1 point,Wed Jul 15 20:25:44 2015 UTC,Wallpaper?
+desktops,3deau7,killer3james,3,Wed Jul 15 17:29:36 2015 UTC,Wallpaper: http://i.imgur.com/hShBSMV.jpg OP: /u/AberrantArticulation
+desktops,3da8dc,shinyanimic,1 point,Tue Jul 14 18:35:12 2015 UTC,"What version of Linux is this?, Thanks."
+desktops,3da8dc,matthirst952,2,Sat Jul 18 22:45:56 2015 UTC,It is Knoppix a Debian based distro. http://knopper.net/knoppix/index-en.html
+desktops,3da8dc,matthirst952,2,Mon Jul 20 16:00:09 2015 UTC,"Awesome, Thanks."
+desktops,3d53g5,Contrum,4,Mon Jul 13 16:22:15 2015 UTC,Dabedeee dabedaaa
+desktops,3d53g5,Extraltodeus,3,Mon Jul 13 22:13:12 2015 UTC,windows 10 visual style  plex icon pack. note that I edited some to be more blue.   clover 3 explorer mod
+desktops,3cztmf,CaDoran,2,Sun Jul 12 07:28:14 2015 UTC,Can you link the wallpaper please?
+desktops,3cztmf,snorunge,2,Sun Jul 12 11:26:02 2015 UTC,made it in photoshop. just overlay a bunch of gradients and mess with the blending options
+desktops,3cztmf,partiallypro,1 point,Sun Jul 12 18:53:08 2015 UTC,Imgur?
+desktops,3cztmf,OrestesGaolin,1 point,Mon Jul 13 03:51:23 2015 UTC,How did you achieve it? Especially these narrow widgets/icons on the right.
+desktops,3cztmf,KamasutraBlackBelt,8,Sun Jul 12 08:44:24 2015 UTC,"You can use OblyTile to make your own custom tiles - you can set separate images for square, wide or large sizes. I use it all the time for my games http://i.imgur.com/0rAoRXR.jpg"
+desktops,3cztmf,cam5478,1 point,Sun Jul 12 11:38:54 2015 UTC,Thank you for reminding me I need to reinstall AutoCAD when I upgrade to Windows 10.
+desktops,3cztmf,pceyecandy,1 point,Mon Jul 13 05:21:00 2015 UTC,Are you upgrading to Win10 when it comes out?
+desktops,3cztmf,vso,3,Wed Jul 15 00:48:12 2015 UTC,yeah. I love to have new stuff
+desktops,3cw4l7,KaLam1ty,4,Sat Jul 11 07:15:45 2015 UTC,first quality shot I've seen here in a long time.
+desktops,3cw4l7,nitzua,2,Sat Jul 11 23:59:12 2015 UTC,"A new theme series I'm making for the components listed below and more. Here's a video of also WIP to show off a quick workflow. I'll try to release most of the components once I'm done.  http://webm.host/9c9ff/vid.webm  The demo only previews my side monitor, so some Litestep stuff are not shown.  feat. Litestep, TrueTransparency, qqTabBar, Foobar2k, MPC, Launchy, Custom Icons, CD Art Display, & Res. Hacked Aero VS.  I'll try to get around to a FF Stylish theme, some more icons, and an Android version to go along.  I KNOW I SPELLED Kappa WRONG. DEAL WIT IT!..Kappa.."
+desktops,3cw4l7,ConstaPat,2,Sat Jul 11 07:16:52 2015 UTC,This looks REALLY nice! How long did it take?
+desktops,3cw4l7,itzblitz94,3,Sat Jul 11 14:24:20 2015 UTC,"Been chipping at bits and pieces for a few days. Still working on it though.  Right now, the main windows are just a conjunction of TrueTransparency and some resource hacking, so that was pretty quick -- just a matter of slicing up the original mockup.  I'll eventually make it a full fledged VS but.. that will be quite a whiles."
+desktops,3cw4l7,Ragozi,1 point,Sat Jul 11 14:55:21 2015 UTC,"Love the one dark inspiration :), Looks great very clean.  Any chance you can share the terminals colour scheme ?"
+desktops,3cxcsi,tenbeersdeep,2,Sat Jul 11 16:49:06 2015 UTC,(´＿｀。) We all have those days
+desktops,3cxcsi,KaLam1ty,2,Sat Jul 11 17:07:41 2015 UTC,"A friend of mine died in a traffic accident two days ago, it's been rough."
+desktops,3cxcsi,Mieleur,2,Sat Jul 11 19:24:55 2015 UTC,Nice! Can I have the wallpaper please?
+desktops,3csio5,LegendEater,4,Fri Jul 10 12:34:02 2015 UTC,Source on the wallpaper?
+desktops,3csio5,3098,3,Fri Jul 10 19:43:07 2015 UTC,Seriously anyone got the sauce?
+desktops,3csio5,mostposthost,3,Fri Jul 10 23:11:30 2015 UTC,I've posted a top level comment with full details :)
+desktops,3csio5,mostposthost,1 point,Sat Jul 11 10:07:21 2015 UTC,Thank you!
+desktops,3csio5,mmmmbeeer,2,Sat Jul 11 16:43:39 2015 UTC,I made it from a wallpaper posted on Reddit ages ago. I'll post it when I'm home :)
+desktops,3csio5,banana_lumpia,2,Sat Jul 11 00:52:20 2015 UTC,I've posted a top level comment with full details :)
+desktops,3csio5,BlueQKazue,3,Sat Jul 11 10:07:17 2015 UTC,I very much enjoy that icon set. I use it myself on most of my computers.
+desktops,3csio5,banana_lumpia,2,Fri Jul 10 14:19:56 2015 UTC,"Token, simple and elegant. I fucking love it"
+desktops,3csio5,Linux-Help,3,Fri Jul 10 22:38:54 2015 UTC,dope! how do i get this theme?
+desktops,3csio5,BlueQKazue,2,Fri Jul 10 16:57:18 2015 UTC,The Icons are called Token and it should be on DeviantArt.
+desktops,3csio5,banana_lumpia,1 point,Fri Jul 10 22:42:46 2015 UTC,And for a second I thought they got Numix to work on Windows.
+desktops,3csio5,samutlgfx,1 point,Sat Jul 11 03:18:46 2015 UTC,"Thanks do you have any links to tutorials on how to install themes and icons? I haven't tried to do this since way back in the XP days and it don't really remember any of it, but i want my o.s. to look as cool as my new rig does lol."
+desktops,3csio5,cawnwren,2,Sat Jul 11 03:52:03 2015 UTC,There's a few. The easiest is 7conifier and IconPackager.
+desktops,3cskoy,dozome,1 point,Fri Jul 10 12:55:42 2015 UTC,I think you're in the wrong sub.
+desktops,3cskoy,Contrum,1 point,Mon Jul 13 15:35:53 2015 UTC,Wrong subreddit. Try /r/techsupport
+desktops,3cpnfy,Stun151,1 point,Thu Jul 9 19:43:22 2015 UTC,I love minimalist desktops. Great work! :)
+desktops,3cpnfy,pceyecandy,1 point,Thu Jul 9 20:08:20 2015 UTC,Thanks :)

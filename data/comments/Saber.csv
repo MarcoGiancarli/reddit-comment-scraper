@@ -1,0 +1,818 @@
+Saber,3e2m66,_superFish_,3,Tue Jul 21 14:03:37 2015 UTC,Nice! I just got mine about a month ago. Definitely one the best looking figmas I've seen!
+Saber,3e2m66,rare_umbreon,2,Tue Jul 21 15:48:25 2015 UTC,"It's my first figma and she is Saber, so for me it's definitely the best looking figma i've seen! :P"
+Saber,3e2m66,rare_umbreon,3,Tue Jul 21 17:00:23 2015 UTC,Well you couldn't have picked a better one to be your first
+Saber,3e2m66,SirusRiddler,3,Tue Jul 21 17:09:15 2015 UTC,"I remember back when I lived in Tokyo, I had to preorder at Sofmap in order to get my hands on the second shipment of the original figma Saber. 2.0 improves on it so much though my favorite it's still Saber Lily."
+Saber,3e2m66,gst4158,2,Tue Jul 21 18:51:28 2015 UTC,"Shes beautiful! Mine came in the mail a while ago, but was broken (ball joint at the waist was snapped off). They didn't have any more in stock. She really is a cool figma :)"
+Saber,3e2m66,gst4158,2,Tue Jul 21 14:56:12 2015 UTC,"Aww man, that sucks. Did you get your money back, or did you decided to keep it and fix it yourself?"
+Saber,3e2m66,ERankLuck,2,Tue Jul 21 15:13:00 2015 UTC,I got my money back and ordered Jean d'arc Ruler from another store lol
+Saber,3e3sk6,Ownsin,1 point,Tue Jul 21 19:05:15 2015 UTC,Is it just me or is there something not quite right with her face? Every other part of her looks fantastic though
+Saber,3e3sk6,K0RnD4Wg,1 point,Tue Jul 21 21:46:42 2015 UTC,"Yeah there is something slightly off about her face, but that might get fixed by the time it's released. There's still like 5-6 months till release bearing no delays. It's more than enough time to refine the figure even more, which usually happens with some of the figures before they get released."
+Saber,3e3sk6,K0RnD4Wg,1 point,Tue Jul 21 22:03:23 2015 UTC,"Knowing my newfound figure addiction, I'll probably end up preordering anyways."
+Saber,3e3sk6,ivoryonyx,1 point,Tue Jul 21 22:05:03 2015 UTC,Hooooly crap. They're making a figure of my favorite pose of her. If only she had the smile going too...
+Saber,3dywg8,JillSandvich,6,Mon Jul 20 17:36:17 2015 UTC,O-Oh my...
+Saber,3dywg8,REsoleSurvivor1000,4,Mon Jul 20 17:45:50 2015 UTC,O-Oh my...
+Saber,3dywg8,JIVEprinting,4,Tue Jul 21 01:27:01 2015 UTC,O-Oh my... ;)
+Saber,3dya3c,logicalburrito,1 point,Mon Jul 20 14:57:00 2015 UTC,Can you hook us up with a link to where you purchased said item?
+Saber,3dya3c,RyuDragoon,1 point,Tue Jul 21 03:10:01 2015 UTC,I bought it locally here in Japan
+Saber,3dxdzy,ivoryonyx,4,Mon Jul 20 09:16:21 2015 UTC,"I really like what you did with the image. It's really hard to point out what to change. I do feel like Saber's clothing is a tad too dark for the scenery, then again the brightness of her skin is fine. Is the image quality better in the final version? I can see good amounts of jpeg artifacts (especially on her right shoulder).   I've done similar stuff like this before so I can understand why you'd want feed back before moving any further."
+Saber,3dxdzy,ArchadianJudge,2,Mon Jul 20 10:01:09 2015 UTC,"Thanks! I felt similarly about the darkness of the clothing, I'm just not advanced enough to effectively brighten it without also brightening her face and hair, which are pretty high as-is. I'll see if I can find some methods outside of using the Dodge tool like an amateur.    As for the artifacts, those are definitely present in the Saber render. I removed a good chunk of it through Camera Raw, but I didn't put the noise removal slider all the way up because I felt like it blurred it too much. I actually have a better, larger version of her (though it's not cropped out - it's a .jpg with a white background, as opposed to the transparent background .png I used for this composition), but that would entail making it the exact size as the current render. I have effects and such layered on top, so if it's not exactly the same size, it'll be off. I resized the original render within the .psd by using CTRL+T, so I didn't reduce the size a set amount, I did so arbitrarily. Outside of eyeballing it, do you have any advice as to how I could replace the current Saber render with the better version (with less artifacts)?  I think it's also worth noting that I saved the image with the maximum output settings on Photoshop to avoid additional artifacting. Compared to the .png I saved, I didn't see extra artifacts, so I assume what's there is in the composition itself. Is there any in the background or is it just Saber?"
+Saber,3dxdzy,shotstrider,4,Mon Jul 20 16:38:25 2015 UTC,"While it looks damn near perfect now, there's no real reason you couldn't do multiple versions at different saturation levels, or with other little changes.   Just with some five second experimentation on my end:   Dumping the Saturation value to -20 produced a slightly different image where as dropping it to -50 drastically changed the image with out really losing anything in my opinion. The -50 version is more along the lines of what I am used to seeing in Fate art/fanart (dark but with lovely images and good detail) where as the original and the slightly de-saturated version are a refreshing change. As a person I prefer less vibrant images on my desktops as to not blind myself completely if i need to hop on my computer early in the morning. Very slight blurring might be a different idea all together, alas I cant really whip up a basic example as I don't have the psd. It should be relatively obvious when there is way to much blurring though. Hitting the background with a slight Gaussian blur might make it 10x better or 10x worse. .jpg's unless really properly done produce very interesting artifacts, some of which are more obvious than others. To avoid any of this I normally dupe my psd file (to avoid any screwups later) then go in to the duped version and merge all the layers then save as a .png Whether or not this actually helps anything or not I dont know but .png artifacts are really annoying and I never see them when using this method. (They seem to come out when using way to many alpha layers...)   On the flip side I don't see any real rookie mistakes, the pseudo-final you've provided here is fantastically done and any real changes are up to a user such as my self, but options are nice."
+Saber,3dxdzy,shotstrider,3,Mon Jul 20 10:50:36 2015 UTC,"Thanks man, I appreciate it. I'll try different saturation levels for sure. Some people may prefer it that way, so I'll include that in the imgur album once everything's done.  As for blurring, I see what you mean. A friend of mine introduced me to the idea a few years back, and it can certainly help hide flaws and make the image look better in general. He did a little mockup of a sky background I needed once and blurring helped make the clouds look more natural - the same could be done here I'm sure. I think I would avoid the grass though, just because it probably shouldn't be blurred unless I wanted to go for a lens effect of some sort, if that makes sense (where the subject is in focus and everything extending radially outwards blurs progressively). I'll play around with it and post up samples.  Edit: What's duping? As mentioned in another reply, I also made sure to output the .jpg on the highest settings possible. I compared it to a .png I saved and didn't see a difference with the artifacts. I'd be interested to know what duping is and how I can reduce any potential artifacts!"
+Saber,3dxdzy,shotstrider,3,Mon Jul 20 16:31:19 2015 UTC,"Duping simply refers to file duplication, i just use it as an anti-screwup measure as i often forget to undo my merge layers only to exit PS and be completely screwed later on.......     Duping in and of itself wont prevent artifact so much as saving major headaches later on.  Artifacts normally come from image compression so using lossy formats (the jpg in older times was culprit #1, its gotten better though.) pngs barely ever artifact but can if layers are un-merged or you've got a subject cut out on a flat colored background. As for preventing them.  They have a nasty tendency to occur around edges and while there are a few little tricks here and there, I've had the best success with just merging layers before saving.  Edit: Also if you (or anyone else for that matter) needs pointers with PS, i'm fairly knowledgeable myself and if I can't help out i know a ton of people who can. (My University has a massive CG department, most of the people who i hang out with are in it.) Just drop me a PM and ill do what I can"
+Saber,3dxdzy,shotstrider,3,Mon Jul 20 16:59:12 2015 UTC,"Aah, okay, I see. A little frustrating that we have to manually do something ourselves to make sure we can ""recover."" You'd think they'd have something built in to handle that. Yeah, I tend to be rather paranoid (I've used PS for several years doing basic stuff), so I often make duplicates when making ""destructive"" edits.  As for the artifacts, I'll try re-opening a saved .jpg in Camera Raw to further reduce noise/artifacts, and see how that works out.  Thanks for the offer on PS pointers too - that will definitely help! One thing I was wondering is this: if you don't have material to work with (an image is ""cut off,"" like the Saber render here), what is the best way to approach trying to piecemeal the large missing chunks, like on the right side? I'd like to make a variant where Saber is centered, but I can't due to the right side missing so much of her dress. The left I was able to patch up, but the right is missing too much."
+Saber,3dxdzy,mashiriki,3,Mon Jul 20 19:32:46 2015 UTC,"Well for large chunk image fixing there are a variety of ways to go about doing so, alas none of which are sure fire methods (especially on such a large part such as that). I do however have one decent example.  Take this image of Sasha Braus from AoT for example, I wanted the kanji on the image to no longer be there along with the surfboard to be full length so i could use it as an image asset for wallpapers and such.  Step one was relatively easy: removing the kanji. For that you can use a combination of the marquee (square selector), Fill (right click on your selection > Fill), and the smudge tool. This process if done properly is fantastic for image repairing (more examples can be found here in this LoK image set I did a while ago.) Next step is to take the fill data an repair it using the smudge tool and isolated areas to prevent further goofs. Normally I find the pen tool to be fantastic here but any selection tool will work, along with generous helpings 'Crtl+Z', this is a rather tedious process. You should be smudging and blending colors together and after that can rematch any lines with:  The pen tool! This is one of the more nifty devices in your PS arsenal. While its not as useful as it is in Illustrator, the pen tool in photoshop is fantastic at matching curves. In the Sasha Braus example I used it to repair some line work and finish the undrawn portion of the surfboard. Heres the final of that wallpaper btw. The fill tool in this area was about as useful as a boat on land, so the fill work was done by the Clone Stamp Tool. Use alt to select an area, and then the tool replicates that area in the new place your painting it on. This process if done properly should take a little while, but produces amazing results. After you've gone through with the clone stamp, once again use the smudge tool and very carefully blend the edges and any areas that just stick out.  Granted the AoT example itself is a little messy (namely at the elbow section) as its an older attempt, but it fits the general style of the image so ive never really felt like going in and fixing it.  I'm not too sure how useful that information will be with the Saber wallpaper (there might just be too much guess work there for it to work) but its one of the better methods i've figured out over time.  If any of that was unclear, just say so, I might not get to corrections tonight, but ill be able to tomorrow for sure."
+Saber,3dxdzy,scloutkst2889,2,Mon Jul 20 21:48:58 2015 UTC,"Awesome, thanks for all the examples! You did remarkably well with the Sasha wallpaper, I must say! I'm not too worried about the elbow - the art style wasn't a super clean one to begin with, so it doesn't stand out to me at all. As for the LoK stuff, very cool. They have some great shots throughout the show that are only affected by 'extras' in the scenery. I've done similar, small object removal in product photos and such. Clone stamp is so useful.  I use the clone stamp tool fairly often for image repair / object removal, but your marquee + fill + smudge technique is new to me. In particular, the ""fill"" part throws me off a little bit. Are you able to grab an area of, say, the surfboard and fill it automatically into a marquee around one of the kanji letters? And then you smudge it? I'm most likely misunderstanding you; I only ever use fill for solid colors, and I don't think I've ever used the smudge tool.  Oh man, the pen tool. It's awesome. I used to use the polygonal lasso tool before I found out about that, and for whatever stupid reason it has a ""timer"" on it where if you don't make your next point quickly, it just closes the selection. The pen tool was a godsend. My only issue with it is time - it's always a very lengthy process. I haven't had time to really sit down and use more tedious techniques, but once summer school is out I should be able to. I'll do the Saber image justice by using a higher quality version and taking the time to crop it.  As for how to fill out the dress on the right side, I'll definitely try cloning and the marquee + fill + smudge technique you mentioned (once I understand it better of course). The tricky part is all the shadows/lighting and such. As far as cloning goes, that's one of its limitations - if there's variation in lighting or texture, it can be tough to get good results."
+Saber,3dx1wo,ArchadianJudge,1 point,Mon Jul 20 06:23:34 2015 UTC,Sakura Saber?
+Saber,3dthfd,Ownsin,3,Sun Jul 19 08:16:16 2015 UTC,Whoever could it be!?
+Saber,3dthfd,JustAnotherSuit96,0,Sun Jul 19 09:21:05 2015 UTC,"It's strange that she is posted in the Saber group, very odd indeed..."
+Saber,3dr1ej,JillSandvich,8,Sat Jul 18 17:02:03 2015 UTC,My name is Saber Montoya.   You ate my food.  Prepare to die!
+Saber,3dpu31,KamuKid,1 point,Sat Jul 18 07:29:58 2015 UTC,http://e-shuushuu.net/images/2013-11-03-615743.jpeg this would be a better link
+Saber,3dpu31,Ownsin,1 point,Sat Jul 18 08:21:46 2015 UTC,:(
+Saber,3dpu31,Ownsin,1 point,Sat Jul 18 10:58:19 2015 UTC,Are you shadowbanned Hitagi? i can't see your profile and i had to approve your comments to make them visible.
+Saber,3dpu31,Ownsin,1 point,Sat Jul 18 21:11:39 2015 UTC,How does one know if one is shadowbanned
+Saber,3dptdo,Ownsin,2,Sat Jul 18 07:19:14 2015 UTC,"it's better to upload  it to imgur, the pictures won't load with hover zoom and the likes, because the hosting site doesn't seem to work with it. Just keep that in mind for next time. You don't have to do it, but it beats being forced to go to the site itself and checking the picture, just makes it a hassle."
+Saber,3dptdo,REsoleSurvivor1000,1 point,Sat Jul 18 08:12:58 2015 UTC,IIRC imgur compresses pictures that are over 1 MB and resizes them. Is this true? I'd also like to know. That and if there are other options for rehosting aside from imgur.
+Saber,3dptdo,Ownsin,1 point,Sat Jul 18 11:01:28 2015 UTC,No that's not true. You can disable that in the options.
+Saber,3dn3a3,Ownsin,1 point,Fri Jul 17 16:43:58 2015 UTC,"Anyway we can get the ""fate last episode"" removed?"
+Saber,3dn3a3,RyuDragoon,6,Fri Jul 17 17:28:23 2015 UTC,i removed it for you
+Saber,3dn3a3,RyuDragoon,1 point,Fri Jul 17 17:40:10 2015 UTC,Holy smokes that was fast. Thanks a lot!
+Saber,3dna5s,JillSandvich,3,Fri Jul 17 17:34:38 2015 UTC,"Cool, looked for more, there are more pics of her in the wedding dress here as well as her as other Saber versions. https://instagram.com/tomiaaa_cosplayer/"
+Saber,3dna5s,dougaru,1 point,Fri Jul 17 19:13:07 2015 UTC,"To be politically correct, it's usually referred to as the Royal Dress version."
+Saber,3dj5fc,JillSandvich,2,Thu Jul 16 18:15:25 2015 UTC,I haven't slept for a whole day (literally) decide to finally end my day by looking at reddit and I find this... 2kawaii4me. Hasta manana su Alteza
+Saber,3dje4k,Ownsin,2,Thu Jul 16 19:18:15 2015 UTC,would be a lot better without the text
+Saber,3dje4k,Herson100,2,Fri Jul 17 02:34:30 2015 UTC,There we go
+Saber,3dje4k,REsoleSurvivor1000,1 point,Fri Jul 17 03:52:33 2015 UTC,Beautiful.
+Saber,3deebq,JillSandvich,4,Wed Jul 15 16:54:19 2015 UTC,"The picture's lighting, Saber's happy expression, the loose pajamas, and the lion cup— all give off this feel of a daily, carefree life that simply makes me smile. Good post."
+Saber,3dbbxd,Ownsin,1 point,Tue Jul 14 23:11:58 2015 UTC,Starting to run out of adjectives for your titles I see.
+Saber,3dbbxd,Saber_Na,1 point,Wed Jul 15 07:38:22 2015 UTC,"Sadly lol... It's really hard to think of new titles now. I have horribly cliched titles sometimes i know >_<, but yeah it's something that i have to think about every time i post something in here, and trust me it's troublesome to think about sometimes."
+Saber,3da84m,JillSandvich,6,Tue Jul 14 18:33:20 2015 UTC,Copies can't beat the Original lol
+Saber,3da84m,UCD_Riven_Senpai,4,Tue Jul 14 20:26:30 2015 UTC,Exactly!  Sit down kids. Let momma teach you a lesson.
+Saber,3da84m,REsoleSurvivor1000,1 point,Wed Jul 15 02:25:45 2015 UTC,*Daddy
+Saber,3da84m,AdelKoenig,6,Thu Jul 16 03:46:20 2015 UTC,This is pretty awesome. My money is on Alter.
+Saber,3da84m,gst4158,4,Tue Jul 14 23:36:27 2015 UTC,"Idk, Lilly seems to be the only one with Avalon. Can't exactly beam spam that into submission"
+Saber,3da84m,Kyakan,2,Wed Jul 15 02:15:57 2015 UTC,This is the ultimate showdown.
+Saber,3d8fq5,BlazeItBob,7,Tue Jul 14 09:06:26 2015 UTC,Here you go. I'm pretty sure it's from the artbook 'Poyoyon Rock' by Akio Watanabe.
+Saber,3d8fq5,DerGrunty,3,Tue Jul 14 09:51:12 2015 UTC,Ha thanks man. Been looking for it for forever.
+Saber,3d8fq5,astronautlevel,1 point,Tue Jul 14 22:42:18 2015 UTC,New phone wallpaper. Thanks!
+Saber,3d8fq5,nataku411,2,Wed Jul 15 14:47:19 2015 UTC,Definitely looks better on Saber
+Saber,3d6y41,soah1086,3,Tue Jul 14 00:23:42 2015 UTC,Source.
+Saber,3d6y41,REsoleSurvivor1000,3,Tue Jul 14 00:23:54 2015 UTC,Wow.
+Saber,3d6y41,ivoryonyx,1 point,Tue Jul 14 01:23:55 2015 UTC,"I like it. Out of context, I can definitely see that. Though if I remember correctly, I think this is based on the shot after she Fate/Zero spoiler. Not trying to be a party pooper - just thought it might be an interesting point of discussion."
+Saber,3d6kql,ArchadianJudge,2,Mon Jul 13 22:39:09 2015 UTC,Surely sempai will notice her now that she has this power!
+Saber,3d115s,JillSandvich,3,Sun Jul 12 17:03:42 2015 UTC,Nero made me enjoy fate/extra way more than I thought I would
+Saber,3cxu3o,nataku411,3,Sat Jul 11 19:18:46 2015 UTC,Where did you order it from?
+Saber,3cxu3o,Tearfulfriend18,1 point,Sat Jul 11 21:58:24 2015 UTC,I usually get my figures from Amiami
+Saber,3cxu3o,gst4158,3,Sun Jul 12 01:26:19 2015 UTC,"I'll take that one...and that one...and that one...ahh screw it, I'll have ALL the sabers!"
+Saber,3cxu3o,Ownsin,1 point,Sat Jul 11 23:39:08 2015 UTC,Congrats on getting it.
+Saber,3cxu3o,Brudus,1 point,Mon Jul 13 21:23:52 2015 UTC,Thanks dude
+Saber,3cxu3o,REsoleSurvivor1000,-4,Fri Jul 17 02:44:17 2015 UTC,/r/cummingonfigurines you know what must be done.
+Saber,3cxu3o,punkfac3kid,8,Sun Jul 12 14:12:24 2015 UTC,...That one stays blue...
+Saber,3cxu3o,Saber_Na,5,Sun Jul 12 14:19:55 2015 UTC,It's stuff like that that makes people get creeped out when you mention you like anime.
+Saber,3cxu3o,punkfac3kid,3,Sun Jul 12 15:35:03 2015 UTC,Implying having  half naked anime figures doesn't turn them around already. That's probably the only reason I don't buy bathing suit/lingerie figures.
+Saber,3cxu3o,punkfac3kid,3,Sun Jul 12 18:05:35 2015 UTC,"I actually don't mind the figures in general but I don't collect them personally. I kind of just like the animation cells and poster type stuff, but yeah there should be a line. Of course, to each his own so whatever you do behind the locked bedroom door is on you I suppose."
+Saber,3cwq24,K0RnD4Wg,3,Sat Jul 11 12:56:56 2015 UTC,"That figure looks quality made, how much it set you back?"
+Saber,3cwq24,FrooglyMoogle,2,Sat Jul 11 15:13:27 2015 UTC,Preordered it a while back from AmiAmi. Total with shipping was 11660 yen or roughly $95.
+Saber,3cwq24,Satoshi_Tajiri,2,Sat Jul 11 15:54:03 2015 UTC,Quality taste
+Saber,3cwq24,Ownsin,1 point,Sat Jul 11 17:58:04 2015 UTC,One of the better Mordred figures out there.
+Saber,3cv1ux,drag00n34,1 point,Sat Jul 11 00:32:32 2015 UTC,Those are gorgeous. How much did they cost?
+Saber,3cv1ux,Neosword3000,1 point,Sat Jul 11 17:19:01 2015 UTC,$140 including shipping!
+Saber,3cv1ux,Neosword3000,1 point,Sat Jul 11 20:42:26 2015 UTC,"Each individually, including the chibi one, or just the larger two?"
+Saber,3cv1ux,Xenic,2,Sat Jul 11 20:45:00 2015 UTC,The saber alter comes with the chibi one!!  N yes it's the price for 2 figure including shipping
+Saber,3cv1ux,Xenic,1 point,Sun Jul 12 03:20:03 2015 UTC,"Where did you get the alter version from? I need her to complete the set, and the places where Ive seen her Ive not been sure if they are bootlegs or not. But they look so good together! thanks for sharing :D"
+Saber,3cv1ux,nataku411,1 point,Tue Jul 14 17:22:27 2015 UTC,I found her on Amiami. Good luck with your hunting!
+Saber,3cst5t,JillSandvich,1 point,Fri Jul 10 14:13:22 2015 UTC,Thats funny
+Saber,3cst5t,Fernando961226,1 point,Fri Jul 10 20:22:36 2015 UTC,Lolz
+Saber,3cta1w,Ownsin,2,Fri Jul 10 16:25:54 2015 UTC,"I love this picture, but there was one thing that bugged me.  WARNING: Pedantics ahead  The castle in the background is Neuschwanstein Castle which is actually in the Bavarian region of Germany. Not a likely place for the King of England to be as it was built over 1,000 years after her reign"
+Saber,3cta1w,ArnieTheKid,1 point,Sat Jul 11 04:26:51 2015 UTC,The artist must have been German or likes Bavarian castles. :P
+Saber,3crq6p,Curelli,1 point,Fri Jul 10 06:12:44 2015 UTC,You can't spell Mordred without m-o-e
+Saber,3cp3dg,JillSandvich,2,Thu Jul 9 17:11:33 2015 UTC,Who're the two at the bottom in the middle?
+Saber,3cp3dg,nachoaddict,1 point,Fri Jul 10 03:58:09 2015 UTC,It's Neco Chaos and Neco Destiny from Carnival Phantasm.
+Saber,3cmz4h,Madgamer2k7,6,Thu Jul 9 04:04:44 2015 UTC,"Oh wow! It's not that often that a ""realistic"" style picture keeps her looking gorgeous! Then again,  this would be the sub to find it."
+Saber,3cmz4h,amor_slender,1 point,Thu Jul 9 05:45:45 2015 UTC,"Totally. Cool. Make more of this, please!"
+Saber,3cmz4h,amor_slender,1 point,Thu Jul 9 07:17:33 2015 UTC,Im not the artist
+Saber,3cmz4h,ivoryonyx,1 point,Thu Jul 9 07:19:46 2015 UTC,"Oops, sorry!"
+Saber,3cmz4h,Blackspearr,1 point,Thu Jul 9 07:31:04 2015 UTC,This is the most beautiful realistic-style piece I've seen of her yet. Awesome.
+Saber,3chd7i,fo_rev_er,4,Tue Jul 7 22:36:21 2015 UTC,o7  ONWARDS TO AVALON!
+Saber,3chd7i,Kumoriel,3,Wed Jul 8 01:18:13 2015 UTC,"way too many characters, this is the shit that makes me feel i''ve watched no anime at all, didn't even no a third of the characters....."
+Saber,3chd7i,AngelsTemplar,3,Wed Jul 8 14:06:14 2015 UTC,"I always wonder why people keep making best girl brackets. The results are usually the same because the same people are the ones who participate. The only reason to make new brackets is because new anime characters may show up, but the last character I feel like that god popular was Jibril or something on those lines."
+Saber,3chd7i,Saber_Na,2,Wed Jul 8 16:00:41 2015 UTC,"jesus christ, that was the hardest hitting group yet.  I guess they had to up the quality so it could be worthy of Saber."
+Saber,3chd7i,blazenarm,2,Wed Jul 8 08:14:58 2015 UTC,"Well from the looks of it, it seems that Saber has the highest vote count at 8.7K! Good job praising our king to divinity."
+Saber,3cg64h,Ownsin,4,Tue Jul 7 17:34:48 2015 UTC,I love this types of pictures
+Saber,3cgo3o,nataku411,2,Tue Jul 7 19:38:55 2015 UTC,Where did you get the Sakura Saber figure?
+Saber,3cgo3o,BadLuckDood,2,Wed Jul 8 02:16:16 2015 UTC,I picked it up off of amiami
+Saber,3cdlrr,nataku411,5,Tue Jul 7 02:15:54 2015 UTC,Mind if we can get a full pic of the white sheet with Saber on it?  Thanks in advance!
+Saber,3cdlrr,Beto300,2,Tue Jul 7 03:52:24 2015 UTC,For sure!  I'll get one ready by tomorrow.
+Saber,3cdlrr,Ownsin,4,Tue Jul 7 19:32:37 2015 UTC,Did you get Ayako's autograph? im guessing that autograph is hers?
+Saber,3cdlrr,Cypherghost,4,Tue Jul 7 02:31:12 2015 UTC,Yep!  That's her alright!
+Saber,3cdlrr,ArchadianJudge,3,Tue Jul 7 03:01:21 2015 UTC,How was meeting Ayako? must have been awesome?
+Saber,3cdlrr,NutellaMadness,5,Tue Jul 7 03:53:21 2015 UTC,It was a dream come true!  I could feel my heart nearing the bursting point as she looked me in the eye as I spoke to her.
+Saber,3cdlrr,zelshin,3,Tue Jul 7 19:31:40 2015 UTC,Most likely the greatest moment ever in life... well at least it would be for me :)
+Saber,3cdlrr,REsoleSurvivor1000,3,Tue Jul 7 07:37:34 2015 UTC,How about you make an altar now. hahaha
+Saber,3cdlrr,nachoaddict,3,Tue Jul 7 05:50:36 2015 UTC,Living the dream!
+Saber,3cdlrr,Araion,2,Tue Jul 7 17:01:16 2015 UTC,Holy shit... All this stuff though... It's amazing.
+Saber,3cdlrr,REsoleSurvivor1000,2,Tue Jul 7 02:32:02 2015 UTC,Is that a soundtrack in the middle of the second photo? The art is pretty great. Wonder if there's a wallpaper of it somewhere online
+Saber,3cdlrr,GaaraSenpai,2,Tue Jul 7 03:17:03 2015 UTC,Man that's a lot of Saber loot! how much did all of that cost you? you sure had your go :P!
+Saber,3cdlrr,GaaraSenpai,3,Tue Jul 7 03:59:38 2015 UTC,"If I had to guess all the Saber loot I bought was around $900-$1,100."
+Saber,3cdlrr,ArchadianJudge,2,Tue Jul 7 19:46:00 2015 UTC,Holy mother of money! I'm sure Gilgamesh himself would be envious as well.  As for that amount I can only imagine... Worth. Every. Penny.
+Saber,3cdlrr,RyuDragoon,2,Wed Jul 8 01:21:13 2015 UTC,So Jealous...is that a blanket? or a sheet?
+Saber,3cdlrr,moegamisama,2,Tue Jul 7 05:16:07 2015 UTC,"I think it's both, as well as a giant wall scroll.  They were selling it at the Aniplex booth labeled as a 'multi-sheet'"
+Saber,3cdlrr,gst4158,5,Tue Jul 7 19:33:55 2015 UTC,Gah....i....want....one D:
+Saber,3cdlrr,ivoryonyx,2,Tue Jul 7 20:40:13 2015 UTC,"DAMN. I am so jealous I barely know what to say. That must have cost a fortune. I'm also amazed AX had that much Saber stuff. In Sakuracon I couldn't find that much.  Btw, I'm curious why did you have Ayako sign the pamphlet instead of one of your many official items?"
+Saber,3cdlrr,ivoryonyx,1 point,Tue Jul 7 07:36:49 2015 UTC,"Well, I kind of fucked up.  After waiting in line all night for the autograph ticket line, I went to the exhibition hall and bought a nice wall scroll from the aniplex booth to get signed, then went back to the hotel to grab a quick shower.  I forgot the wall scroll and ended up having her sign my program guide."
+Saber,3cdlrr,ShadowCrossZero,2,Tue Jul 7 19:43:51 2015 UTC,That feeling when I am to poor and live in the sticks to go to nice conventions like op. Hope you had a blast. That's an amazing haul.
+Saber,3cdlrr,ShadowCrossZero,1 point,Tue Jul 7 07:39:02 2015 UTC,I know these feels. All of these feels.
+Saber,3cdlrr,TheWalkingTroll,1 point,Tue Jul 7 12:39:10 2015 UTC,"Thanks dude, it was definitely worth flying over 3,000 miles again this year."
+Saber,3cdfqb,Cypherghost,6,Tue Jul 7 01:26:15 2015 UTC,I just LOOOVE the way she says this. You can tell it's Saber VA just by the tones when she says Excalibur. It's freaking adorable/amazing/lovely/epic.
+Saber,3cdfqb,ArchadianJudge,6,Tue Jul 7 07:35:22 2015 UTC,Yeah it sounded really epic when she did in the convention. Heck it sounded as good as it is in the anime if not better.
+Saber,3cdfqb,Ownsin,5,Tue Jul 7 07:52:09 2015 UTC,Credit to /u/ArchadianJudge
+Saber,3cdfqb,Ownsin,3,Tue Jul 7 01:26:35 2015 UTC,"And here's a link to ""Are you My Master?"": Link"
+Saber,3cd3s8,Satoshi_Tajiri,1 point,Mon Jul 6 23:47:56 2015 UTC,https://twitter.com/Zanthulol/status/618204924887875584  Stats on the box
+Saber,3cd3s8,Ownsin,1 point,Mon Jul 6 23:49:10 2015 UTC,Congrats! one of the best Mordred figures out there!
+Saber,3cbhq4,JillSandvich,3,Mon Jul 6 16:49:12 2015 UTC,it got colored! and it looks awesome too!
+Saber,3cbhq4,Ownsin,2,Mon Jul 6 17:25:52 2015 UTC,This. This is what I needed!
+Saber,3c9u00,ArchadianJudge,3,Mon Jul 6 05:47:20 2015 UTC,The art looks really good.
+Saber,3c7i7z,Cypherghost,6,Sun Jul 5 16:47:11 2015 UTC,Isn't it Artoria?
+Saber,3c7i7z,JustAnotherSuit96,4,Sun Jul 5 17:00:11 2015 UTC,"yeah it can be pronounced as Arturia, Artoria or Altria. Arturia is the most used one though."
+Saber,3c7i7z,Ownsin,11,Sun Jul 5 18:43:23 2015 UTC,"Arturia is also the only one that makes sense. Dammit, Nasu, stop trying to Engrish so hard."
+Saber,3c7i7z,ERankLuck,5,Sun Jul 5 20:25:38 2015 UTC,"Yeah exactly, Arturia is the only thing that remotely sounds like a feminization of Arthur, which is the whole intent of her character."
+Saber,3c7i7z,megacookie,1 point,Mon Jul 6 01:19:48 2015 UTC,But guys... Altria is pronounced the same as Arturia. A-ru-tu-ri-a
+Saber,3c7i7z,Kami_no_Kage,1 point,Mon Jul 6 14:33:21 2015 UTC,Doesnt mean the spelling can just be fucked around with though.
+Saber,3c7i7z,megacookie,1 point,Mon Jul 6 14:43:42 2015 UTC,"It happens all the time, especially with things like this where there's no official translation."
+Saber,3c7eth,AdelKoenig,3,Sun Jul 5 16:14:00 2015 UTC,"Don't you mean ""sword-boning"" Casual Saber Cosplay...?  lol I tried."
+Saber,3c5ut7,Ownsin,2,Sun Jul 5 02:45:17 2015 UTC,This is the part where the other Servants shit themselves and run away.
+Saber,3c5ut7,TheRealSlimShamus,1 point,Thu Jul 9 03:49:21 2015 UTC,This pic reminds me so much of Gundam Exia.
+Saber,3c5ut7,any42,1 point,Mon Jul 6 10:01:47 2015 UTC,"Sacrifice all defense for offense, that is a girl I would definitely fall for."
+Saber,3c5ut7,aBabyShoe,1 point,Mon Jul 6 22:20:35 2015 UTC,Even Gilgamesh just shat himself!
+Saber,3c4t1y,Ownsin,1 point,Sat Jul 4 20:03:33 2015 UTC,This image is false. Saber is never satisfied :3
+Saber,3c43p6,JillSandvich,3,Sat Jul 4 16:12:13 2015 UTC,BeautifulNow Magma!
+Saber,3c43p6,KamuKid,2,Sat Jul 4 17:14:16 2015 UTC,My favorite Pokemon team and glorious best girl Saber!?  I have found my eternal wallpaper ( ;‿;)
+Saber,3c3wu5,Ownsin,1 point,Sat Jul 4 15:05:55 2015 UTC,Saber and her Sabre-toothed tiger.
+Saber,3c3wlc,Ownsin,4,Sat Jul 4 15:03:24 2015 UTC,The Feels
+Saber,3c3wlc,fastathanlight,1 point,Sat Jul 4 17:59:35 2015 UTC,Wow. I am definitely gonna have to try this program out. It's just too good to be real.
+Saber,3c3wlc,REsoleSurvivor1000,1 point,Sat Jul 4 16:41:02 2015 UTC,Is that using Waifu2x?
+Saber,3c3wlc,Luck_E,1 point,Sat Jul 4 22:22:00 2015 UTC,Yup
+Saber,3c1yta,Cypherghost,1 point,Sat Jul 4 00:39:22 2015 UTC,This is pretty damn awesome. Any chance that the original artist has a colored version of this pic?
+Saber,3c1yta,REsoleSurvivor1000,1 point,Sat Jul 4 14:32:44 2015 UTC,Yeah hopefully he will. Just need to wait a while for that. il repost it if it ever gets colored :)
+Saber,3c1yta,REsoleSurvivor1000,1 point,Sat Jul 4 15:11:38 2015 UTC,Awesome. I look forward to more Saber motorcycle art. It's just too good!
+Saber,3c14kl,Blackspearr,1 point,Fri Jul 3 20:22:48 2015 UTC,I like the Dark Souls vibe this gives me. Awesome picture!
+Saber,3bvkw0,Ownsin,2,Thu Jul 2 14:40:31 2015 UTC,Best waifu
+Saber,3bvkhc,Ownsin,3,Thu Jul 2 14:37:04 2015 UTC,Now that's another outfit I wouldn't mind having a figure of. Very modern and fitting - almost makes me think of a more modest Saber Lily type of outfit.
+Saber,3bvl4v,Cypherghost,2,Thu Jul 2 14:42:33 2015 UTC,Cleavage. Always look at the cleavage.
+Saber,3bvl4v,Netcan,1 point,Fri Jul 3 03:34:19 2015 UTC,"God damn, this may be one of the greatest subs on Reddit."
+Saber,3bvl4v,RealityRush,1 point,Sat Jul 4 03:47:13 2015 UTC,"This is absolutely perfect in every way, manner, aspect and sense. Outstanding."
+Saber,3bvr6y,JillSandvich,3,Thu Jul 2 15:29:45 2015 UTC,"Now, Fate-Off! ;)"
+Saber,3bvr6y,KamuKid,2,Thu Jul 2 19:40:08 2015 UTC,O-oh.
+Saber,3btu7q,Ownsin,2,Thu Jul 2 02:35:16 2015 UTC,That would be a whole lot of awesome if this happened in the story. Don't know if we'd be able to handle such a majestic viewing of this or not though.
+Saber,3btu7q,REsoleSurvivor1000,1 point,Thu Jul 2 02:52:38 2015 UTC,"And just like that, everyone's fucked."
+Saber,3bq2o0,ArchadianJudge,1 point,Wed Jul 1 06:03:28 2015 UTC,Source/artist?
+Saber,3bq2o0,scloutkst2889,1 point,Wed Jul 1 21:30:04 2015 UTC,http://www.pixiv.net/member_illust.php?mode=medium&illust_id=51154739  Here ya go!
+Saber,3bq2o0,scloutkst2889,1 point,Thu Jul 2 08:49:08 2015 UTC,Thank you!
+Saber,3bpydh,Ownsin,1 point,Wed Jul 1 05:17:17 2015 UTC,Ohh I love this one. Do you have the artist link for this? Thanks :)
+Saber,3bpydh,ArchadianJudge,2,Wed Jul 1 06:08:34 2015 UTC,Source
+Saber,3bpab7,Ownsin,3,Wed Jul 1 01:39:18 2015 UTC,Do you want to earn my youtube subscription....because that's how you earn my youtube subscription.
+Saber,3bpab7,gst4158,2,Wed Jul 1 12:03:00 2015 UTC,That was...amazing.
+Saber,3bpab7,chaosking121,2,Wed Jul 1 11:57:30 2015 UTC,Damn
+Saber,3bpab7,beneaththeradar,1 point,Wed Jul 1 12:34:05 2015 UTC,Well that escalated quickly
+Saber,3bmtc2,K0RnD4Wg,1 point,Tue Jun 30 14:14:22 2015 UTC,Never enough Mordred
+Saber,3blnp1,ArchadianJudge,2,Tue Jun 30 05:47:36 2015 UTC,Mmh... Needs more Saber i think.
+Saber,3biene,JillSandvich,5,Mon Jun 29 14:04:00 2015 UTC,hmmm...  http://i.imgur.com/YyDPj6a.jpg
+Saber,3biene,ArchadianJudge,3,Tue Jun 30 05:17:47 2015 UTC,Dat ass
+Saber,3biene,bobbityjimbobbear,1 point,Tue Jun 30 05:11:26 2015 UTC,UBW: Unlimited Booty Works
+Saber,3bgkza,nataku411,2,Mon Jun 29 01:14:45 2015 UTC,Is this really rare? It's not common to have preorders run out in less than a day..
+Saber,3bgkza,ArchadianJudge,1 point,Mon Jun 29 05:49:25 2015 UTC,"Not rare, just really popular.  Each time they open pre-orders, they have a set limit and then close them until they can ascertain more numbers from the manufacturer, then open again until they reach a final quota."
+Saber,3bgkza,Bewker,1 point,Mon Jun 29 18:20:27 2015 UTC,"Well, they're actually closed, as I forgot to make the post when they first started taking pre-orders, but yeah.  They might open the pre-orders again, so keep an eye out!"
+Saber,3berbu,Ownsin,6,Sun Jun 28 15:39:02 2015 UTC,"I think it will happen, one way or another. She didn't really have much closure with Shirou. This was good - but fairly minimal. Which is a good thing, because it makes me feel like they're holding out on something for us. Whether it's a film or a small set of OVAs for the Fate route, I'll take it if ufotable's doing it. They certainly did an awesome job with Rin + Shirou, so I don't doubt their ability to do an awesome job with best couple."
+Saber,3berbu,ivoryonyx,1 point,Sun Jun 28 17:31:34 2015 UTC,"Have people not seen the first Fate/stay night series? I mean, it was the fate route. Unless i'm misunderstanding something here, if i am then disregard this comment, but the first Fate/stay night series was the fate route, then came the UBW movie and now the UBW series has concluded, the next thing coming is the Heaven's feel route movie, and i assume after that the heaven's feel series will probably make its way out. Though, i did explore the possibility with my friend of them expanding the UBW series longer, exploring their time at the magic academy, making alliances and enemies, how the other mage families view each other, and how they view Shirou, i imagine some would be envious of Rin for partaking and surviving the events of the grail war and and probably view shirou as an outsider that just happened to be there and survive because of her and think they are better than him and that he doesn't belong there. Shirou being himself, would probably help other mages, and would even put himself in harms way to do so, in the process, pissing off Rin for for endangering himself and getting involved in things that didn't involve him. Though, i came up with these ideas myself when talking to my friend, she hates shirou, so she wasn't exactly thrilled with hearing any of this, lol."
+Saber,3berbu,ViziTronMan,4,Sun Jun 28 21:38:31 2015 UTC,"It's based on the Fate route but it's not exactly the same. They tried to pull in bits and pieces of UBW and HF, which made the story even more convoluted along with the infodump. I think they were going for an ""umbrella"" series that covered the other two routes.  What a lot of people in this subreddit want is a reproduction of the Fate route that removes most of the infodump scenes, since much of the lore has been established in ufotable's F/Z + UBW, and gives us a more developed romance between Shirou and Saber. Even Nasu, the VN author, said that he struggled with Saber being female instead of male, hence why Shirou often made comments like ""Girls shouldn't fight."" If it's ufotable producing this with Nasu at their side like what was done for the UBW series, many believe it will be significantly better than the source material because Nasu will have made his changes and improvements. Not to mention studio DEEN's animation quality was lackluster.  As for your ideas regarding a sequel to UBW, that would certainly be interesting - almost a Harry Potter-esque vibe going on. I mean, they're basically attending Hogwarts. :P I wouldn't mind watching such a series myself. However, I think that they will prioritize finishing off animating the main three routes first, and then Hollow Ataraxia (just because of the fact that they animated an opening for it), before moving on to something like a sequel series."
+Saber,3berbu,ivoryonyx,0,Sun Jun 28 22:01:45 2015 UTC,My money is that when it happens it will be in movie form. Since Ufotable laid out the intro portions in the UBW show and they are expanding more story in movie form I think they will do a good service with this method.  Or at least I hope so.
+Saber,3berbu,REsoleSurvivor1000,1 point,Sun Jun 28 17:52:24 2015 UTC,"If this is the case, I hope for a series of movies. If you cut out all of the infodumps, it should be shorter than whatever they have planned for HF, for sure."
+Saber,3berbu,ivoryonyx,13,Sun Jun 28 18:02:03 2015 UTC,One day Ownsin... One day...  EDIT: Really? A downvote for this? Fuck you random anon this is for you.
+Saber,3berbu,REsoleSurvivor1000,8,Sun Jun 28 15:58:36 2015 UTC,Mfw people actually care about their karma.
+Saber,3berbu,Saber_Na,3,Sun Jun 28 17:43:17 2015 UTC,"Nope not about the karma. It's the fact I get downvoted for participating in a discussion. I want an adaptation as much, if not more, than the next guy or gal.  But it saddens me that you wouldn't understand that much."
+Saber,3berbu,REsoleSurvivor1000,1 point,Sun Jun 28 17:49:43 2015 UTC,"As much as I want a Fate route. I want a fully edited one. Since there's no need to introduce the viewer into the universe, they can cut that out. Nasu needs to tinker with the story to make it better. If Nasu actually tried editing, I'm positive that the edited version would be two times better than the original."
+Saber,3berbu,Saber_Na,0,Sun Jun 28 17:53:08 2015 UTC,Oh very much so. I personally hope it'll be in movie form. As I mentioned to Ivory UBW laid out the fundamental intro in the show so it can be skipped over. And yes... Shirou is the problem with the story. I could understand a good number of his parts but some parts... Yeah they need fixing.
+Saber,3berbu,REsoleSurvivor1000,1 point,Sun Jun 28 17:57:49 2015 UTC,This is nice. I like it.
+Saber,3bdvet,ArchadianJudge,5,Sun Jun 28 07:57:21 2015 UTC,"This is good, because I think it means they have something in store for us. Yeah, I would've liked to have seen her spirit there looking at Shirou or something, but then I realized... Last Episode. It'd make no sense for her spirit to still be on Earth, since she goes straight to this subreddit Avalon. This was minimal, but appropriate given that it's Rin's route. The Good Ending would've made a lot of people happy, I'm sure, but to me it would feel like ufotable was trying to pander to both parties at the same time so that they wouldn't have to make a Fate route. They didn't do that, so it makes me optimistic."
+Saber,3bdvet,ivoryonyx,2,Sun Jun 28 18:07:27 2015 UTC,"Yea looking it at like that it is possible but they are releasing the Heaven's Feel movie first after that we don't know what their next project will be, I doubt they'll work forever on the Fate series even though it's very popular in Japan.   I do hope they make a Fate only route but they did say if they do they'll add some things that make it different from the visual novel."
+Saber,3bdvet,aBabyShoe,2,Mon Jun 29 05:35:11 2015 UTC,"I think they could've showed her ending from the Fate route by the tree and that'd have a lot of impact (that's what I was really hoping for, even after the credits). I'm assuming that's what happened before she reaches Avalon. Just showing the grave doesn't seem to do one of the biggest main character justice."
+Saber,3bdvet,Selnight,2,Sun Jun 28 21:14:01 2015 UTC,"I think the grave-scene was really touching. Showed that Sheroo and Saber were more than just Master and Servant.  Didn't overdo it aswell. I mean, she's gone, Shirou probably had a hard time in that year to overcome her death (if you may call it that way) and managed to leave the past behind and look towards the future.  He will always be grateful for what she did, else he wouldn't visit her grave. Yet he won't shed any tears, because they were able to part in good terms."
+Saber,3bdvet,RIvkyn,2,Mon Jun 29 18:09:08 2015 UTC,It's not Saber's route. Ufotable already gave her plenty of attention she shouldn't have gotten in earlier episodes. I think the grave thing was a nice thing to do.
+Saber,3bdvet,minimalrho,1 point,Sun Jun 28 15:21:55 2015 UTC,"I was kind of hoping for the Good Ending, but from a story perspective it does make more sense to go with the True Ending."
+Saber,3bdvet,vesper8008,-5,Sun Jun 28 17:48:14 2015 UTC,UBW is a dissapointing show overall.
+Saber,3bc6ax,Ownsin,1 point,Sat Jun 27 20:44:07 2015 UTC,i just noticed she's on top of her grave if you look at the top of the image you'll see a headstone.
+Saber,3bb6gm,TheSnarkyArcher,2,Sat Jun 27 15:23:19 2015 UTC,This is the best kind of crossover. We need more of this.
+Saber,3bb6gm,REsoleSurvivor1000,2,Sat Jun 27 15:27:21 2015 UTC,"If I had that Excalibur running around with me, I'd trade it back for Caliburn and lose my sheath too!"
+Saber,3bb6gm,Kumoriel,1 point,Sun Jun 28 03:09:02 2015 UTC,"No one ever shows love for Arthur's Lance, The nobly named ""Ron"""
+Saber,3ba2sf,Curelli,5,Sat Jun 27 05:49:59 2015 UTC,English translations are available on danbooru if you want to go through each one and hover over the text.
+Saber,3ba2sf,REsoleSurvivor1000,1 point,Sat Jun 27 05:52:23 2015 UTC,I remember there being a few translated versions of some of these images. Maybe we'll see more surface up here that would be pretty dang nice.
+Saber,3ba2sf,bakakubi,1 point,Sat Jun 27 06:22:56 2015 UTC,That doraemon face on page 9 is just perfect.
+Saber,3b7m0j,JillSandvich,7,Fri Jun 26 16:51:54 2015 UTC,Saber doesn't seem to mind the changes. Hell she seems pretty dang happy about it. Another wonderful quality about best girl.
+Saber,3b7m0j,REsoleSurvivor1000,3,Fri Jun 26 20:13:02 2015 UTC,Saber loves everyone. Except Gil.
+Saber,3b7m0j,ArchadianJudge,2,Fri Jun 26 22:29:46 2015 UTC,Even the Gil-kitty looks adorable. Odd considering who he is and all lol
+Saber,3b7m0j,REsoleSurvivor1000,1 point,Fri Jun 26 23:03:34 2015 UTC,Well I'd be happy too if all I had to do to obtain the holy grail was beat up a bunch of cats
+Saber,3b7m0j,Herson100,4,Sat Jun 27 03:33:07 2015 UTC,"Probably the one time I'll ever go 'daaaawww, lookit that Berserker~'."
+Saber,3b7m0j,ShinkuRyuuga,1 point,Fri Jun 26 17:17:35 2015 UTC,Is there a scan of this?
+Saber,3b46bf,ArchadianJudge,2,Thu Jun 25 20:43:08 2015 UTC,#CanivalPhantasm
+Saber,3b3f7f,JillSandvich,2,Thu Jun 25 17:27:39 2015 UTC,Source? It almost looks like kr0npr1nz (I think that's how it's spelt).
+Saber,3b3f7f,the1whoscored80,2,Fri Jun 26 00:35:07 2015 UTC,Source
+Saber,3b3f7f,the1whoscored80,2,Fri Jun 26 04:07:17 2015 UTC,Thanks!
+Saber,3b2f1o,ivoryonyx,2,Thu Jun 25 12:38:32 2015 UTC,"... I just upscaled one of the album images a second time, using the program for this one due to the website's size limit.  4096 x 3072  Should I keep testing and see how deep the rabbit hole goes...? I already know that this happens with too many iterations..."
+Saber,3b2f1o,ArchadianJudge,1 point,Thu Jun 25 20:40:24 2015 UTC,After someone else on this page introduced me I've been using this quite a bit over the past month. Though I can't get the actual program to work (I'm using a laptop). I end up having to resort to the online version which has limitations.   You have any ideas why I can't get it to work correctly? The program runs however it just keeps showing the black command screen working on each segment forever. I've sat there for 10 minutes on one picture then gave up. I think I have the right program..
+Saber,3b2f1o,ArchadianJudge,1 point,Thu Jun 25 20:46:01 2015 UTC,"I would say let it run. Depending on the size of your file, it can take anywhere from a few minutes to an hour. There is also a setting that allows you to specify how much of the CPU you want the program to use. For example, the file I upscaled in the comment above took a little over an hour (to go from 2048x1536 to 4096x3072) set at full CPU usage. By default, it is set to use half of your CPU (therefore doubling the upscaling time). As long as you're getting no errors, it should be able to finish.  I'm no computer whiz, but here are my computer specs (desktop); I suspect that if your laptop's are lower, it's possible that it would take longer for files to complete upscaling.  System: 64-bit RAM: 8.00 GB CPU: Q6700 @ 2.66 GHz  Edit: I should add that you can do light activity on your computer while your image renders. I had Firefox and a couple Word docs/PDFs open while the program was running. Oh, and music too."
+Saber,3b2f1o,REsoleSurvivor1000,1 point,Thu Jun 25 21:00:57 2015 UTC,"Hmm... Well the only image I tried this program on was a FSN novel screen capture. If you just double the size and do regular de-noise, how long on average does it take for you? To do the same specs that the online version does takes me 10 minutes + (never finished). I can't imagine how much longer it would take to get the specs even higher..  Thanks for your reply!"
+Saber,3az64i,JillSandvich,3,Wed Jun 24 17:55:16 2015 UTC,I now have a new desktop background.
+Saber,3az64i,CoreyTheEpic,2,Wed Jun 24 20:45:18 2015 UTC,Do you have the source? :)  Thanks a lot! I noticed you make the best wallpapers / photo edits. Keep it up!
+Saber,3az64i,ArchadianJudge,2,Wed Jun 24 22:25:09 2015 UTC,Thanks! =D  Here's the Source. And Here's the artist's Pixiv page.
+Saber,3az64i,ArchadianJudge,2,Wed Jun 24 22:47:17 2015 UTC,Thank you! I hope you're entering that Saber contest btw ;)
+Saber,3az64i,TweetsInCommentsBot,1 point,Wed Jun 24 22:52:14 2015 UTC,Definitely
+Saber,3az64i,Overlord3k,1 point,Wed Jun 24 23:19:54 2015 UTC,@yurang92   2015-04-14 07:59 UTC  大きいたい焼き   [Attached pic] [Imgur rehost]     This message was created by a bot  [Contact creator][Source code]
+Saber,3azlzq,ArchadianJudge,6,Wed Jun 24 19:52:53 2015 UTC,"Weird how in every picture with Saber, Gil looks like the biggest douche."
+Saber,3azlzq,trijohn,1 point,Fri Jun 26 07:22:26 2015 UTC,That's because he is
+Saber,3azlzq,astronautlevel,3,Sat Jul 4 01:56:19 2015 UTC,How do you feel about this one?
+Saber,3azlzq,GoddamnCatman,11,Wed Jun 24 20:14:12 2015 UTC,Gil has very good photoshop skills. I'll give him that..  He must own the best shopping tools in existence. The originals of photoshop that are totally better than any new version that will ever come out. They're just fakes!... Said Gilgamesh.
+Saber,3azlzq,GaaraSenpai,3,Wed Jun 24 20:50:53 2015 UTC,I just barfed a little....
+Saber,3azlzq,Knight-Heart,1 point,Thu Jun 25 04:28:11 2015 UTC,Is that official art by ufotable? It sure looks like it.
+Saber,3azlzq,Sarabveer,1 point,Thu Jun 25 01:59:09 2015 UTC,Obviously
+Saber,3awjj8,Velronica,9,Wed Jun 24 01:58:51 2015 UTC,You mean the most amazing Saber picture ever? Sure :)  http://i.imgur.com/kSd0yAp.jpg
+Saber,3awjj8,ArchadianJudge,1 point,Wed Jun 24 02:10:02 2015 UTC,"Oh man, thank you!"
+Saber,3awjj8,bobbityjimbobbear,1 point,Wed Jun 24 02:17:35 2015 UTC,"It's the front cover of the novel ""Gardens of Avalon"""
+Saber,3avyfn,REsoleSurvivor1000,2,Tue Jun 23 23:00:04 2015 UTC,"This sounds like fun, so maybe casual for starters! I think generating interest first by having fun threads would be cool."
+Saber,3avyfn,saberlions,1 point,Thu Jun 25 01:14:43 2015 UTC,As an added note we had a couple of conditions tacked on for fun: One of which being a timed drawing and the other being without a drawing reference.  Thought I'd add that in case people were wondering what else could be done with this.
+Saber,3avyfn,ArchadianJudge,1 point,Tue Jun 23 23:04:37 2015 UTC,I honestly think that would be really fun. I want to show off my skills!... but I haven't drawn in MS Paint for a while (I used to do that in High School).   Though I CAN draw with my finger on an iphone. In fact all my drawings nowadays are drawn on my iphone.. I plan to upload some of my Saber work soon :)
+Saber,3avyfn,ArchadianJudge,1 point,Tue Jun 23 23:54:36 2015 UTC,"It should be fun. The only reason I brought up this idea is because there are people that don't draw well. Like myself. My skills are pretty garbage. But with a simplified playing field like this it helps relieve pressure of having to ""make it perfect"". Instead it's for fun, or at least I try to make it for the fun."
+Saber,3avyfn,ArchadianJudge,1 point,Wed Jun 24 00:05:58 2015 UTC,Do you have the link to the Madoka contests? I'm curious to see how those turned out.
+Saber,3ao9vh,Ownsin,1 point,Mon Jun 22 03:45:38 2015 UTC,i quite like the look of ordinary saber
+Saber,3ao9vh,ravensshade,0,Tue Jun 23 17:41:19 2015 UTC,I don't understand
+Saber,3ao9vh,hunter1779,1 point,Mon Jun 22 14:18:22 2015 UTC,What don't you understand?
+Saber,3ao9vh,hunter1779,1 point,Mon Jun 22 14:20:31 2015 UTC,Why are there two paths?
+Saber,3ao9vh,hunter1779,2,Mon Jun 22 14:21:45 2015 UTC,"The one on the left is the path of Saber being a normal girl and not becoming a King, and the second path is Saber becoming the King after pulling Caliburn from the stone. Basically one path she lives her life normally and the second path she becomes a King and lives her life that way. It all just depends on that moment were she pulled out the sword. If she had chosen to pull it or not, that's where the two paths diverge."
+Saber,3ao9vh,hunter1779,1 point,Mon Jun 22 14:25:18 2015 UTC,Oh I see.... but I don't remember there being two paths? I thought she was just king
+Saber,3aobky,Curelli,7,Mon Jun 22 04:02:59 2015 UTC,"Poor Mordred. Quick, Shirou, show up so her ahoge grows back!"
+Saber,3aobky,ShinkuRyuuga,2,Mon Jun 22 04:20:32 2015 UTC,Mordred and Arturia interacting is my favorite content on this subreddit. There's just something relatable and magical about the two and it's usually pretty heartwarming.  I just wish there was a canon reconciliation between the two characters and all of this family fluff wasn't just fandom :'(  My father doesn't love me.
+Saber,3ak1ml,K0RnD4Wg,11,Sat Jun 20 23:30:21 2015 UTC,"SEIBAA!!!!!!!!!  Plz, Fate route...  Plz Ufotable...  Plz.......... Orz"
+Saber,3ak1ml,Kumoriel,3,Sun Jun 21 03:24:47 2015 UTC,Based ufotable plz
+Saber,3ak1ml,aphotics,3,Sun Jun 21 04:31:27 2015 UTC,with the last episode plz ufotable
+Saber,3ak1ml,Ownsin,10,Sun Jun 21 05:32:54 2015 UTC,
+Saber,3ak1ml,REsoleSurvivor1000,8,Sun Jun 21 01:10:26 2015 UTC,These feels...
+Saber,3ak1ml,ODIN111999,7,Sun Jun 21 03:59:10 2015 UTC,Hopefully we'll get to see the king upon the hill next episode.
+Saber,3ak1ml,REsoleSurvivor1000,3,Sun Jun 21 08:47:03 2015 UTC,Man even if we got a simple OVA episode of some kind I'd die happy.
+Saber,3ak1ml,aBabyShoe,5,Sun Jun 21 18:31:07 2015 UTC,"Our king discovered the truth behind the grail and has purged another evil from this world, she has done this world a favor also she has discovered peace in herself.   Grace in her beauty and feel happy that she can go in peace while we fulfill her duty by carrying on her ideals into making this world a better place.  Rejoice friends for a new dawn rises before us."
+Saber,3ak1ml,GoddamnCatman,3,Sun Jun 21 21:18:30 2015 UTC,Ufotable Why you do this?
+Saber,3ak1ml,Banzai9171,2,Sun Jun 21 09:16:38 2015 UTC,: (
+Saber,3ak1ml,TheRealSlimShamus,2,Sun Jun 21 02:38:44 2015 UTC,"Wow, that loops really well."
+Saber,3ak1ml,ArchadianJudge,1 point,Wed Jun 24 13:36:06 2015 UTC,I was on vacation and I come back to have Saber disappear! :( I can't handle this! Make her magically come back in the epilogue Ufotable!
+Saber,3ajquh,AngelsTemplar,1 point,Sat Jun 20 21:44:11 2015 UTC,The tinting of the screen kinda wrecked that scene
+Saber,3ajquh,pad117,1 point,Sun Jun 21 09:21:28 2015 UTC,yeah agreed. The whole scene felt butchered :/
+Saber,3aiiy3,Fernando961226,9,Sat Jun 20 14:54:46 2015 UTC,"1: I think Shirou showed her what she wished for was wrong, and she wanted to return to reflect on it before she died. Shirou knowing this didn't want to try to make her stay either, and they both knew he alone didn't have the power. So she went back to face reality and let her time move forward.  2: Archer can't project anything but swords. Rho Aias is the exception to the rule, but it takes a huge toll on his body and a massive amount of mana.  3: Merlin is probably talking about changing her wish from ""Wanting the grail"" to ""Wanting to be with Shirou"". When this happens I don't know, but I assume that's what's going on.  4: The black mud is the embodiment of the sins and curses and whatever you want to call it of all humanity if I recall properly. It completely taints and destroys servants, and would likely turn any normal person insane if not just destroy them. HF happens because of this black mud basically.  5: Been a while since I read Fate, I should read it again now that the anime is ending, but a more stream-lined story would be good. If I remember correctly fate is the big exposition dump, and it makes sense because it's the first route. Specifics are hard to decide on, but there are things that I'd definitely want left in if it were remade.  This is all opinion and stuff from memory, so I'm probably wrong on stuff but figured I'd try to help."
+Saber,3aiiy3,Azhor,3,Sat Jun 20 19:53:57 2015 UTC,it's mostly to do with the story because saber is still alive in that universe in her era so by giving up on the grail she nullifies the wish she made to the world that would make her a heroic spirit to begin with and ultimately let her pass on. If you look up the realite nua epilogue Spoiler title. In UBW saber doesn't give up on the grail she merely decides to live in the present world for a lifetime and then return to her era and recommence her fight so her contract is still in effect. So there's nothing holding her back because her goal hasn't changed.   2) Because the timeline that archer lived in is different from shirou of the fate route from what we know it's the most similar but there are several crucial differences mainly that he wasn't as attached or bonded to saber and that he had a deep connection instead with iliya which is why her death set him into despair. From what we know we can only theorize that either his event of the story didn't have avalon or that he didn't have a deep enough bond with saber to have it burnt into his memory.  3). Again this is expanded in the realite nua ending but basically it says that in order for them to reunite one has to wait for an eternity while the other chases for an eternity. Which is up to interpretation but from the realite nua ending it shows that in order for them to reunite shirou must continue to wish for it while chasing his ideals to be a hero while saber must continue wait for him forever.Spoiler title   4) It's flatout said that gilgamesh is the only heroic spirit that can survive the mud any other heroic spirit would be instantly corrupted by its power. Which is shown in heaven's feel dun dun dun.
+Saber,3aiiy3,kavinh10,2,Sun Jun 21 22:51:03 2015 UTC,"Well I'm not the smartest person in the world (and trust me like many others here I'm quite biased for our magnificent king) but I will give my two cents in the best possible attempt I can:   Like /u/Azhor mentioned she was able to recognize that her wish was self-conflicting and would never be fixed. I like to believe that she realized this and wanted to go back and accept her fate resulting from the consequences of her choices. And even if she could stay, unlike Fate route, she didn't spend too much time with Shirou to develop any sort of ""romantic"" relationship/bond to play off of it. Plus let's just face it: UBW route focuses on Rin as the main girl so it was more plausible for UFO to end it this way. This is a tricky question that unfortunately I can't answer all too well. Once again Az expained it pretty fairly and I'd assume that as the explanation. Tough question. No comment. I would say so. Since the mud is the source of all of humanity's curses and ill-wills it is passed off as, ""all-consuming and corrupting."" Given what happens in HF HF spoilers. I'm with you here. Definitely my favorite route for MANY reasons (of course one of them being best girl but we all know this). There were some situations and fights that I enjoy in that route more than the rest of the VN with how they play out and what happens and such etc. One gripe I have about it: Shirou. Him and how fucking stubborn he is. Often more-so than what is believable. Granted it is explained as the route that ""holds ideals over reality"" so it going over-the-top is somewhat reasonable. If I would have to change a few things it would be Shirou following the ""You shouldn't fight because you're a girl"" rationality that he seems to fucking ponder on. The rest of his reasoning (like her not having a happy life because of the things she does and how she doesn't value her own happiness and humanity) is extremely valid.   While the Fate route and the people that love it get looked down on I can, and will, say that this will forever be my favorite route. EVER. Plus...  Fate/Realta Nua Ending spoiler"
+Saber,3aiiy3,REsoleSurvivor1000,1 point,Sat Jun 20 21:13:38 2015 UTC,"1) Saber didn't stay with Shirou because it was more fitting that way for the author. Why? Well... for one, I think Nasu had an idea for Last Episode, which wouldn't have really worked if she stayed (but he obviously didn't implement this until the Realta Nua version of the VN). They say that ""distance makes the heart grow fonder"" and that ""true love transcends all"" which I took to be LE's message. The second thing is... how strange would it be? Saber can't age, being a servant, and I don't think there's a way for her to become human. The only thing we know that is capable of that is the Holy Grail's muck, which is how Gilgamesh manages to stay in the world. So if she stayed with Shirou, he would have become older and eventually died while she remained the same age. The way I interpret LE, Shirou dies as a young man (or at least around Archer's age) and sees Saber again when he meets up with her in Avalon. As much as I would have liked to see more Saber and Shirou in the real world, it just feels like it might be inappropriate. I had the same thought as you - why can't she stay? Early on, not knowing the Grail was corrupted, I thought, ""Shirou can wish for her to stay!"" regardless of what that jacknob Kotomine said. How silly an idea that was. I hated the ending in Fate - absolutely hated it. So much so that I literally could not leave the VN as it was, so I rushed through the other two routes just to get to LE, which made everything better. In any case, if someone has a good idea as to how else it could have gone, I'm open to hearing them. It may change my mind! That was a long answer, phew.  2) I think it's a matter of him simply being unable to project it because of the time gap. Sure, that's what Shirou says, but he only had the thing extracted from him hours before. His specialty is swords, not scabbards. Another thing is that Archer is referred to (in UBW) as someone who is ""twisted"" by several characters (Rin in the finale, Lancer during their second fight, Kuzuki after Caster dies, etc) so with that in mind, perhaps someone of that nature cannot call forth something as pure as Avalon (whereas Shirou was still very much ""pure""). No fact behind this, just speculation.  3) I believe what you're referring to is more of a flashback to when she first pulled the sword and made it her dream to save her country. During the VN, that is still her wish, except she adds that she wants someone besides her to become king. Merlin was going over past events, to draw a contrast to what her wish has now changed to - being with Shirou, the one person in the world exactly like her. He was also the person who helped her accept her life as it was instead of trying to change it. As for the ""star"" part, I don't honestly know. This is how I took it - strong couples become something of a phenomenon. That is, their love and hope creates a star in the sky that everyone can see, even if they don't realize what they're looking at. A star that may one day guide two star-crossed lovers... or something like that. Again, pure speculation (and cheesiness) xP  4) That mud is what spills out from the corrupted Grail, which houses the corrupted wishes of everyone on the planet. Wishes = magic, and Servants are practically made of magic. So yeah, it would be a powerful, corrupting force when Servants are exposed to it. I imagine it is more potent the more ""pure"" a particular Servant is. Gilgamesh can resist it because he's already messed up. Saber fell to it almost immediately in HF because she's pure. And Shirou being submerged in it and surviving? Well... you could justify it two ways: 1) Avalon, 2) plot armor.  5) I usually tell people this when the topic of which ""route"" is the best comes up - it's kind of pointless to debate it because all three routes are different in my mind (even though this is my favorite as well). You go to Fate for romance, UBW for action, and HF for drama. Kind of an overgeneralization, but I think it works. With that said, as I discussed with a friend of mine, one thing I would change about Fate is making Shirou a little more useful (i.e. not a bumbling moron). I found his resolve admirable, but his actions foolish. I don't want him to be UBW level - that's for UBW - but if he could at least defend himself so that Saber doesn't constantly have to put herself at risk, that would be greeeaaaat. Another thing I would change is the frequency of romantic moments between Shirou and Saber. If you think about it logically, the two of them are together for about two weeks. It's been several months since I've read Fate, but these are the major romantic moments I remember:   a couple dinner scenes (?) Shirou seeing Saber out of the bath their ""date"" bridge argument/reconciliation sleeping together their parting   Maybe I'm too much of a pessimist or maybe I just don't have enough experience, but I don't think falling completely in love with another person in less than two weeks after first meeting them is very common at all. This is fiction of course, but as can be seen from the bullet points above, there wasn't a ton of time devoted to developing their relationship in a romantic fashion. Not to mention that four of those points occur in roughly 24 hours. So it wouldn't hurt to have more heart-to-heart moments between them to make their relationship even more believable."
+Saber,3aiiy3,ivoryonyx,0,Sun Jun 21 13:42:10 2015 UTC,"2) Archer is not Shirou in Fate route. It is possible that the event you mention did not happen in his time. I can't remember the VN, but in the UBW anime, he seems a bit surprised by Avalon healing Shirou in ep20. Also, Avalon is very powerful NP (more so than Rho Aias) and not a sword. He may not have enough mana to project it."
+Saber,3aiiy3,undefinedobfuscator,0,Sun Jun 21 01:43:27 2015 UTC,"well shirou and archer are the same person, they just live different events. perhaps archer never learned about Avalon and that is why he can't projected. Avalon 3rth projection shirou ever did so, and it is the only projection that is perfect. if shirou can do it you would think that archer is also able to do it, but I don't know. maybe it is useless without the help of saber"
+Saber,3agxqj,Ownsin,1 point,Sat Jun 20 02:04:44 2015 UTC,I watched that for a substantial amount of time rooting for her...
+Saber,3agxqj,TooShag,1 point,Sat Jun 20 03:04:32 2015 UTC,"And even if she reached it, she'd still need more :)"
+Saber,3ahal4,rare_umbreon,4,Sat Jun 20 04:20:24 2015 UTC,"Holy shit that's a steal. So much of a steal that they should throw your ass in jail for such a treasure, or put you in the next Ocean's movie.  Seriously though that is a great find."
+Saber,3ahal4,REsoleSurvivor1000,2,Sat Jun 20 12:44:25 2015 UTC,"I wish I could I say I was planning on getting it that cheap all along, but I was prepared to pay full price. Hell, when I first bought it I thought I had payed full price for it but when I check my account statement later that day it said I was charged $8.25 and I wasn't going to argue with that. I still don't really know what happened, the dealer may have rang it up wrong?"
+Saber,3ahal4,ArchadianJudge,2,Sun Jun 21 06:14:13 2015 UTC,Lucky! I paid full and bought two of the special edition (long haired version). You should find that one to make up for the money you didn't spend :)
+Saber,3ahal4,Saber_Na,2,Sat Jun 20 16:23:38 2015 UTC,"I'm not a figma person, but you'd have to be dumb to not buy that at the price it was sold for."
+Saber,3ag6hj,ArchadianJudge,2,Fri Jun 19 21:48:34 2015 UTC,another Saber figure I have to buy
+Saber,3aen9u,Netcan,3,Fri Jun 19 14:35:14 2015 UTC,is caring.
+Saber,3aen9u,Cypherghost,1 point,Fri Jun 19 16:20:56 2015 UTC,That's perfect
+Saber,3adm63,REsoleSurvivor1000,1 point,Fri Jun 19 06:50:08 2015 UTC,And it's all thanks to /u/promek for his share to the sub for my quest in finding the favorite mouse pad. For only a dollar too! Took a while to even pick an image but I finally picked this one with no regrets!  original image
+Saber,3adm63,ArchadianJudge,1 point,Fri Jun 19 06:51:48 2015 UTC,Nice pick! I like your choice. Did you use that discount mousepad site? Maybe I should try it.. I'm still skeptical.
+Saber,3a66nz,JillSandvich,15,Wed Jun 17 15:20:39 2015 UTC,( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)( ͡° ͜ʖ ͡°)  Mana refill time!
+Saber,3a66nz,PandaStyle,3,Wed Jun 17 17:33:57 2015 UTC,Unfortunately if you see this picture it means you're just going to hug... :(
+Saber,3a66nz,ArchadianJudge,1 point,Wed Jun 17 20:16:11 2015 UTC,Is this a Réalta Nua CG?
+Saber,3a66nz,PandaStyle,1 point,Wed Jun 17 20:56:37 2015 UTC,It is
+Saber,3a66nz,nataku411,2,Thu Jun 18 22:47:48 2015 UTC,Is this picture in the vn?
+Saber,3a66nz,Genderbent_Gilgamesh,6,Wed Jun 17 18:49:32 2015 UTC,Yes it's in the newer version that replaces the love-making scenes. This picture is the only good part of skipping those ;)
+Saber,3a66nz,ArchadianJudge,-1,Wed Jun 17 20:15:26 2015 UTC,"I think not having the sex scenes is a good thing, but to each his own."
+Saber,3a66nz,Ownsin,3,Wed Jun 17 20:20:20 2015 UTC,"The sex scenes were hit and miss. Some of them didnt make a shred of sense, others were perfect for actually progressing the plot and character development. I dont know how the Realta Nua replacements go, but based on the anime adaptions I guess they involve completely nonsensical dragons and dolphins."
+Saber,3a66nz,megacookie,2,Thu Jun 18 11:32:24 2015 UTC,The writing is... interesting.
+Saber,3a1ssy,MechaGoldFish,5,Tue Jun 16 15:47:27 2015 UTC,"It's more like ""what should have been and what has become."""
+Saber,3a1ssy,Saber_Na,2,Tue Jun 16 17:19:24 2015 UTC,"It's strange since that title could be seen from either direction, depending on whether or not you view it post-Last Episode."
+Saber,3a1ssy,gyroknight,2,Tue Jun 16 22:58:49 2015 UTC,It is intriguing how lonely the road of true devotion can be. I love this picture.
+Saber,3a0hl9,Cypherghost,2,Tue Jun 16 07:06:42 2015 UTC,"Very nice. Though oddly enough, the way her face and hair are drawn, I think of Milla from Tales of Xillia.  Edit - As a reference: image"
+Saber,3a0hl9,ivoryonyx,1 point,Tue Jun 16 12:27:54 2015 UTC,I really like how the invisible sword was done in this image.
+Saber,39zhqe,Curelli,1 point,Tue Jun 16 01:21:22 2015 UTC,GODDAMMIT NASU GIVE ME MY MASTA SEEEEEEIIIIIIBAAAAAA
+Saber,39zhqe,ODIN111999,1 point,Tue Jun 16 04:22:14 2015 UTC,"I can see it now.. completely new FSN spin off where Saber is the master (Takeuchi already drew one!) and all the other servants are masters. Saber's servant can be Rin :) (who already has an ""official""  servant design). Or Shirou but that seems really plain.  $$$$$$$$$$"
+Saber,39yse4,DemonRancher,2,Mon Jun 15 21:58:57 2015 UTC,Here's the source.
+Saber,39w7t3,Ownsin,1 point,Mon Jun 15 08:26:29 2015 UTC,Source if anyone is interested.
+Saber,39sqoi,KaedeAoi,6,Sun Jun 14 12:01:21 2015 UTC,This looks a lot like the we got a badass meme
+Saber,39sqoi,Ownsin,3,Sun Jun 14 21:35:45 2015 UTC,"I made this for a friend and he told me to post to reddit, so i polished it a bit and here it is.  Original pic: http://i.imgur.com/Nh10Vyo.jpg Saber cutout: http://i.imgur.com/QAJXzvi.png"
+Saber,39tbk1,Fernando961226,4,Sun Jun 14 15:58:01 2015 UTC,"You can find the first two chapters translated online, at least. But yeah, the translation isn't fully complete yet.  Chapter 1  Chapter 2"
+Saber,39tbk1,knightfader,4,Sun Jun 14 21:00:51 2015 UTC,It is about Saber and Merlin.  It has not been completely translated.
+Saber,39tbk1,AdelKoenig,1 point,Sun Jun 14 16:28:36 2015 UTC,Hopefully a full translation gets released in the near future :/
+Saber,39qfyd,nataku411,5,Sat Jun 13 19:22:21 2015 UTC,THE HYPE IS REAL NOW
+Saber,39qfyd,Ownsin,1 point,Sat Jun 13 19:25:15 2015 UTC,God damn you lucky bastard!
+Saber,39qfyd,any42,3,Sat Jun 13 21:08:29 2015 UTC,Better find myself an engagement ring...
+Saber,39qfyd,Saber_Na,1 point,Sat Jun 13 22:15:24 2015 UTC,I hope it's for Saber.
+Saber,39qfyd,Nightslayer,5,Sat Jun 13 23:16:45 2015 UTC,"Someone go and ask her to say her usual line ""Toou.. Anata wa Watashi no Master ka?"""
+Saber,39qfyd,ArchadianJudge,1 point,Sat Jun 13 22:06:08 2015 UTC,"Wow, that is awesome news. Hopefully I'll be able to get her autograph."
+Saber,39qfyd,knightfader,1 point,Sat Jun 13 22:06:30 2015 UTC,DAMNIT. I met Rin at Sakuracon but obviously I probably would preferred to have met Saber... :( I'm so sad. They even get Aimer too!   We need a support group for depressed Saber fans now.
+Saber,39qfyd,knightfader,1 point,Sun Jun 14 00:29:48 2015 UTC,"I'm totally going.  What's the difference between the $45/$35/$25 levels, though?"
+Saber,39qfyd,knightfader,1 point,Sun Jun 14 21:19:11 2015 UTC,"It isn't stated, but I would guess they're going to separate the whole thing into three events you can pay for(concert, dub premier, talk sesh/Q&A)."
+Saber,39nwjd,Cypherghost,2,Sat Jun 13 02:41:57 2015 UTC,oh. actual toys.  of course.  that's what i imagined.  yup.
+Saber,39oiak,blazenarm,1 point,Sat Jun 13 06:30:12 2015 UTC,Bonus: http://www.twitch.tv/ansatsuku/c/6055861  As far as I can tell he has no DL links up
+Saber,39oiak,REsoleSurvivor1000,1 point,Sat Jun 13 06:32:56 2015 UTC,That fucking Madoka Magica music though... So good. Of course that doesn't stop the news of a Saber mod in DS2 from being even better!
+Saber,39k42a,Ownsin,1 point,Fri Jun 12 07:49:10 2015 UTC,"Thank you ownsin for posting this, it made my day. Though this is a little bit heretic, but i can totally become an heretic for Saber."
+Saber,39k42a,vertigo522,4,Fri Jun 12 08:29:11 2015 UTC,"No this doesn't make you a heretic, because only heretics don't follow Saber, she is after all the true Emperor of mankind :P. Can you truly compare her to that fake almost dead emperor on life support? i think not.  P.S: I didn't make this fanart."
+Saber,39k42a,bakakubi,1 point,Fri Jun 12 08:34:06 2015 UTC,"Is this a crossover or some sort? If so, what's the other series?"
+Saber,39k42a,AngelsTemplar,3,Fri Jun 12 16:39:00 2015 UTC,Warhammer 40.000
+Saber,39k42a,bakakubi,1 point,Fri Jun 12 16:42:20 2015 UTC,Thanks!
+Saber,39k42a,aBabyShoe,1 point,Fri Jun 12 16:48:10 2015 UTC,Purge the heretics #
+Saber,39jpsw,Cypherghost,2,Fri Jun 12 05:13:52 2015 UTC,Source
+Saber,39k6w1,ivoryonyx,12,Fri Jun 12 08:24:15 2015 UTC,I could surely use a great Saber Chrome theme.
+Saber,39k6w1,nataku411,5,Fri Jun 12 09:17:43 2015 UTC,Can't we all? :)
+Saber,39k6w1,REsoleSurvivor1000,2,Fri Jun 12 22:36:00 2015 UTC,I'd be totally okay with this. I'm not a grand master at making these but I have made a few before. A few of which have been based around our best girl.  I use this one currently. (although it has that error in the top-right corner due to the BG not being wide enough)
+Saber,39k6w1,REsoleSurvivor1000,1 point,Sat Jun 13 00:32:50 2015 UTC,"Awesome, this is the kind of thing that I'd love to see! I think this would be a very fun contest that generates useful content. Would you happen to know of more practical applications, or have ideas of some? The idea here is to not make this so much of an art contest, but to have both the art aspect and to benefit the sub as a whole. I feel that straight-up art contests simply come and go, not leaving a lasting impression on participants or spectators."
+Saber,39k6w1,ArchadianJudge,2,Sat Jun 13 08:10:14 2015 UTC,"Honestly I like the idea of making Chrome themes. Unfortunately I can't do it with any of my own artwork as I am not very talented, but I think if we were to organize something like this we could show them off while having download links as well as source links for anything we use.  This is the website I use to make all mine. The creator tool is pretty simple yet effective to use. Maybe we could make this a real deal."
+Saber,39k6w1,Astro_Zombie,2,Sat Jun 13 15:39:07 2015 UTC,"I see, but you're still welcome to try if you feel confident enough! And yeah, that's the thought I had about the idea behind this whole thing - so that whatever is made can be used by all fans. People can be very, very creative, and to be able to not only admire, but make use of the work? That'd be fantastic.  Thanks for the link by the way. I've only dabbled in Firefox Personas, so I didn't realize that there was a site that helped you auto-generate the themes! Honestly, this was the trickiest part in making a Persona; having the correct size to account for various resolutions and browser sizes."
+Saber,39k6w1,RIvkyn,3,Sat Jun 13 18:39:13 2015 UTC,"I think mobile wallpaper would be most used for me if there's a good one but Chrome theme, mobile app, etc. are amazing ideas. It's definitely something I would love but I'm actually a big Saber artist and can't contribute to those since I'm not that tech savvy."
+Saber,39fd5x,Saber_Na,3,Thu Jun 11 10:14:08 2015 UTC,Faces.Comment   http://b.thumbs.redditmedia.com/FEqljRKQuqZQKAX5UklbO90eEv6k8bmCx-S_bqDmzFA.png http://b.thumbs.redditmedia.com/6_4pozu9Jd2VFo1gGV4HVtXMkb_yXPNTnlrGnebUi7o.png http://b.thumbs.redditmedia.com/jqBPu5kbPXZRL2nmpjaaMWigMvB-66SEhvkvvYR3QkA.png http://b.thumbs.redditmedia.com/Avf-zH5n7QYRSAwK1cBnGmb7i-7xhnxBvrFeGXRlBTA.png
+Saber,39fd5x,gyroknight,1 point,Thu Jun 11 21:42:42 2015 UTC,/u/Ownsin please respond... I am also curious regarding the matter.
+Saber,39fd5x,REsoleSurvivor1000,2,Thu Jun 11 19:52:52 2015 UTC,"Most of the comment faces are from the visual novel. I don't have them on me anymore. They're just sprites, but you can extract them from the game itself. You can find them over at google if you search a bit."
+Saber,39fd5x,Ownsin,1 point,Thu Jun 11 23:25:28 2015 UTC,Ah alright. Figure it'd be worth asking though.
+Saber,39fd5x,REsoleSurvivor1000,1 point,Thu Jun 11 23:38:58 2015 UTC,Actually I'm curious does anyone know where to get the sprites from Fate Unlimited Codes? (I think that's where the last set is from since I've never played it). I've never seen them online even after some lengthy digging.
+Saber,39fd5x,ArchadianJudge,1 point,Fri Jun 12 22:06:10 2015 UTC,You should be able to find most here OP
+Saber,39d5wp,Ownsin,11,Wed Jun 10 23:39:42 2015 UTC,As expected! It does look like FSN characters took over that list. I wonder who they polled?
+Saber,39d5wp,ArchadianJudge,4,Wed Jun 10 23:56:10 2015 UTC,
+Saber,39d5wp,BlitzcrankBot,5,Thu Jun 11 15:13:20 2015 UTC,
+Saber,39d5wp,Astro_Zombie,0,Thu Jun 11 02:20:52 2015 UTC,Sauce?
+Saber,39d5wp,Skie_Killer,-10,Thu Jun 11 10:57:33 2015 UTC,"Not necessarily a good thing, considering that the Japanese have confirmed shit taste"
+Saber,39d5wp,Pegasus_Rider,3,Thu Jun 11 02:16:16 2015 UTC,"Yep, Kirito being up there is preposterous."
+Saber,39d2v7,Ownsin,3,Wed Jun 10 23:18:36 2015 UTC,I love it!
+Saber,39d2v7,YetiSWK,2,Thu Jun 11 06:01:01 2015 UTC,"Finally, i thought no one here watched the movie! been getting downvoted."
+Saber,39d2v7,YetiSWK,2,Thu Jun 11 06:13:16 2015 UTC,a cute way to mix my favorite disney classic with one of my top ten characters.
+Saber,39cqad,ArchadianJudge,3,Wed Jun 10 21:54:24 2015 UTC,The Banpresto one? Definitely a good purchase. Good quality figure that can be had for around 30 USD from a lot of places.
+Saber,39cqad,Banzai9171,1 point,Wed Jun 10 22:06:30 2015 UTC,30$? Where can this be had for such a price!
+Saber,39cqad,RyuDragoon,1 point,Wed Jun 10 23:32:23 2015 UTC,Do check Amazon! It fluctuates but it's usually around $30. And its quality is stunning.
+Saber,39cqad,RyuDragoon,1 point,Wed Jun 10 23:45:14 2015 UTC,Is there an official name I can search for?
+Saber,39cqad,nataku411,1 point,Thu Jun 11 00:01:53 2015 UTC,MFC
+Saber,39cqad,ivoryonyx,1 point,Thu Jun 11 01:12:13 2015 UTC,"Also check eBay from time to time. I got it imported from Japan and it only cost me $28, if I remember correctly. Free shipping!"
+Saber,39cqad,nataku411,1 point,Thu Jun 11 21:46:25 2015 UTC,For a prize figure this does indeed look decently well-sculpted and painted.
+Saber,39cqad,ivoryonyx,1 point,Wed Jun 10 22:18:40 2015 UTC,I agree. I particularly like the armor sculpt and paint finish. I was most impressed by it even more so than some of the other older Saber figures.
+Saber,39cqad,ivoryonyx,1 point,Wed Jun 10 23:46:01 2015 UTC,When I got the figure there were some dirt / dark marks on the face. I've gotten that with some other figures as well. They don't seem to come off if I rub it. Are those permanent?   I'm curious if any other figure collectors have dealt with that before. It seems like they don't come off..
+Saber,39cqad,ivoryonyx,3,Wed Jun 10 23:47:48 2015 UTC,"I had a tiny, very light smudge on her face, and a big black glob of paint or something on her sword. The smudge was easily cleaned with a little bit of water, but the glob had to be scraped off and then repainted. Luckily I built some Gundam/plane models in the past, so I had some chrome paint laying around.  Edit: This was a video a watched a while back. It's a comprehensive guide on how to care for your figures - skip to about 7:58, which is where he talks about how to clean scuffs. I didn't want to use paint thinner like they suggested, but this would be the best stuff to use if the scuff was from paint. Mine might have just been dirt or something. But the idea of using a q-tip is a good one, regardless of what solution you use to clean."
+Saber,39cqad,Ownsin,2,Thu Jun 11 21:48:17 2015 UTC,"Ahh thanks for the input and the link! I'll have go look and see if I need some stronger water wiping but it might end up being the ""glob"" you suggested since it doesn't seems to be easy coming off. I don't think i'm good enough to repaint it though.. Here's how mine looks (small dark patches on each cheek):  http://i.imgur.com/P2VSbpO.jpg  http://i.imgur.com/iQOJkmd.jpg"
+Saber,39cqad,nataku411,2,Thu Jun 11 22:24:13 2015 UTC,"Man, I wish I'd taken a picture of her sword. When I said glob, I mean a literal glob! It was probably the size of my index finger nail - and it had a thickness to it. Now that I think about it, its texture was more like melted plastic because that crap didn't want to come off. Maybe because, if it was paint, it was a special kind and not the type the dries into something rubbery.   Also, the smudge I had on my Saber's face was more like... like an erasure smudge. Yours are actual marks from what I can tell. From what, I'm not sure... Did your figure come packaged, by chance? Mine was new in box, and her upper body, skirt, legs, stand, and sword were all in plastic bags of their own. If they weren't packaged that way, it's possible parts bumped against each other in transit and scuffed up her cheeks.  If I were you, I would try some more water wiping with q-tips. If that doesn't work, try something a little stronger - just a little. Maybe that solution used to clean eyeglasses (I've never done this before though). The final option would be paint thinner, as the video suggested. If it's paint, it will get it off for sure, but it may also take off some of the skin paint. Remember, just put small amounts on the q-tip, don't submerge it. You definitely want to play it safe with figures like these!"
+Saber,39b4mq,JillSandvich,2,Wed Jun 10 15:43:25 2015 UTC,Sauce
+Saber,395qxg,JillSandvich,5,Tue Jun 9 13:22:02 2015 UTC,"Rin, put your foot down. This is r/Saber, SHE gets first dibs on foot massages."
+Saber,391mt2,Ownsin,13,Mon Jun 8 16:24:12 2015 UTC,More like the one in the middle. Hnnng.
+Saber,391mt2,RyuDragoon,7,Mon Jun 8 18:47:43 2015 UTC,"Ooh. middle top row  no wait, top right  NO WAIT bottom middle  fuck it, all of them are amazing."
+Saber,391mt2,egoistas,4,Mon Jun 8 19:14:59 2015 UTC,Dat Taiga hair on the bottom middle.
+Saber,391mt2,kosaten,3,Mon Jun 8 18:31:48 2015 UTC,I can't upvote this enough.
+Saber,391mt2,ivoryonyx,1 point,Mon Jun 8 18:59:55 2015 UTC,I need this in real life NOW.
+Saber,391mt2,Netcan,1 point,Mon Jun 8 19:16:54 2015 UTC,I think if we had the wonders of Saber AND twintails the world would implode from sheer awesomeness.
+Saber,391mt2,REsoleSurvivor1000,3,Mon Jun 8 21:49:41 2015 UTC,I think if we had the wonders of Saber AND twintails the world would implode from sheer HNNNNNNNNNGG   FTFY
+Saber,38xb57,JillSandvich,2,Sun Jun 7 17:11:47 2015 UTC,Sauce
+Saber,38ytu8,Ownsin,2,Mon Jun 8 00:16:43 2015 UTC,I love it
+Saber,38ytu8,Tearfulfriend18,2,Mon Jun 8 04:04:51 2015 UTC,Oh hell yes.
+Saber,38ytu8,REsoleSurvivor1000,2,Mon Jun 8 05:11:47 2015 UTC,"Good choice, this is my favorite Line sticker. I've been using it for quite a while on the chat app.. nice to make its way on best girl's reddit!  More Saber plz"
+Saber,38ytu8,ArchadianJudge,1 point,Mon Jun 8 07:23:47 2015 UTC,That feel when I can't see them due to mobile.
+Saber,38ytu8,RyuDragoon,1 point,Mon Jun 8 03:59:50 2015 UTC,Is she really crying here?
+Saber,38va02,Ownsin,4,Sun Jun 7 03:11:55 2015 UTC,"with that little cathartic moment, I think UBW will be going the 'true' route instead of the good route. Well, I guess we will find out shortly!"
+Saber,38va02,Stoick_the_Vast,6,Sun Jun 7 05:09:35 2015 UTC,"I hope Ufotable pulls a trick out of their hat last minute and goes Good Ending, surprising everyone. I would squeal with joy then laugh until dawn... Sigh.   The dark tones set seem to suggest otherwise for something more ""impactful."""
+Saber,38va02,ArchadianJudge,2,Sun Jun 7 10:28:53 2015 UTC,"Right. I know a lot of people would consider it an asspull too, but hey! With the way Avalon somehow reacted to Shirou despite the lack of connection I'm sure we'll get something!  ...Hopefully."
+Saber,38va02,REsoleSurvivor1000,1 point,Sun Jun 7 12:10:50 2015 UTC,"Personally I would rather see the True Ending. I like Tohsaka, but I like Saber more. So, wait, why would I want the True one then? Well, because I think that if they went with the Good one, that would mean it's much less likely for us to get a Fate route. I feel like if the other two heroines got their best possible endings, there'd be no way best girl wouldn't get hers."
+Saber,38va02,ivoryonyx,4,Sun Jun 7 17:41:22 2015 UTC,"Ufotable, why do you tease us!?!?"
+Saber,38va02,Tearfulfriend18,1 point,Sun Jun 7 08:28:54 2015 UTC,"Not a whole lot of great Saber gifs from this show, but this EASILY makes up for it."
+Saber,38v5t6,Cypherghost,1 point,Sun Jun 7 02:31:42 2015 UTC,I really love this one! Do you have the pixiv link? Thank you :)
+Saber,38v5t6,ArchadianJudge,2,Sun Jun 7 10:35:01 2015 UTC,Here's the source.
+Saber,38v5rh,Ownsin,2,Sun Jun 7 02:31:19 2015 UTC,"She's hoping to catch some Lancers, or rather, out-catch some Lancers."
+Saber,38v5rh,REsoleSurvivor1000,1 point,Sun Jun 7 12:09:32 2015 UTC,She's also happier using the fishing rod :P
+Saber,38tjes,ArchadianJudge,2,Sat Jun 6 18:14:21 2015 UTC,All those flags they're throwing.. Ending Speculation  !!
+Saber,38tjes,RIvkyn,5,Sat Jun 6 18:16:42 2015 UTC,"I personally wish they adapt both ends, second one as an OVA."
+Saber,38tjes,REsoleSurvivor1000,3,Sat Jun 6 22:12:29 2015 UTC,"Unfortunately if they were to go with the good end I think it would tick a lot of people off. But ya know... I'd be TOTALLY okay with it!  Also side-note: Got to see Saber smile some more. God. I need more of that.  AaaaaaaandTheObligatory""FateRoutePlease""CommentAsWellBecauseWeAllKnowWeNeedThisToo"
+Saber,38tjes,REsoleSurvivor1000,1 point,Sun Jun 7 00:26:38 2015 UTC,Yeah Shirou doesn't know how to make Saber happy in UBW. So sad. She probably wants to go home due to being neglected :(
+Saber,38tjes,AdelKoenig,1 point,Sun Jun 7 02:22:54 2015 UTC,"Clarification: I'd be TOTALLY okay with the good end.  Although you have a point. Shirou is a big dummy with no social skills, but where she goes afterwards isn't so nice either..."
+Saber,38stct,Ownsin,3,Sat Jun 6 14:46:40 2015 UTC,"Source?, that looks like something genya would do."
+Saber,38stct,HTTime,3,Sat Jun 6 15:53:30 2015 UTC,Source
+Saber,38stct,REsoleSurvivor1000,2,Sat Jun 6 16:24:19 2015 UTC,Holy shit. For a minute there I thought this would have been official art. Artist has quite the talent I'll give 'em that.
+Saber,38stct,Canaloupes,1 point,Sat Jun 6 21:41:36 2015 UTC,"Dang, this looks like something straight out of UBW, amazing"
+Saber,38mlij,Curelli,10,Fri Jun 5 04:45:34 2015 UTC,[Shirou intensifies]
+Saber,38mlij,REsoleSurvivor1000,9,Fri Jun 5 08:01:18 2015 UTC,Yeah I am going to need some sauce. You know... For Science!
+Saber,38mlij,RyuDragoon,17,Fri Jun 5 06:15:00 2015 UTC,Source that isn't cut.
+Saber,38mlij,Saber_Na,1 point,Fri Jun 5 08:39:35 2015 UTC,Thanks for the link
+Saber,38mlij,Nightslayer,1 point,Fri Jun 5 13:15:04 2015 UTC,"DANG. The cosplay is awesome, but that exaclibur takes the cake. It looks really well made."
+Saber,38mlij,bakakubi,3,Fri Jun 5 15:56:36 2015 UTC,*Caliburn
+Saber,38mlij,Saber_Na,1 point,Fri Jun 5 16:09:36 2015 UTC,"Woops, I failed badly there. ;_;"
+Saber,38mlij,bakakubi,1 point,Fri Jun 5 16:20:41 2015 UTC,That excalibur looks fine. Incredible worksmanship.
+Saber,38mlij,xolram,5,Fri Jun 5 14:21:27 2015 UTC,*Caliburn
+Saber,38mlij,Saber_Na,1 point,Fri Jun 5 16:09:50 2015 UTC,Seibuh
+Saber,38mlij,Seibuh,1 point,Fri Jun 5 23:44:44 2015 UTC,I'm cosplaying as this exact Saber this upcoming weekend @ Metrocon in Tampa!
+Saber,38mfio,JillSandvich,4,Fri Jun 5 04:00:56 2015 UTC,Here's also the full uncropped image.  Artist
+Saber,38mfio,Ailim,2,Fri Jun 5 07:48:32 2015 UTC,Doin' God's work son.
+Saber,38neaw,LegitSockPuppet,4,Fri Jun 5 09:56:40 2015 UTC,Found these three (tried making an imgur album but it wouldn't work).  If you're interested I can try photoshopping any image you want into a 1920x1080 wallpaper though.
+Saber,38neaw,Aeriok,3,Fri Jun 5 14:57:49 2015 UTC,Thank you. I would love any of those as a 1920x1080 wallpaper.
+Saber,38neaw,Aeriok,1 point,Fri Jun 5 21:56:03 2015 UTC,"Not sure if I misunderstood, the second two are already 1920x1080  Here's the first one cropped and resized though."
+Saber,38neaw,JillSandvich,2,Fri Jun 5 22:04:42 2015 UTC,"My apologies, my web browser was reading the size of the images wrong. Thank you though."
+Saber,38kkzr,Ownsin,2,Thu Jun 4 20:43:25 2015 UTC,"So I come to the subreddit to post this one. And see it's already posted, damn it, Ownsin, too fast."
+Saber,38kkzr,any42,1 point,Thu Jun 4 23:29:53 2015 UTC,It's basically a race of who goes on pixiv first and then posts the new content.
+Saber,38kkzr,Saber_Na,1 point,Thu Jun 4 23:31:11 2015 UTC,"I just check time by time Danbooru, too lazy for pixiv."
+Saber,38kkzr,any42,1 point,Thu Jun 4 23:35:48 2015 UTC,Danbooru isn't bad either. I think all the artists original post on pixiv.
+Saber,38kkzr,Saber_Na,1 point,Thu Jun 4 23:37:34 2015 UTC,"Yeah, the original place is pixiv, danbooru is just an image board."
+Saber,38kkzr,any42,1 point,Fri Jun 5 08:29:58 2015 UTC,Sorry
+Saber,38lea6,Saber_Na,1 point,Thu Jun 4 23:40:05 2015 UTC,Source
+Saber,38kl5w,Ownsin,1 point,Thu Jun 4 20:44:21 2015 UTC,"You can see Lancelot slowly getting eaten away by his guilt in the background...... JK.   Though seriously, I wish they did show us some of saber's adventures during her time as king."
+Saber,38kl8j,Ownsin,2,Thu Jun 4 20:44:49 2015 UTC,saber's face reveals that kotomine successfully bribed her with food
+Saber,38jcvu,JillSandvich,2,Thu Jun 4 16:38:30 2015 UTC,Cute :3
+Saber,38jcvu,Nielsjuh,2,Thu Jun 4 19:10:59 2015 UTC,hop hop hop
+Saber,38id10,any42,15,Thu Jun 4 12:24:48 2015 UTC,Big Mama Saber is not amused about all the little Sabers
+Saber,38id10,RIvkyn,15,Thu Jun 4 12:32:23 2015 UTC,They're everywhere!
+Saber,38id10,RIvkyn,6,Thu Jun 4 14:21:38 2015 UTC,Saber invasion!
+Saber,38id10,blazenarm,3,Thu Jun 4 14:58:53 2015 UTC,Just look at the one with her stuffed teddy
+Saber,38id10,RIvkyn,2,Thu Jun 4 15:01:09 2015 UTC,Stuffed lion*
+Saber,38id10,chiefnoah,3,Thu Jun 4 16:10:27 2015 UTC,
+Saber,38id10,namewastakensadface,1 point,Thu Jun 4 16:17:03 2015 UTC,They keep crawling up my screen!
+Saber,38id10,chiefnoah,1 point,Thu Jun 4 17:06:51 2015 UTC,could I have that wallpaper?
+Saber,38id10,namewastakensadface,1 point,Tue Jun 30 20:59:25 2015 UTC,Here you go
+Saber,38id10,Guadelupe,1 point,Tue Jun 30 21:04:27 2015 UTC,awesome. thanks!
+Saber,38id10,RIvkyn,1 point,Tue Jun 30 21:44:27 2015 UTC,Can you upload your desktop?
+Saber,38id10,Guadelupe,1 point,Sun Jun 28 19:00:23 2015 UTC,Here you go
+Saber,38id10,DinoxTreaty,1 point,Sun Jun 28 19:20:41 2015 UTC,Thanks! :)
+Saber,38id10,REsoleSurvivor1000,12,Sun Jun 28 19:48:58 2015 UTC,"I was on the chat with blizzard support when a saber jumps from across the screen, grabs the chat window, pulls it down and then throws it away.  Needless to say the blizzard employee wasn't happy with me.  sabers faultIt's always"
+Saber,38id10,GoddamnCatman,8,Thu Jun 4 18:36:01 2015 UTC,Did you forget to feed her? That might be your problem.
+Saber,38id10,REsoleSurvivor1000,3,Thu Jun 4 22:38:49 2015 UTC,That's so hilarious.
+Saber,38id10,ArchadianJudge,12,Thu Jun 4 23:16:33 2015 UTC,It's Adorable!
+Saber,38id10,REsoleSurvivor1000,4,Thu Jun 4 13:00:41 2015 UTC,"Oh HELL YES! I have this Homura one that I used to use pretty frequently, and I was thinking about the possibility of finding a Saber one to satisfy the best girl need. And then you show up...  I don't know who you are, but I fucking love you!  Now it's time to wreak havoc with mini-Sabers!"
+Saber,38id10,nataku411,3,Thu Jun 4 22:44:52 2015 UTC,"I'll take your love! Tbh I had it for years, decided to upload it here to share the cuteness."
+Saber,38id10,blazenarm,2,Thu Jun 4 23:14:00 2015 UTC,Is there a place where you can download all the different ones? The Homura one also looks amazing :)
+Saber,38id10,Elessargreystone,3,Fri Jun 5 00:01:37 2015 UTC,"Unfortunately I don't have a specific place to get more of these, but you can find the Homura one here - The one I use is #2 and you can find a MediaFire download on the Pixiv page it takes you to."
+Saber,38id10,Elessargreystone,5,Fri Jun 5 00:20:53 2015 UTC,Welp.  I know where all my system resources are going.
+Saber,38id10,RIvkyn,3,Thu Jun 4 15:10:04 2015 UTC,oh my god you can pick her up and fling her around this is the best thing ever i love you  i can send saber flying across both monitors
+Saber,38id10,Elessargreystone,2,Fri Jun 5 00:50:09 2015 UTC,"It doesn't work for me! Help, I want my cute little Sabers crawling around everywhere!"
+Saber,38id10,chearwell,1 point,Thu Jun 4 17:42:21 2015 UTC,How exactly it doesn't work?
+Saber,38id10,wanted0072,1 point,Thu Jun 4 23:12:55 2015 UTC,"When I launch the .exe, nothing happens. Simple as that."
+Saber,38id10,ArchadianJudge,1 point,Fri Jun 5 07:21:48 2015 UTC,If clicking the .exe doesnt work try clicking the batch or .jar
+Saber,38id10,TotesMessenger,1 point,Thu Jun 4 23:17:23 2015 UTC,"Already tried, doesn't work either."
+Saber,38id10,rmm45177,1 point,Fri Jun 5 07:21:10 2015 UTC,"If it's putting an icon in the taskbar but not doing anything, make sure you have 32bit Java and not just 64bit. There's also some stuff at the bottom of the readme to force it to use 32bit if you have both installed"
+Saber,38id10,imthorrbo2,1 point,Fri Jun 5 19:10:04 2015 UTC,"Hey man, I was having this problem and looked at the code. It was looking to fetch from the jre6 folder in my java 7 folder, so I made a copy of my jre1.8.0_40 and just renamed it jre6 and it works!"
+Saber,38id10,Netcan,2,Fri Jun 26 02:01:13 2015 UTC,Thank you! Now my computer is fully Saber-fied. Happiness index up by 1000%
+Saber,38id10,Fernando961226,2,Fri Jun 5 00:00:21 2015 UTC,"I'm a bot, bleep, bloop. Someone has linked to this thread from another place on reddit:   [/r/onetruetohsaka] Can we get a Shimeji Rin ???? Any coders that can set this up, the goddess will love u.   If you follow any of the above links, please respect the rules of reddit and don't vote in the other threads. (Info / Contact)"
+Saber,38id10,josh4406,1 point,Thu Jun 25 05:12:14 2015 UTC,Doesn't work for me either :/  I can run the program but the Saber's don't show up on my screen.
+Saber,38id10,What_The_Fcuk,1 point,Fri Jun 5 04:01:15 2015 UTC,I can't make these show up on my stream using OBS monitor capture. Is there any reason why?
+Saber,38gm1k,promek,5,Thu Jun 4 01:59:39 2015 UTC,Here is how you can get your own  $0.99 custom mousepad with free shipping. http://www.artscow.com/photo-gifts/large-mousepad-160[1] Coupon code: Z099MOUSEPADURZSP.  Original Image
+Saber,38gm1k,REsoleSurvivor1000,2,Thu Jun 4 02:00:30 2015 UTC,Damn. I know what I'm doing when I get home then!
+Saber,38gm1k,ArchadianJudge,2,Thu Jun 4 03:17:39 2015 UTC,Danggg... so what's the catch? I can't see how 99 cents + free shipping would make them any money :\
+Saber,38gm1k,REsoleSurvivor1000,2,Thu Jun 4 07:13:20 2015 UTC,Sell our firstborn children in return?  ...Worth.
+Saber,38gm1k,Limpybone,2,Thu Jun 4 07:31:46 2015 UTC,About how long did it take from the time that you ordered it to the time it got to your house.
+Saber,38dmne,JillSandvich,1 point,Wed Jun 3 15:09:40 2015 UTC,Could someone create a 1920x1080 version of this art? I would love this as my wallpaper.
+Saber,38dmne,Mastershadez,0,Thu Jun 11 12:18:10 2015 UTC,80 people havent seen this old pic.
+Saber,38d9ru,Ownsin,4,Wed Jun 3 13:52:00 2015 UTC,Nice. Never thought to put the two series together like this.
+Saber,38bl52,Saber_Na,2,Wed Jun 3 03:58:50 2015 UTC,Source
+Saber,38bl52,iKill_eu,2,Wed Jun 3 03:59:08 2015 UTC,"I take a little issue to the fact that Alter never appears in Fate/Zero, but other than that, it's neat."
+Saber,383he4,JillSandvich,1 point,Mon Jun 1 16:14:26 2015 UTC,Source?
+Saber,383pvi,JillSandvich,2,Mon Jun 1 17:09:48 2015 UTC,Great job! Did you make these edits? I remember the original artist but it was a smaller image. Did you change the resolution yourself and great the new borders? O.O
+Saber,383pvi,ArchadianJudge,2,Wed Jun 3 02:56:49 2015 UTC,"Thanks! Yeah, I did make these edits. I used waifu2x to change the resolution and made the new borders with photoshop."
+Saber,383pvi,ArchadianJudge,2,Wed Jun 3 03:58:01 2015 UTC,Wow I've only just heard of it. This program is incredible..!  I decided to download the PC version (so I could use it offline) and it was taking 5+ minutes on one photo. I wonder how come the online one is so fast. I guess you don't use the PC version? Or maybe I downloaded the wrong one off another site :\
+Saber,37z4p1,JillSandvich,3,Sun May 31 17:06:51 2015 UTC,Congratulations on new toppost.  Ponytails reign supreme.
+Saber,37z4p1,RIvkyn,2,Mon Jun 1 14:34:21 2015 UTC,Source
+Saber,37wuz5,Curelli,14,Sun May 31 01:51:24 2015 UTC,"Saber is genderbent Hitler??? Nice spoilertag, bro."
+Saber,37wuz5,RIvkyn,3,Sun May 31 03:13:11 2015 UTC,Hail Saber!
+Saber,37wuz5,SuperKettle,1 point,Sun May 31 09:30:45 2015 UTC,This reminds me: We need a Saber as Natalia Poklonskaya crossover. It needs to happen.
+Saber,37wuz5,REsoleSurvivor1000,1 point,Sun May 31 14:30:32 2015 UTC,"Does anyone know the source of this image. I found the background image of the sofa, lol."
+Saber,37wuz5,redditgoogle,1 point,Tue Jun 2 21:18:34 2015 UTC,really wish there were 1980 x 1080 for this pic :/
+Saber,37wuz5,rhang,10,Fri Jun 5 04:32:28 2015 UTC,"It already is good art. Just because it has some signs that offend people, doesn't make it any worse.  Also   Signs of Germany   ..."
+Saber,37wuz5,FinalNwo,4,Sun May 31 10:24:20 2015 UTC,here
+Saber,37wuz5,TheRipp,3,Sun May 31 10:44:06 2015 UTC,Here you go M8.
+Saber,37vjqm,Azhor,12,Sat May 30 19:25:46 2015 UTC,I-I didn't ask for these feels...
+Saber,37vjqm,REsoleSurvivor1000,10,Sat May 30 20:31:20 2015 UTC,My heart wasn't prepared for that
+Saber,37vjqm,GoddamnCatman,11,Sat May 30 22:12:51 2015 UTC,BUY THOSE FUCKING BLURAYS  Its our only hope
+Saber,37vjqm,Astro_Zombie,9,Sun May 31 05:55:48 2015 UTC,Only if I were made of money...
+Saber,37vjqm,REsoleSurvivor1000,10,Sun May 31 13:58:24 2015 UTC,When I saw this. I almost cried. It was so gorgeous. She's so perfect..
+Saber,37vjqm,ArchadianJudge,9,Sun May 31 07:40:08 2015 UTC,She is indeed perfect and that scene was just gorgeous.
+Saber,37vjqm,any42,10,Sun May 31 10:47:25 2015 UTC,Here's to hoping we'll get Final Episode animated one day.
+Saber,37vjqm,bakakubi,9,Sun May 31 07:42:14 2015 UTC,"We must have it, but the wait will be agonizing!!'"
+Saber,37ubrd,JillSandvich,2,Sat May 30 13:35:11 2015 UTC,I am always good with more of my Emperor.
+Saber,37ubrd,ShinkuRyuuga,1 point,Tue Jun 2 17:07:28 2015 UTC,"Wallpaper: 1920x1080, 1280x800."
+Saber,37ubrd,RyuDragoon,1 point,Sat May 30 13:36:36 2015 UTC,Feels like we are beating the horse with this one.
+Saber,37tk67,Saber_Na,2,Sat May 30 07:24:13 2015 UTC,"Wait wait, why are you posting non Saber stuff on Saber subreddit uh? What's wrong with you man... Like wtf this is a Saber subreddit the rules only admit Saber stuff..."
+Saber,37tk67,vertigo522,1 point,Sun May 31 19:17:04 2015 UTC,For reals though does anyone have a URL for the MyFigureCollection page on her? That is if it exists and all that.
+Saber,37tk67,REsoleSurvivor1000,3,Sat May 30 14:00:12 2015 UTC,Here you go
+Saber,37tk67,nataku411,1 point,Sat May 30 14:52:22 2015 UTC,You are amazing good sir. I thank you.
+Saber,37tk67,REsoleSurvivor1000,2,Sat May 30 14:59:40 2015 UTC,You're welcome
+Saber,37tk67,nataku411,1 point,Sat May 30 15:02:59 2015 UTC,My wallet can't wait to empty itself...
+Saber,37tk67,RyuDragoon,1 point,Sat May 30 15:05:20 2015 UTC,Baseball saber with a sword  Maybe
+Saber,37tk67,Skie_Killer,1 point,Sat May 30 20:33:36 2015 UTC,That's Saber obviously.
+Saber,37tk67,cheesewizz12,13,Sat May 30 12:27:26 2015 UTC,"I don't know what you're talking about, that's Mysterious Heroine X!  ((It's from a Type Moon Apirl Fools' joke that involved all of the minor heroines from the Nasuverse teaming up to become the ultimate heroines, including Mysterious Heroine X who is obviously Saber wearing that paper thin disguise. However everyone was like ""but who could she be?"" in the joke game so it's become a thing for fans to pretend to not noticed that she is in fact Saber))"
+Saber,37tk67,First_Cardinal,0,Sat May 30 12:53:25 2015 UTC,"Ah, this makes sense. Silly Japanese people."
+Saber,37pmnx,Ownsin,1 point,Fri May 29 12:13:28 2015 UTC,"Colours on this are absolutely amazing, but anyone else kinda dislike the look/proportions of the eyes/head?"
+Saber,37pmnx,bluefrost13,-1,Fri May 29 19:27:42 2015 UTC,Saber has nothing on Rider
+Saber,37pmnx,aravind9493,2,Fri May 29 12:26:44 2015 UTC,/r/fatestaynight is that way.    --->
+Saber,37pmnx,RyuDragoon,1 point,Fri May 29 16:23:07 2015 UTC,Then what are you doing here you filthy heathen?
+Saber,37pmnx,Cypherghost,1 point,Fri May 29 13:13:27 2015 UTC,"Trying to win the Holy Grail War, duhhhh"
+Saber,37pmnx,aravind9493,1 point,Fri May 29 13:39:16 2015 UTC,Go do it somewhere else.
+Saber,37o4m2,Ownsin,2,Fri May 29 02:00:54 2015 UTC,This one is fantastic! Do you have the source or pixiv for the artist?
+Saber,37o4m2,ArchadianJudge,3,Fri May 29 03:28:09 2015 UTC,Sure thing. Here's the Source.
+Saber,37o4m2,ArchadianJudge,3,Fri May 29 03:31:16 2015 UTC,Thanks for your hard work as always fellow knight  does incredibly cool imaginary hand gesture to show knighthood
+Saber,37lwwa,K0RnD4Wg,1 point,Thu May 28 16:08:09 2015 UTC,The word... 'Chomp'... :'(
+Saber,37lrkh,JillSandvich,5,Thu May 28 15:30:42 2015 UTC,More like karaoke knight
+Saber,37j0da,Ownsin,2,Wed May 27 23:55:08 2015 UTC,"I think if Shirou Archer really wanted to take Saber as a prize instead of learning ""Unlimited Blade Works"" he should have honed his skills with ""Unlimited Buffet Works""."
+Saber,37htjs,Cypherghost,5,Wed May 27 19:09:49 2015 UTC,"Thank you for sharing this, I love this picture and you can actually feel a bit of the emotion behind it and also you can imagine how powerful and feel the spark between Shirou & Saber"
+Saber,37htjs,aBabyShoe,2,Thu May 28 00:15:11 2015 UTC,;-;
+Saber,37htjs,ValkyrieLead,1 point,Thu May 28 02:21:46 2015 UTC,right-click Save Image Fate Stay Night folder selected Save   This is mine forever.  Edit: Forgot the caret keys were for quotes. Whoops.
+Saber,37gpqx,JillSandvich,10,Wed May 27 14:35:53 2015 UTC,I remember this scene ( ͡° ͜ʖ ͡°)
+Saber,37gpqx,thornydeathmeister,3,Wed May 27 18:39:42 2015 UTC,So much cuteness packed into one picture....Hrrrrnngggg
+Saber,37gpqx,GaaraSenpai,8,Thu May 28 05:34:51 2015 UTC,That disgusting pig needs to get off my king right now.
+Saber,37gpqx,RyuDragoon,2,Wed May 27 21:43:08 2015 UTC,Wallpaper: 1920x1080
+Saber,37i8ee,nataku411,1 point,Wed May 27 20:46:40 2015 UTC,"Looks kinda odd, in my opinion. But more best Saber is always good."
+Saber,37i8ee,FinalNwo,1 point,Thu May 28 00:19:17 2015 UTC,"It's to be expected, being a prize figure(budget buy).  But yeah, more Saber=More fun."
+Saber,37h3tz,NvmSharkZ,2,Wed May 27 16:17:55 2015 UTC,Anyone know what kind of markers he was using?
+Saber,37h3tz,moewasatyrant,2,Wed May 27 21:46:13 2015 UTC,if you scroll through his videos you can see a video where shows his drawing materials and he mentions the markers
+Saber,37h3tz,moewasatyrant,2,Wed May 27 22:03:36 2015 UTC,"cool, thanks."
+Saber,37efii,JillSandvich,3,Wed May 27 00:54:21 2015 UTC,The resulting OM NOM NOM! afterwards.
+Saber,37efii,REsoleSurvivor1000,3,Wed May 27 00:58:39 2015 UTC,"I dunno, it kinda looks like the King went to Taco Bell an hour ago and is just now feeling the aftermath...a huge mistake.I've made"
+Saber,37f2ee,-Snow-,17,Wed May 27 03:54:15 2015 UTC,"Awesome poll. As per my vote I will write something up I PROMISE!!! WhenICanThatIs.  EDIT - Alright here's my ""summary"" for my beliefs. Gonna contain obvs spoilers. Figured I'd warn ahead of time if it mattered at all.  Alright here we go:  So the question at hand - Why is Saber my king? Why? Well there are many reasons from your simple, ""She's pretty."" to ""She kicks ass."" Easy to tell. Easy to appreciate. But I'm gonna get down to some core reasons she struck my heart and took it like a conquest.  So we'll begin with her personality (which I feel is a big factor in my choice) by looking a bit into her past. Despite the harsh realities she has had to face she still remains loyal, truthful, and all-around a positive person. One of the things that struck me: Her past. How she had to destroy her emotions as well as any form of humanity in order to lead her kingdom to the benefit of her people ONLY to get betrayed by the very thing she sacrificed for. She lead a life that basically held no self-satisfaction or enjoyment, and not getting a chance at truly living definitely hurt to think about. Even with all that said she threw it away and held dear what mattered to her most, continued to endure, and even in the end defended what she believed in. This to me relies on an unbreakable aspect of character which I truly respect.  In terms of her and Shirou: Lots of people like to bash Shirou (all in good reason since he's REALLY daft about things) as well as the whole relationship factor that him and Saber share in Fate, but like many of us here I support it. People say it's a toxic relationship but in the end I believe it works out for the better. He is able to continue fighting for his ideals (not giving them up AS WELL AS realizing the realistic portion to ""being realistic"" about it) and he is able to help Saber see the error of attempting to change the past. It is a rocky road of emotion and miscommunication but it is a beautiful thing. I feel that out of all the main relationship choices that this one works the best in terms of story and character development.  Comparing her to the other main heroines Rin and Sakura I say she takes the cake for these reasons: 1) She is the right balance of docile and initiative. She isn't completely bossy or pushy like her counterpart Rin (not saying that Rin is a bad thing. Just... Obnoxious in a way) as well as being a bit more active than shut-in Sakura. She knows how to get what she wants (YUMMY FOOD!) but will back down when need be. And 2) She's a motherfucking bad ass from the past! Unlike both Rin and Sakura SHE HAS LED A GODDAMN KINGDOM STRAIGHT FROM THE PITS OF COMPLETE AND UTTER ANNIHILATION! Tossed aside any traces of humanity or a normal childhood for the sake and well-being of others and yet continues to be as adorable and well-mannered (or more-so) than most others around her. Talk about some damn strong character!  There are other minor (yet majorly significant) reasons to like this beautiful lady: She's goddamn gorgeous! HOW IN THE FUCK CAN YOU SAY NO TO A SMILE LIKE THIS!? She's undeniably adorable. She also has an amazing voice (even if she were to have a different VA down the road this voice will always stay engraved forever). Just listen here! Plus her choices in food? Admirable. Awe-inspiring even! Who else has the guts (and stomach) to conquer the mountain of good food? FUCKING NOBODY! That's who! Another thing: She is aesthetically pleasing. Look at how graceful she is! LOOK AT IT! As well as the way she shouts, ""EX-CALIBURRRRRRRRR!"" is amazing too.  So with these, and many more I may or may not have mentioned, are the reasons that she is our king. Maybe I'll come back and add more to this. Maybe not. But for now I'm tired so I'll leave this as it is."
+Saber,37f2ee,REsoleSurvivor1000,7,Wed May 27 05:35:13 2015 UTC,"I completely agree with many of your points about Saber, and to add one of my own... Saber for me is not just a strong character, she is a rare thing in the anime medium itself. She is a strong independent woman that doesn't need help from anyone, that doesn't rely on anyone, and ultimately can do everything by herself. Basically she is a strong female character, and most other female characters in anime and heck even in live action movies, save for a few are incredibly weak or are always treated as the damsel in distress kind of character that requires attention and care all the time and are always relying on the male main character.  With Saber she's different, she relies on no one but herself. Heck even Shirou relies on her more than he relies on himself, he doesn't come with grasps with it in the beginning because he couldn't believe a girl like her can be someone like that, but later on he comes to understand it and completely relies on her in the end.  Finally, Saber isn't perfect she has her flaws, but she herself knows them and even acknowledges them, and that takes a lot for a character to do that, but in the end she does, she is not stubborn and she is very wise, just and composed as a person. It's just a rare thing to see a female character this way. She is ideally for ""me"" the best fictional female character i have ever seen.  P.S: i would love more discussions like this one too."
+Saber,37f2ee,Ownsin,1 point,Wed May 27 13:40:19 2015 UTC,"Adding on to that addition, I really did enjoy her inhuman altruism and the fact that she managed to (somewhat unintentionally) convince her entire kingdom that she was a saintly being ruling over them, even if it meant its downfall. She followed that insanity to the very end. A few ""insane"" ideas tend to become standards for thought; this, unfortunately, was not one of them. The effort towards her rulership, however, is just as admirable. Her character goes beyond commanding; it's powerful with just enough humanity residing in her. Knowing how flawed she is in the end, we still make her look like a saint on this is subreddit."
+Saber,37f2ee,REsoleSurvivor1000,5,Fri May 29 16:54:01 2015 UTC,I'll post my own later. I am genuinely curious what makes heroic (heroinic?) figures like Arturia so appealing to other people. I just thought we might have an actual discussion like this on this subreddit one day.
+Saber,37f2ee,ivoryonyx,4,Wed May 27 06:35:00 2015 UTC,Yeah it would be nice to have more discussions around here. Get people to actually participate in a way which would be awesome!  I'll edit my above comment sometime soon. Got a rough write-up in the works.  EDIT: It has been done...
+Saber,37f2ee,ArchadianJudge,2,Wed May 27 06:50:41 2015 UTC,"The summer laziness has gotten to me. I started up a thread (in light of UBW episode 20) discussing the similarities between Shirou and Saber and how they are meant for each other more than any other pairing. I've yet to finish it because... laziness. Since all of you are talking about what you like about Saber here, all I can say is that I agree on all of your points. Nothing really new I can say here, but seeing that Shirou-Saber relationship has come up a few times, I hope to finish my thread soon and to post it up for some pairing discussions!"
+Saber,37f2ee,REsoleSurvivor1000,2,Wed May 27 19:02:21 2015 UTC,The King demands a thread filled with just Saber gifs from the animations! :)
+Saber,37f2ee,RyuDragoon,2,Fri May 29 03:49:38 2015 UTC,This would be great! A mega-thread just for Saber gifs. I'm sure some wonderful people like /u/Ownsin and /u/blackcoffin90 could hook us up with some good stuff.
+Saber,37f2ee,drnicolai,14,Fri May 29 06:28:34 2015 UTC,"She is strong, beautiful and wise all rolled into one girl."
+Saber,37f2ee,ArchadianJudge,2,Wed May 27 06:35:14 2015 UTC,"Last time this question was asked I mentioned how she is calm, confident, strong, dedicated, and that she could eat. Very few eating habits annoy me more than someone being a delicate or picky eater.   Of course, there is also her relationship with Shirou, and how she struggles with her identity as the King, as a symbol, as something more than human and with her developing feelings for Shirou. While not necessary idyllic at the beginning, through their mutual misunderstandings and poor communication they stumble their way towards a beautiful and familial type of love. A love where they know they belong together.  Also, everything REsoleSurvivor1000 said. Truly an eloquent person."
+Saber,37e51s,trijohn,4,Tue May 26 23:34:50 2015 UTC,How much money do I have to throw at this until it arrives on my doorstep?
+Saber,37e51s,RyuDragoon,2,Wed May 27 00:19:29 2015 UTC,"According to OP's response to a comment on the original thread in r/fatestaynight, it is approximately $130 for both shipping and the cost, where $30 is for shipping and $100 is for the figure. These are based on current yen-to-USD exchange rates, which fluctuate day to day."
+Saber,37e51s,ivoryonyx,1 point,Wed May 27 02:37:14 2015 UTC,took the words right out of my mouth
+Saber,37e51s,RyuDragoon,1 point,Wed May 27 03:06:54 2015 UTC,Thank you kind sir/madam.
+Saber,37e51s,nataku411,1 point,Wed May 27 03:59:44 2015 UTC,"Ahh damnit, you beat me to it!  I've successfully managed to miss picking it up from the post office three days in a row now.  Great-looking figure though!  I'll guess I'll post some pictures too later today as well."
+Saber,37ca8s,K0RnD4Wg,3,Tue May 26 15:59:01 2015 UTC,Awesome!
+Saber,37ca8s,Niiiz,1 point,Tue May 26 19:13:42 2015 UTC,Thanks!
+Saber,37ca8s,REsoleSurvivor1000,3,Wed May 27 00:46:00 2015 UTC,I approve. Looks good! Now I wanna try this in BF4 when I get it and if it's possible.  EDIT: Question OP: How many layers did this take exactly?
+Saber,37ca8s,REsoleSurvivor1000,2,Tue May 26 20:01:42 2015 UTC,All 32 layers in BO2. Haven't played BF4 yet so hopefully there's enough for it!
+Saber,37ca8s,YetiSWK,1 point,Wed May 27 00:49:15 2015 UTC,"Damn. Well here's to hoping. I haven't played yet but it'll be one of the few things I try to do!  EDIT: Apparently they go up to 20? From what I read anyways. Sucks, but I imagine I can do this in Armored Core or something where the limit is 125. Quite mostly..."
+Saber,379kms,ZincAzN,3,Mon May 25 23:58:35 2015 UTC,Colors look a bit weird on imgur for some odd reason.  Grabbed the dress vector here.  Took the armored Saber right off of the wiki.
+Saber,379kms,shitcock55,2,Mon May 25 23:59:30 2015 UTC,"Season 5 was really confused with amphibians, so we don't."
+Saber,3784yp,JillSandvich,5,Mon May 25 17:38:56 2015 UTC,Better than hestia
+Saber,3784yp,Xemnatious,4,Mon May 25 21:44:24 2015 UTC,She's rocking that ribbon.
+Saber,376vrm,Cypherghost,3,Mon May 25 10:52:15 2015 UTC,"Well drawn, no doubt, but why make a lightsaber of sorts, when you could've just drawn Calibur? (Anyone that has an opinion can jump in, it's not a direct question to the author)"
+Saber,376vrm,Netcan,3,Mon May 25 16:22:42 2015 UTC,I second the motion of replacing lightsaber for Caliburn.
+Saber,376vmg,Ownsin,1 point,Mon May 25 10:50:06 2015 UTC,Man nothing makes your day better than an adorable picture of Saber.... <3
+Saber,374pbe,Ownsin,2,Sun May 24 21:19:03 2015 UTC,New kassadin skin Rito pleaaaseee
+Saber,372z3q,any42,1 point,Sun May 24 11:25:14 2015 UTC,And I thought I was being cool with the pic...
+Saber,371l3s,Cypherghost,1 point,Sun May 24 00:32:56 2015 UTC,"Emdless Eight, F/SN Edition: Eight days of Shirou going about his daily business."
+Saber,3703ep,Ownsin,2,Sat May 23 16:46:18 2015 UTC,"oh, nice one"
+Saber,36xsmq,Ownsin,10,Sat May 23 00:26:57 2015 UTC,shouldn't she turn alter.
+Saber,36xsv9,Ownsin,2,Sat May 23 00:29:20 2015 UTC,That is absolutely beautiful...
+Saber,36wsy9,Cypherghost,2,Fri May 22 19:40:06 2015 UTC,"Red a best.  It's not seethrough, I'm letting them see!"
+Saber,36w1h7,Ownsin,1 point,Fri May 22 16:23:02 2015 UTC,source  in case anyone wants it :)
+Saber,36tziq,phil205,2,Fri May 22 02:41:56 2015 UTC,"Oh hecka cool. My compliments on getting her left hand to look as good as it does.  Don't know if I have room to critique considering I'm a novice, but I think her hair on the right side looks a bit too blocky. Just some thoughts of mine."
+Saber,36saia,Ownsin,5,Thu May 21 18:45:57 2015 UTC,"Like father, like son. Erm....I mean...."
+Saber,36saia,Allegro-Con-Brio,3,Fri May 22 00:56:49 2015 UTC,The Saber and Morded Father/Son moments are some of the best on this sub.
+Saber,36saia,First_Cardinal,2,Fri May 22 03:26:08 2015 UTC,Who is the one riding her?
+Saber,36saia,RyuDragoon,9,Thu May 21 23:48:59 2015 UTC,Mordred aka Saber of Red.
+Saber,36saia,RyuDragoon,3,Fri May 22 00:08:52 2015 UTC,Thanks kind sir.
+Saber,36rehk,Cypherghost,1 point,Thu May 21 14:56:43 2015 UTC,"What's with the ""orta""...? Makes no sense."
+Saber,36qqel,Cypherghost,1 point,Thu May 21 11:07:20 2015 UTC,Saber is the husband. :D
+Saber,36rjwi,JillSandvich,2,Thu May 21 15:40:28 2015 UTC,Here's the full version.
+Saber,36ngxd,JillSandvich,9,Wed May 20 17:48:14 2015 UTC,"You'd think they're taking a selfie, but you'd be wrong. Rin is just showing Saber some really weird porn."
+Saber,36ngxd,Taedirk,2,Thu May 21 12:27:56 2015 UTC,I know right that holding hand shit is fucked up
+Saber,36ngxd,megaderek2011,5,Thu May 21 12:48:59 2015 UTC,That is a giant phone
+Saber,36ngxd,megaderek2011,2,Thu May 21 01:11:41 2015 UTC,Not to over exaggerated. There are some phones about that size on the market. See the HTC Desire 816.
+Saber,36mbf5,JillSandvich,4,Wed May 20 12:58:17 2015 UTC,i love hollow ataraxia.
+Saber,36mbf5,blazenarm,4,Wed May 20 19:17:44 2015 UTC,I can't stop thinking of this every time I see a picture such as this one.
+Saber,36m0g9,any42,1 point,Wed May 20 11:11:38 2015 UTC,Saber should be in Curry's clothes.
+Saber,36m0g9,RIvkyn,1 point,Thu May 21 01:53:54 2015 UTC,You are trying too hard.
+Saber,36lrsl,justspectating,1 point,Wed May 20 09:23:37 2015 UTC,Link to original and artist  http://licheus.deviantart.com/art/Pendragon-312153765  (Would have put in description but I have no idea how to post things on Reddit)
+Saber,36lrsl,MetalPandaDance,1 point,Wed May 20 09:24:47 2015 UTC,The shading on the armor is really impressive!
+Saber,36kw89,RyuDragoon,4,Wed May 20 03:25:34 2015 UTC,"And a nifty little Overgrown Tomb hiding out in the corner. Nice.  As for the pad, also nice. I've got the F/sn Berserker in front of the moon one, it's pretty handy having a pad that large for more than just playing Magic over. haha"
+Saber,36kw89,DritzD27,3,Wed May 20 07:34:03 2015 UTC,"For everyone asking where I got it      Just a heads up, it's rather thick as well.     Just another heads up, the edges tend to fray a little after a few months of daily use."
+Saber,36kw89,desktop_version_bot,2,Wed May 20 03:42:16 2015 UTC,Here is the desktop version of your link
+Saber,36kw89,ValkyrieLead,2,Wed May 20 03:42:34 2015 UTC,Link to the original image anyone?
+Saber,36kw89,TatsumakiSTORM,1 point,Wed May 20 23:19:54 2015 UTC,Keyboard for scale.
+Saber,36kw89,Canaloupes,1 point,Wed May 20 03:27:35 2015 UTC,May I ask where you have gotten such a glorious mousepad of our king?
+Saber,36hhxd,Ownsin,3,Tue May 19 12:48:06 2015 UTC,"Ohhhhhh, very nice, very nice indeed."
+Saber,36hhxd,Tearfulfriend18,1 point,Tue May 19 19:23:06 2015 UTC,Can you please just color the eye green?
+Saber,36hhxd,RyuDragoon,1 point,Wed May 20 01:22:25 2015 UTC,ILL BUY IT!
+Saber,36hu9i,JillSandvich,2,Tue May 19 14:26:26 2015 UTC,I'd watch a spin-off based on this in a heartbeat
+Saber,36ge1u,Canaloupes,4,Tue May 19 04:34:05 2015 UTC,I need that keychain/whatever it's called.  Where can I get one?
+Saber,36ge1u,iRStupid2012,3,Tue May 19 08:57:43 2015 UTC,"I bought mine here It's not very good if it's used as an actual keychain since the sword isn't really secured to the scabbard, but it looks nice on my wall :) $10 isn't too shabby for a pretty cool piece of decoration I'll probably use for life heheh"
+Saber,36ge1u,iRStupid2012,2,Tue May 19 10:40:23 2015 UTC,"and bought.   I'd use Avalon as a keychain purely because I'll keep it close - not as close as in my body, but close enough :)"
+Saber,36ge1u,Mobile_Version,1 point,Tue May 19 11:48:16 2015 UTC,Here is the mobile version of your link
+Saber,36fiaw,Ownsin,6,Mon May 18 23:59:44 2015 UTC,This is pretty relevant:
+Saber,36fiaw,REsoleSurvivor1000,5,Tue May 19 00:45:38 2015 UTC,EX Rank Riding Ability
+Saber,36fiaw,any42,2,Tue May 19 00:09:31 2015 UTC,Since poor Gilgamesh was humiliated beyond repair he was lowered a rank so Saber could go for a spin.
+Saber,36dyal,Ziebell,2,Mon May 18 17:03:28 2015 UTC,Imgur Mirror
+Saber,36d231,Ownsin,2,Mon May 18 12:28:26 2015 UTC,Lol that look on archer's face xD
+Saber,36a1we,JillSandvich,1 point,Sun May 17 17:27:18 2015 UTC,Where is this from?
+Saber,36a1we,Sarabveer,3,Tue May 19 04:14:43 2015 UTC,"The art or the scene it's based off of?  Edit; To answer both:   I looked but I could not find who the original artist is. The art is based of the first scene in episode 5 of Fate/Zero, where Saber is driving with Irisviel."
+Saber,36ah3j,Ownsin,1 point,Sun May 17 19:37:56 2015 UTC,Reverse image search yields nothing. Source?
+Saber,36ah9m,Ownsin,2,Sun May 17 19:39:17 2015 UTC,Holy mother of surrealism.
+Saber,36ah9m,REsoleSurvivor1000,1 point,Sun May 17 20:23:11 2015 UTC,"Hm, interesting indeed... I like."
+Saber,36a3js,REsoleSurvivor1000,1 point,Sun May 17 17:42:22 2015 UTC,Only the holiest and most elegant of sweets shall be made at this square table!  Yums:  http://www.pixiv.net/member_illust.php?mode=medium&illust_id=47200550  Original thread location.
+Saber,36att4,pad117,3,Sun May 17 21:27:20 2015 UTC,By King Arthurs Crown! EXCALIBERRRRRRRRRRRRRR
+Saber,36att4,ILoveSkyrimPorn,2,Sun May 17 21:29:14 2015 UTC,Wat.
+Saber,36att4,any42,4,Mon May 18 00:16:58 2015 UTC,A heroic spirit summoned from a more recent time
+Saber,36att4,any42,1 point,Mon May 18 08:21:42 2015 UTC,Is there a pun behind this all I am missing?
+Saber,36att4,Ownsin,3,Mon May 18 10:03:22 2015 UTC,"Nah, I just put Sabers sword in Rons hand"
+Saber,368l15,SavageReborn,4,Sun May 17 05:31:03 2015 UTC,Felt like something was missing when I was watching this scene so I had to make amends. Hope ufotable add more stuff from the fate route later as well!
+Saber,368l15,REsoleSurvivor1000,5,Sun May 17 05:32:03 2015 UTC,And hopefully they make a show/movie specifically for the Fate route! It's kinda needed.
+Saber,368l15,AdelKoenig,2,Sun May 17 14:25:42 2015 UTC,DEEN made such a great soundtrack.
+Saber,368l15,aBabyShoe,1 point,Sun May 17 19:25:12 2015 UTC,They truly did...till today I still listen to it.
+Saber,368l15,aBabyShoe,1 point,Mon May 18 23:06:03 2015 UTC,"I haven't seen the UBW anime yet since I'm waiting for it to finish but I have some really hardcore chills running down my spine watching this video and the scene from the anime the song itself is beautiful, she remains true to herself and that is something I love about Saber and a reason why she is still my favorite character of all times.   Thank you for doing this!"
+Saber,367ii4,JillSandvich,2,Sat May 16 22:35:18 2015 UTC,Happy cake day!
+Saber,367ii4,Ownsin,2,Sun May 17 14:15:52 2015 UTC,Thanks! =D
+Saber,367ii4,BP_Ray,2,Sun May 17 17:17:48 2015 UTC,Happy cake day!
+Saber,36662t,any42,5,Sat May 16 15:08:28 2015 UTC,Imgur Mirror
+Saber,36662t,RyuDragoon,3,Sat May 16 18:44:45 2015 UTC,"That looks amazing, probably one of the best realistic artworks i have seen for Saber."
+Saber,36662t,Ownsin,1 point,Sat May 16 19:50:09 2015 UTC,it's wlop after all^
+Saber,36662t,lalionnemoddeuse,2,Tue May 19 06:54:55 2015 UTC,Has anyone supported her on patreon? is the full res any better?
+Saber,36662t,ibedroppin,1 point,Sat May 16 20:21:51 2015 UTC,The original has been updated to a bigger res. Check it.
+Saber,36662t,crigget,2,Mon May 18 18:27:13 2015 UTC,Is it possible to get the high res version? ;_;
+Saber,36662t,REsoleSurvivor1000,2,Sat May 16 20:54:59 2015 UTC,You'd have to donate to the artist's Patreon according to the picture description. Even with that said this version is outstanding.
+Saber,36662t,REsoleSurvivor1000,1 point,Sun May 17 00:00:26 2015 UTC,The original has been updated to a bigger res! Yay!
+Saber,36662t,nataku411,2,Mon May 18 18:26:57 2015 UTC,I can't get over how amazing that detail is. Especially in the gauntlet reflections.
+Saber,36662t,lolhaibai,3,Sun May 17 00:02:05 2015 UTC,Right? It's just amazing.
+Saber,3645px,JillSandvich,2,Fri May 15 23:37:11 2015 UTC,And yet Kiritsugu still doesn't give her enough attention... What a monster.
+Saber,3643st,Ownsin,1 point,Fri May 15 23:19:02 2015 UTC,"The coloring in this is real nice, with the overall blue highlights, especially in her hair."
+Saber,3622cn,Ownsin,1 point,Fri May 15 13:13:34 2015 UTC,+1 for ponytail!
+Saber,3622hk,JillSandvich,2,Fri May 15 13:14:49 2015 UTC,"Dayum, Iri.  Anyone got this without the watermark?"
+Saber,3622hk,RIvkyn,3,Fri May 15 15:04:29 2015 UTC,Here ya go: ;)
+Saber,3622hk,RIvkyn,2,Fri May 15 15:12:52 2015 UTC,
+Saber,3622hk,nataku411,1 point,Fri May 15 16:15:36 2015 UTC,I NEED more like this in my life.
+Saber,35zlzb,Ownsin,3,Thu May 14 21:06:34 2015 UTC,"She's daaamn cuuute with that pony-tail. But the classic hair is what makes Saber, so it kinda feels strange."
+Saber,35zlzb,any42,1 point,Thu May 14 21:09:34 2015 UTC,Still looks majestic.
+Saber,35zlzb,aBabyShoe,1 point,Sat May 16 04:59:05 2015 UTC,Requesting vector.
+Saber,35zlzb,RyuDragoon,1 point,Thu May 14 21:41:38 2015 UTC,"Is this official art? It looks like official art. If not, major props to the artist. I liked that hairstyle too - still prefer her original, but this is a nice change of pace. :)"
+Saber,35zlzb,ivoryonyx,1 point,Fri May 15 08:14:34 2015 UTC,"It really seems like original, but I'm sure it's not drawn by Takeuchi."
+Saber,35y4tr,JillSandvich,5,Thu May 14 14:16:05 2015 UTC,The drool is a nice touch
+Saber,35z4fi,Ziebell,2,Thu May 14 18:54:14 2015 UTC,Arturia
+Saber,35z4fi,yo_kirito,0,Thu May 14 20:31:33 2015 UTC,Could you point me towards the original post then?
+Saber,35z4fi,Cypherghost,3,Thu May 14 21:04:23 2015 UTC,http://www.reddit.com/r/Saber/comments/2xnwew/saber_and_her_castle/
+Saber,35z85h,any42,7,Thu May 14 19:23:12 2015 UTC,I can't vote because it won't allow me to click every option at once.
+Saber,35z85h,Jacktheinfinite101,10,Thu May 14 19:26:51 2015 UTC,But there's only one correct answer.
+Saber,35z85h,REsoleSurvivor1000,3,Thu May 14 19:29:42 2015 UTC,[Shirou shouting intensifies]
+Saber,35z85h,Kyakan,1 point,Thu May 14 22:02:36 2015 UTC,You forget SEIBAAAAA
+Saber,35z85h,ArchadianJudge,1 point,Fri May 15 00:36:06 2015 UTC,But you didn't put Saber on the list!  :)
+Saber,35z85h,AdelKoenig,1 point,Fri May 15 01:08:57 2015 UTC,This is a wonderfully rigged contest!   Nice.
+Saber,35xck1,Ownsin,9,Thu May 14 08:25:47 2015 UTC,
+Saber,35xck1,Jacktheinfinite101,2,Thu May 14 08:27:03 2015 UTC,How come your comment is blank? I'm on mobile with the Reddit is Fun app.
+Saber,35xck1,RyuDragoon,2,Thu May 14 14:00:29 2015 UTC,"It's not blank, he's using a comment face."
+Saber,35xck1,RyuDragoon,2,Thu May 14 14:10:41 2015 UTC,I see. Any way I could view this via mobile?
+Saber,35xck1,FinalNwo,2,Thu May 14 14:22:19 2015 UTC,"You can't. It's just not possible with the app. You can use a mobile browser to view comment faces and other things, like 'special spoilers'.   A good example would be the VN-spoiler tag [](/v ""..."" from /r/fatestaynight. They don't show on the app either."
+Saber,35xck1,NvmSharkZ,1 point,Thu May 14 18:39:57 2015 UTC,i have no idea actually... Sorry that i can't help in that department. Maybe someone else can.
+Saber,35xck1,Tearfulfriend18,7,Thu May 14 14:30:00 2015 UTC,Fate route when? ლ(ಠ益ಠ)ლ
+Saber,35xck1,REsoleSurvivor1000,3,Thu May 14 13:38:55 2015 UTC,"I want it so baaad, ufotable whyy"
+Saber,35xck1,REsoleSurvivor1000,2,Thu May 14 16:15:38 2015 UTC,"I read this in the import booklet for UBW. Nasu wanted them to do the Fate route, but in order to do that it would have to be significantly altered.  But yea I want it bad too!!"
+Saber,35xck1,RaitoKurokage,1 point,Thu May 14 22:18:09 2015 UTC,"Right there with ya...  MOAR! NEED MORE!  PS: Noticed we don't have the ""moar"" Saber cup face from /r/fatestaynight..."
+Saber,35xck1,ArchadianJudge,3,Thu May 14 22:09:46 2015 UTC,"I just added the ""moar"" comment face. Enjoy~"
+Saber,35xck1,RIvkyn,2,Tue May 19 13:32:08 2015 UTC,AWWWWWWWW YEEEEEEEEAH!
+Saber,35xck1,Jacktheinfinite101,4,Tue May 19 17:11:09 2015 UTC,Best song for best girl
+Saber,35vfsp,NvmSharkZ,10,Wed May 13 21:05:22 2015 UTC,"Keep going with the Visual Novel, and in the end, you will receive the Last Episode.   IMO the true ending of Fate."
+Saber,35vfsp,trijohn,2,Wed May 13 23:17:44 2015 UTC,"Yeah I was planning to read all of the others, just a question to make sure, to unlock the final episode I need to unlock every single end right?"
+Saber,35vfsp,trijohn,2,Thu May 14 16:06:17 2015 UTC,Yes!   Fate only has one which you've done already.   Then two each for Unlimited Blade Works and Heaven's Feel.
+Saber,35vfsp,Ownsin,10,Sat May 16 06:55:59 2015 UTC,"I'm glad you liked it, i found the ending to be bittersweet and really sad, but wait till you read the Last Episode. You need to finish all the routes to unlock it, but once you do, you'll be in for a treat!  P.S: don't worry about breaking the picture chain! if anything i love threads like these, and if you read in the sidebar  about /r/Saber, it says that discussions of the Fate route and series in general are encouraged! so if anything your thread is refreshing :) ."
+Saber,35vfsp,REsoleSurvivor1000,4,Wed May 13 23:22:26 2015 UTC,Oh god... I just finished it today and I've never cried so much in my life over a piece of fiction it was amazing! My feelings...        My life now:
+Saber,35vfsp,ArchadianJudge,3,Fri May 15 23:10:35 2015 UTC,"yeah I made sure it was ok to post it, but since most posts are pictures it feels kinda weird I guess :p  the ending was ok, but taking saber away like that and then all of bedivere's lines were pretty heavy, specially when he asks if she's seeing the continuation of the dream"
+Saber,35vfsp,nataku411,2,Thu May 14 16:09:17 2015 UTC,I'm glad you enjoyed it! I thought imo the ending wasn't good only because you don't get the girl but it's still a powerful one. In a way it's the saddest ending to a Saber fan.   Are you planning to continue the other routes as well? Less Saber but still great reads!
+Saber,35vfsp,REsoleSurvivor1000,1 point,Wed May 13 22:07:32 2015 UTC,"Like these guys say, stick with it, and go through the other routes, getting into Last Episode is a real treasure."
+Saber,35vfsp,FoleyX90,1 point,Thu May 14 00:09:39 2015 UTC,All good friend. Never hurts to have some discussion goin' on in this subreddit. And yes... It hurt. Very much so.    I hear good things about the hidden Realta Nua thing though. Still have to finish the emotional trainwreck that is Heaven's Feel though...
+Saber,35tpr3,FinalNwo,1 point,Wed May 13 12:55:38 2015 UTC,"Source.  By the way, Happy unofficial Birthday, King of Knights!"
+Saber,35tpr3,First_Cardinal,1 point,Wed May 13 12:56:42 2015 UTC,"It's her birthday? Wait, what day is it in your Timezone?"
+Saber,35tpr3,First_Cardinal,2,Wed May 13 14:11:07 2015 UTC,13th of May. And it's not her official birthday.
+Saber,35t64t,Ownsin,2,Wed May 13 08:21:02 2015 UTC,Saber wool is very valuable.
+Saber,35sgs1,Ownsin,2,Wed May 13 03:12:01 2015 UTC,"Oooh Takeuchi, goddamn, I love Takeuchi."
+Saber,35sgs1,any42,1 point,Wed May 13 13:09:49 2015 UTC,Without the text: Link
+Saber,35qazp,Cypherghost,3,Tue May 12 17:07:25 2015 UTC,Shirou could have never handled it properly though lol
+Saber,35qazp,nataku411,3,Tue May 12 18:32:00 2015 UTC,"""... You're a terrible scabbard, Shirou."""
+Saber,35qbc6,Ownsin,2,Tue May 12 17:10:03 2015 UTC,"Man, I know that Mordred had a few screws loose, but if Saber was in the position to accept her and teach her, they would have been a force to be reckoned with on the battlefield.  That, and moments like this. Sigh."
+Saber,35qbc6,ivoryonyx,1 point,Tue May 12 20:22:28 2015 UTC,"Well, you also have to remember that Mordred was manipulated by Morgan to oppose Arthur. Also Morgan basically brainwashed Mordred into thinking that Arthur doesn't like her and wants nothing to do with her. That of course still doesn't justify what Mordred did, but in a way you can see she is not totally all evil."
+Saber,35qbc6,Reminnisce,1 point,Tue May 12 20:42:22 2015 UTC,"She actually really, really adored Arthur until she tried to talk to her and was completely rejected as a child and a heir. That, combined with her loneliness of being ""different"" from everyone else and the spurring on from Morgan is what made her have a few screws you.  Heck, Mordred is basically a thousand year old Illya, only angrier since she didn't get the love that Fate or HF Illya got from Shirou."
+Saber,35qbc6,ivoryonyx,1 point,Tue May 12 21:35:01 2015 UTC,"That's one way of looking at it... except here, she gets told what she didn't want to hear by her own parent, not told by others via rumors and such. I look at it like the ""straw that broke the camel's back."" It's just... T_T"
+Saber,35qbc6,ivoryonyx,1 point,Tue May 12 23:46:41 2015 UTC,"Right, I know. Sucks what happened to her, but all the manipulation in the world wouldn't have beaten Saber's approval. I wish it happened. :(  I never thought she was evil either, I just thought she was tragic. And a little bit crazy. But mostly tragic."
+Saber,35nwno,drnicolai,5,Tue May 12 01:17:14 2015 UTC,We definitely need more motorcycle art like this. I haven't seen enough of it.
+Saber,35nwno,REsoleSurvivor1000,2,Tue May 12 02:10:12 2015 UTC,Found it here
+Saber,35nwno,blinKX10,1 point,Tue May 12 01:17:32 2015 UTC,10/10 would ride bitch
+Saber,35o7q9,Ziebell,3,Tue May 12 03:52:15 2015 UTC,Book 3 translation when? ;-:
+Saber,35nk3e,JillSandvich,3,Mon May 11 23:34:34 2015 UTC,"It's things like this that make me wish Carnival Phantasm was canon all along, and that they were simply play/stage actors acting out what we know as ""Fate""."
+Saber,35nd02,Ownsin,3,Mon May 11 22:36:58 2015 UTC,So little love for this post. I think it's a nice comparison.
+Saber,35nd02,RIvkyn,3,Tue May 12 04:13:45 2015 UTC,Yeah i don't get the downvotes either...
+Saber,35nd02,SaitamaSwag,1 point,Tue May 12 04:16:36 2015 UTC,"Wow, I really like this artwork. Is there anything else with a similar style?"
+Saber,35nd02,ivoryonyx,1 point,Tue May 12 05:54:33 2015 UTC,"Nice parallel, it definitely shows how much the two have in common. Personally I consider them the true Fate/stay night pairing, because I'm one who is attracted to those who are similar to myself. For others, maybe it's someone who is the direct opposite of you (Rin) or someone who complements your personality (Sakura). It's totally subjective; just wanted to share my perspective and see what others thought.  To quote a post I had written a while back (warning: wall of text):   I don't know how you came to the conclusion that his attempt to reach her all his life goes against the route's message. He continues with his ideals of helping people and putting himself before others JUST LIKE Saber did (I don't think he became a hero so much as he continued his ideals in a more realistic fashion; he doesn't become Archer of course, since Archer, being a counter guardian and a heroic spirit, would have been isolated in the Throne of Heroes). He didn't regret seeing her go, but he believed in his heart that they would meet again someday because he loved her. Just because he had a wish doesn't mean he regretted anything or wanted to redo anything. Saber had the same wish. For the first time, they both thought of their own desires instead of others'. In the end, they're both rewarded for their sacrifices. It was beautiful and heartwarming. Very rarely does anything bring me close to tears or threaten to tear my heart out.   Full comment here"
+Saber,35jrmm,Ownsin,8,Mon May 11 01:16:39 2015 UTC,Hollow Ataraxia Spoilers/Feels   He will never forget...
+Saber,35jrmm,ODIN111999,6,Mon May 11 04:38:59 2015 UTC,That's very similar to this one.
+Saber,35jrmm,promek,1 point,Mon May 11 02:25:11 2015 UTC,That's definitely not as good or as innocent though.
+Saber,35jrmm,Araion,1 point,Mon May 11 02:42:37 2015 UTC,Love is always beautiful no matter the age.
+Saber,35jrmm,aBabyShoe,1 point,Mon May 11 03:15:53 2015 UTC,T_T
+Saber,35jrmm,inblood123,1 point,Mon May 11 14:08:44 2015 UTC,The feels of Last Episode  and   The happy reunion
+Saber,35jruu,Cypherghost,1 point,Mon May 11 01:18:50 2015 UTC,Nice
+Saber,35jruu,Nielsjuh,1 point,Mon May 11 09:51:37 2015 UTC,"Reminds me of Danganronpa artwork for whatever reason, might be the eyes."
+Saber,35ij11,Your__Butthole,1 point,Sun May 10 18:39:06 2015 UTC,lol do you have one w/o your signature?
+Saber,35ij11,nataku411,1 point,Mon May 11 03:03:05 2015 UTC,added it to the album
+Saber,35ij11,nataku411,1 point,Mon May 11 03:57:19 2015 UTC,Ah nice!
+Saber,35ij11,Canaloupes,1 point,Mon May 11 04:19:16 2015 UTC,awesome work
+Saber,35ij11,ArchadianJudge,1 point,Mon May 11 06:29:56 2015 UTC,"Thanks for your amazing work! I know it's not easy but your quality is pretty exceptional.   Will you consider working on other poses from in the show? Maybe even her other outfits? Coming from another artist, great work!"
+Saber,35iosc,REsoleSurvivor1000,1 point,Sun May 10 19:28:53 2015 UTC,Let this righteous sword carve a path to victory even if one hasn't been made before.  [unable to locate source]
+Saber,35iosc,Cypherghost,1 point,Sun May 10 19:29:53 2015 UTC,"Sorry, but this is a repost."
+Saber,35iosc,Cypherghost,1 point,Sun May 10 22:30:35 2015 UTC,Aww...
+Saber,35ibjx,Ziebell,2,Sun May 10 17:34:15 2015 UTC,This guy would fit really well in Kingdom Hearts.
+Saber,35f5rr,Ownsin,1 point,Sat May 9 19:24:56 2015 UTC,
+Saber,35ca52,woshiiqzaii,2,Fri May 8 22:48:17 2015 UTC,Source
+Saber,35ca52,aBabyShoe,2,Fri May 8 22:48:35 2015 UTC,"This is straight up beautiful I love it, thank you for sharing!"
+Saber,35b9iy,JillSandvich,2,Fri May 8 17:44:49 2015 UTC,Is it just me.. or does Berserker look like a Zergling?
+Saber,35b9iy,Fenodyree,1 point,Sat May 9 15:18:44 2015 UTC,Can someone elaborate on what Berserker is holding..?
+Saber,35b9iy,OnTheInternetToLie,7,Fri May 8 19:34:43 2015 UTC,It's that steal beam he grabs to attack saber at their first encounter in Fate/Zero
+Saber,35b9iy,OnTheInternetToLie,2,Fri May 8 21:28:56 2015 UTC,Ohh.  I haven't seen FZ (do know what that Berserker's NP is though) and it looked like something that would have made this picture a bit inappropriate.
+Saber,358woc,nataku411,1 point,Fri May 8 02:14:15 2015 UTC,Pixiv
+Saber,358xbc,nataku411,2,Fri May 8 02:20:12 2015 UTC,Beautiful drawing.
+Saber,358v4m,nataku411,1 point,Fri May 8 01:59:53 2015 UTC,Pixiv
+Saber,3593ho,any42,1 point,Fri May 8 03:17:02 2015 UTC,Who are those three behind her?
+Saber,3593ho,summers_md,3,Fri May 8 05:48:05 2015 UTC,"The one on the right is Sir Lancelot and the one on the left is Sir Bedivere, the one in the back is probably Sir Gawain."
+Saber,356xux,JillSandvich,7,Thu May 7 16:48:16 2015 UTC,Yes pls
+Saber,356xux,RIvkyn,3,Fri May 8 01:06:59 2015 UTC,"Riv, can I know the source please? For science!"
+Saber,356xux,rushofred,2,Fri May 8 09:55:53 2015 UTC,Ga-Rei: Zero
+Saber,356xux,Nakaue,2,Fri May 8 10:16:05 2015 UTC,What is this a reference to?
+Saber,356xux,Hylian_Spud,6,Thu May 7 21:13:59 2015 UTC,"Not so much a reference as pocky is a stick, so it's like when two people eat spaghetti and then they slurp up the same noodle."
+Saber,356xux,Kami_no_Kage,2,Thu May 7 21:21:33 2015 UTC,"Ah, that makes sense. Thank you."
+Saber,355md3,Saber_Na,8,Thu May 7 08:38:55 2015 UTC,The more I see Saber the more I realise how god damn gorgeous she is.
+Saber,355md3,CFCkyle,2,Thu May 7 12:56:34 2015 UTC,Welcome to the club! Where the best route gets overlooked and the DEEN doesn't matter.
+Saber,355md3,REsoleSurvivor1000,2,Thu May 7 20:42:57 2015 UTC,Imgur Mirror
+Saber,355md3,RyuDragoon,1 point,Thu May 7 15:59:22 2015 UTC,Can you please host it on imgur and post it again? puush is really slow for a lot of people.
+Saber,355md3,Ownsin,1 point,Thu May 7 10:52:56 2015 UTC,It's only a matter of time now...
+Saber,353xmp,drag00n34,1 point,Wed May 6 22:11:36 2015 UTC,Purchase link?
+Saber,353xmp,RyuDragoon,1 point,Thu May 7 01:15:01 2015 UTC,You can look here
+Saber,3540p3,AdelKoenig,2,Wed May 6 22:35:59 2015 UTC,Ahh yes. I was thinking of Saber when I saw that too. Too bad she didn't have a phone with her at the time.
+Saber,351p3z,TuanT1935,-2,Wed May 6 11:14:27 2015 UTC,"Sorry, but this is a repost."
+Saber,351p3z,Cypherghost,6,Wed May 6 17:36:46 2015 UTC,Crawled the whole /r/Saber. Could not find that duplicated post.
+Saber,351p3z,Cypherghost,0,Wed May 6 23:46:30 2015 UTC,You didn't look properly. Here you go
+Saber,351p3z,According_to_keikaku,2,Thu May 7 07:22:00 2015 UTC,"I dunno. I wouldn't really call it a repost exactly. OP shared just the artwork by itself, but the one you cite is a desktop screencap (which is why it may not have come up in their searches)."
+Saber,351p3z,Cypherghost,1 point,Thu May 7 14:35:15 2015 UTC,"ahaha, that's too deep. should i contact you before any posts?"
+Saber,351p3z,REsoleSurvivor1000,1 point,Thu May 7 10:07:01 2015 UTC,"You don't need to be like that man, I'm just saying it's a repost. I never said anything outside of that."
+Saber,3522ck,RIvkyn,1 point,Wed May 6 13:32:04 2015 UTC,"forgive my ignorance, but who is this?"
+Saber,3522ck,beneaththeradar,3,Wed May 6 16:11:21 2015 UTC,Fate Prototype Saber
+Saber,3522ck,beneaththeradar,1 point,Wed May 6 16:50:11 2015 UTC,thanks!
+Saber,3522ck,FrooglyMoogle,1 point,Wed May 6 17:35:44 2015 UTC,Saber before she was genderswapped.
+Saber,3522ck,beneaththeradar,1 point,Wed May 6 17:07:40 2015 UTC,"ah, I thought maybe it was a new saber class from another Fate VN I didn't know about. cheers"
+Saber,3512li,StopTimeShow,1 point,Wed May 6 05:37:56 2015 UTC,Great find OP!
+Saber,350zxu,nataku411,2,Wed May 6 05:06:21 2015 UTC,"Holy shit, at the exact same moment I opened this picture some birds began singing in front of my window."
+Saber,350zxu,jimyyyy,2,Wed May 6 12:19:00 2015 UTC,10/10 title
+Saber,350zxu,RIvkyn,1 point,Wed May 6 13:16:57 2015 UTC,This has been my wallpaper for a while. I love it.
+Saber,34zewv,NovaMaxwell,3,Tue May 5 20:50:34 2015 UTC,Oh this one is nice! What's the name of this figure?
+Saber,34zewv,ArchadianJudge,3,Tue May 5 21:38:22 2015 UTC,I would also like to know OP. Pls respond.
+Saber,34zewv,REsoleSurvivor1000,2,Tue May 5 22:19:09 2015 UTC,"honestly im not sure , i believe it is a GK this is the source page. It doesnt look like it will be a pvc."
+Saber,34zewv,REsoleSurvivor1000,1 point,Tue May 5 22:39:25 2015 UTC,That's fine. Thanks for the reply I'll give it a look over.
+Saber,34zewv,nataku411,2,Tue May 5 22:53:15 2015 UTC,MFC page
+Saber,34zewv,Ownsin,1 point,Wed May 6 00:06:32 2015 UTC,how did you find it on MFC? i searched twice and couldn't find it there xD.
+Saber,34zewv,nataku411,1 point,Wed May 6 00:16:48 2015 UTC,I found it a while ago whilst using advanced search with Saber as character and garage kits as the category.  I was actually informed by email when the picture was updated by putting it on the 'watch for changes list'
+Saber,34zewv,Ownsin,1 point,Wed May 6 02:41:56 2015 UTC,"Oh i see, thanks for the info."
+Saber,34yxfb,MechaGoldFish,2,Tue May 5 18:40:22 2015 UTC,Also here is the source: http://www.pixiv.net/member_illust.php?mode=medium&illust_id=50217604
+Saber,34y62s,JillSandvich,9,Tue May 5 15:16:58 2015 UTC,My Saber Lion nendo gets here today or tomorrow.  This is me waiting patiently...
+Saber,34y62s,Taedirk,4,Tue May 5 15:26:32 2015 UTC,
+Saber,34y62s,TheRealMavsZane,6,Tue May 5 15:39:00 2015 UTC,Being Lancer is suffering.
+Saber,34y62s,blazenarm,4,Tue May 5 20:48:23 2015 UTC,"how is it suffering? i would gladly be eaten by Saber Lion, there is no greater honor."
+Saber,34xol1,drag00n34,2,Tue May 5 12:44:47 2015 UTC,Aren't the face sculpts for 2.0 a lot better than the original?they seem to resemble the current anime very well.
+Saber,34xol1,ArchadianJudge,1 point,Wed May 6 00:57:04 2015 UTC,Yes they are a lot better! 2.0's expressions are livelier than the original's
+Saber,34xol1,RyuDragoon,1 point,Wed May 6 02:21:50 2015 UTC,Take 2.0's hair and put it on 1.0. Problem solved.
+Saber,34xol1,RyuDragoon,1 point,Tue May 5 15:48:40 2015 UTC,the gold on 1.0 cannot be seen and her joints are obsolete compared to 2.0
+Saber,34xol1,AbusedToasters,2,Tue May 5 18:15:30 2015 UTC,Ah so there is more than meets the eye so to speak. Thanks for the heads up.
+Saber,34wm53,nataku411,2,Tue May 5 04:00:27 2015 UTC,Well. Can't say I should thank my wallet for impulse buying but this definitely earned it.
+Saber,34wm53,REsoleSurvivor1000,1 point,Tue May 5 05:13:16 2015 UTC,I have to buy these books at some point in time.
+Saber,34twjf,Cypherghost,1 point,Mon May 4 15:04:54 2015 UTC,she looks like a final fantasy character in this one.
+Saber,34rkxd,Ownsin,2,Sun May 3 23:21:15 2015 UTC,If TYPE-MOON made Fate / Saber as a master I would buy the $400 blu-ray set. And the $400 dollar blu-ray set for the second cour. And the blu-ray for the english dub. And the blu-ray for the second cour of the english dub.
+Saber,34rlxd,Cypherghost,3,Sun May 3 23:30:13 2015 UTC,"""I thought I was fighting a sparrow, but she turned out to be some sort of Lion."""
+Saber,34rlxd,beneaththeradar,1 point,Mon May 4 17:20:32 2015 UTC,she's so full of regret...
+Saber,34rlxd,vesper8008,2,Mon May 4 00:54:02 2015 UTC,"She obviously is full of regret, but she has to do what she has to do to defend her kingdom."
+Saber,34rlxd,Ownsin,1 point,Mon May 4 01:32:37 2015 UTC,I hope that's gilgamesh reaching out with his bloody hands.
+Saber,34oarv,Cypherghost,1 point,Sun May 3 00:28:27 2015 UTC,When I see the title
+Saber,34n1gp,Ziebell,1 point,Sat May 2 17:28:21 2015 UTC,Fantastic!
+Saber,34mngo,nataku411,3,Sat May 2 15:22:46 2015 UTC,I love this picture a lot but I still laugh a bit because it reminds me of that one scene haha.
+Saber,34mngo,aBabyShoe,2,Sat May 2 18:44:09 2015 UTC,"Ooooooh, very nice, and quite witty"
+Saber,34mngo,Tearfulfriend18,1 point,Sun May 3 00:58:29 2015 UTC,"Thanks mate!  When I found the picture, I knew immediately what I had to do."
+Saber,34lw78,Sarngeras,1 point,Sat May 2 09:12:48 2015 UTC,"If anyone has a clean version (without the yellow diamond), I'd gladly take it!"
+Saber,34lc9a,RIvkyn,2,Sat May 2 04:15:20 2015 UTC,"Jeanne is cool, but I prefer my ahoge."
+Saber,34lc9a,REsoleSurvivor1000,2,Sat May 2 07:36:23 2015 UTC,We all do.
+Saber,34lc9a,Ownsin,0,Sat May 2 07:56:22 2015 UTC,"But Jeanne is Ruler... she qualifies as Saber, but has never been summoned as Saber in any iteration of Fate."
+Saber,34lc9a,Ragsmuena,1 point,Sat May 2 16:36:53 2015 UTC,She is both ruler and saber class.
+Saber,34lc9a,Ownsin,1 point,Sun May 3 00:15:57 2015 UTC,"Kind of what I mean. She can be either Ruler or Saber class... It was only in the Extra Material for Apocrypha that they say she CAN be Saber, but she's never actually BEEN Saber.  It's just like how Heracles can be Berserker, Lancer, Rider, Archer, Assassin or Saber... but has only ever appeared as Berserker."
+Saber,34lc9a,Ragsmuena,1 point,Sun May 3 11:22:42 2015 UTC,Yes and no. Ruler class was created to oversee the great holy grail. It in itself is technically not a c lass of its own if you think about it. She is qualified as a Saber and would be summoned as a Saber 99% of the time if she was summoned normally by masters. That's why i have her in here.
+Saber,34lc9a,Ownsin,1 point,Sun May 3 16:37:36 2015 UTC,"Yeah, I understand that, but the fact of the matter is that she has never appeared as Saber. Sure she would normally be summoned as Saber if she wasn't overseeing the Greater Grail, but there is no version of Fate or any spin-offs where she actually appear as Saber.   I'm not saying that she shouldn't be allowed on this sub by the way. I just wanted to point out my above point."
+Saber,34jrgx,Ziebell,6,Fri May 1 19:19:07 2015 UTC,Siegried is such a badass.
+Saber,34jrgx,PillzMan,5,Fri May 1 21:02:17 2015 UTC,Aw yiss mother fucking Siegfried
+Saber,34jrgx,Sparox12,1 point,Fri May 1 19:34:12 2015 UTC,Maybe I am missing something but this isn't Saber...
+Saber,34jrgx,RyuDragoon,2,Sat May 2 03:09:32 2015 UTC,Welcome to Saber Class subreddit.
+Saber,34jrgx,any42,1 point,Sat May 2 03:16:16 2015 UTC,My apologies. I got the wrong impression when almost every picture posted here is of the Saber I know and love.
+Saber,34jrgx,RyuDragoon,1 point,Sat May 2 03:24:10 2015 UTC,"B-but it says it's dedicated to ""other Saber class related characters."", b-baka."
+Saber,34jrgx,any42,1 point,Sat May 2 03:26:21 2015 UTC,I...i.. I'm a sorry.
+Saber,34jrgx,RyuDragoon,1 point,Sat May 2 03:29:06 2015 UTC,You're missing something
+Saber,34jrgx,Ownsin,1 point,Sat May 2 03:18:21 2015 UTC,Anime of this when?
+Saber,34jrgx,RyuDragoon,1 point,Sat May 2 03:23:19 2015 UTC,There has not been any news about an Apocrypha anime.
+Saber,34jrgx,quuser,1 point,Sat May 2 03:27:00 2015 UTC,That is unfortunate to hear.
+Saber,34jrgx,RyuDragoon,1 point,Sat May 2 03:28:35 2015 UTC,Reminds me of that one character in Bleach.
+Saber,34jkj5,Ownsin,6,Fri May 1 18:22:42 2015 UTC,Absolutely love the new banner! The way the image changes when you hover over it is so cool!
+Saber,34jkj5,FirstLight3368,5,Fri May 1 19:10:04 2015 UTC,The banner looks great! The swords by each picture are a nice touch.  Well done!
+Saber,34jkj5,trijohn,5,Fri May 1 20:26:47 2015 UTC,Needs more Saber Lion!  Gao~
+Saber,34jkj5,AdelKoenig,4,Sat May 2 01:36:03 2015 UTC,The banner is really impressive.  I wish I possessed half the photoshop skills of the guy who did it.
+Saber,34jkj5,Sarngeras,3,Fri May 1 23:55:20 2015 UTC,Thanks for all your hard work! Love the new look
+Saber,34clia,Ziebell,3,Thu Apr 30 01:52:03 2015 UTC,Lol why is it Sabre Alter? It's the only version that has Saber spelled differently. Unless I'm missing out on something?
+Saber,34clia,drnicolai,4,Thu Apr 30 03:27:11 2015 UTC,"Well, sabre is how its spelled in British English, but I think it was just a typo."
+Saber,34clia,autowikibot,2,Thu Apr 30 14:55:23 2015 UTC,"Section 4. -re, -er of article  American and British English spelling differences:       In British English, some words from French, Latin or Greek end with a consonant followed by an unstressed -re (pronounced /ə(ɹ)/). In American English, most of these words have the ending -er.   The difference is most common for words ending -bre or -tre: British spellings calibre, centre, fibre, goitre, litre, lustre, manoeuvre, meagre, metre, mitre, nitre, ochre, reconnoitre, sabre, saltpetre, sepulchre, sombre, spectre, theatre (see exceptions) and titre all have -er in American spelling.     Interesting: Jewelry designer | Sedative | Visitor center | Sic   Parent commenter can toggle NSFW or delete. Will also delete on comment score of -1 or less. | FAQs | Mods | Magic Words"
+Saber,34clia,brningpyre,3,Thu Apr 30 14:56:06 2015 UTC,"I thought Mordred was ""Red Saber"", and Nero was ""Saber Extra""."
+Saber,34b5qs,JillSandvich,2,Wed Apr 29 19:19:56 2015 UTC,I would pay a foolish amount of money to hear Nero sing.
+Saber,34b5qs,nataku411,1 point,Thu Apr 30 04:42:49 2015 UTC,The beginning of this video has ten glorious seconds of her singing jingle bells.
+Saber,34a71g,any42,2,Wed Apr 29 15:06:02 2015 UTC,Back from episode 12...  Saber: Ah... Still alive.   Shirou: (This is terrible.)
+Saber,348ld5,Ownsin,2,Wed Apr 29 03:51:57 2015 UTC,"Wrong outfit, Saber."
+Saber,348ld5,any42,1 point,Wed Apr 29 14:53:53 2015 UTC,reminds me of sheik kind of.
+Saber,348ld5,John137,1 point,Wed Apr 29 04:39:11 2015 UTC,Was just thinking the exact same thing.
+Saber,346z81,Cypherghost,1 point,Tue Apr 28 20:12:59 2015 UTC,"It's like the halfway to Saber Alter, the sword, and the eyes."

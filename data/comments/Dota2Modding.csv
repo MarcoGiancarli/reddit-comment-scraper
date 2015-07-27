@@ -1,0 +1,15 @@
+Dota2Modding,3e2e5p,I_PotMoftheMoon_I,1 point,Tue Jul 21 12:51:08 2015 UTC,none of mine are working at all. Did they even have to use a different sound file as well?   Guess we're gonna have to wait a while till reborn goes mainstream
+Dota2Modding,3e0otr,Tramp_CN,1 point,Tue Jul 21 01:35:46 2015 UTC,speaking of launch options is there a way for us to see what all the possible launch options are?
+Dota2Modding,3dzptd,contrasttx,2,Mon Jul 20 21:02:43 2015 UTC,"While I don't know if or how they work with DotA 2, there are two triggers for this: 'trigger_changelevel' and 'trigger_transition'.  Hope this helps a bit"
+Dota2Modding,3dzptd,villith,1 point,Tue Jul 21 00:49:44 2015 UTC,"Thanks, I'll experiment with this!"
+Dota2Modding,3dzptd,Rubician,1 point,Tue Jul 21 14:37:11 2015 UTC,You mean like forcing all players to go to a loading screen to spawn them on a newly loaded map?
+Dota2Modding,3dzptd,Rubician,1 point,Tue Jul 21 06:30:12 2015 UTC,"Yep, this exactly."
+Dota2Modding,3dwq96,Gekiru,2,Mon Jul 20 04:13:16 2015 UTC,ORA ORA ORA ORA ORA ORA ORA ORA  /r/osugame
+Dota2Modding,3dwq96,freefire137,1 point,Mon Jul 20 05:23:36 2015 UTC,http://imgur.com/FUgMGkU
+Dota2Modding,3dwq96,LiquidPL,1 point,Tue Jul 21 14:39:43 2015 UTC,"What we really need is a Hokuto Shinken ""HATATATATATATATA"" troll warlord mod."
+Dota2Modding,3dy460,SirNoPro,1 point,Mon Jul 20 14:10:49 2015 UTC,"Bot logic has been removed in Source 1, and doesn't work at all in Source 2. Good luck."
+Dota2Modding,3dy460,NTTHRASH,2,Mon Jul 20 17:39:26 2015 UTC,"Damn. Thank you for answering, though."
+Dota2Modding,3dvsqw,Lattyware,1 point,Sun Jul 19 23:10:34 2015 UTC,Haven't actually played your game yet but it is a great learning resource for Panorama.
+Dota2Modding,3dvkyo,Putnam3145,1 point,Sun Jul 19 22:04:10 2015 UTC,"The fetching of the numbers for display purposes is done on the client side. You're setting fields on the ability object in lua and returning them later. However, OnCreated is only run on the server side, not on the client side. Thus, on the client, these fields are nil and thus the client will not display the bonuses.  (This is also why OnIntervalThink is running twice for you; once on server, once on client. The client has access to much less stuff. Use IsServer() to differentiate the two.)"
+Dota2Modding,3dvkyo,soldiercrabs,1 point,Sun Jul 19 23:09:59 2015 UTC,"...oh, wow, i even noticed that bit of boilerplate, removed it to see why it's required then somehow forgot i removed it"
+Dota2Modding,3dtwmo,rcsale,1 point,Sun Jul 19 12:39:50 2015 UTC,"The main and test clients use the same formats, so most main client mods will also work on the test client. The reborn client uses different formats, however, so conversion is a tad more involved (but possible)."

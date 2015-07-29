@@ -197,12 +197,7 @@ class CommentScraper():
                 got_first_page = len(new_post_data) > 0
 
             if len(next_links) < 1:
-                if got_first_page:
-                    break
-                else:  # if first page has no posts/link, the proxy is faulty
-                    self.swap_proxies()
-                    self.log('First page is invalid. Trying again...', 'error')
-                    continue
+                break
 
             self.log('Found %d new posts.' % len(new_post_data))
 
@@ -222,8 +217,6 @@ class CommentScraper():
             self.write_list_to_file(new_post_data, posts_filename, 'a')
 
         self.log('Next button not found. Finished getting posts.')
-        # self.log('Found %d total posts.' % len(post_data))
-        # return post_data
 
     def scrape_post(self, subreddit_name, post_id):
         post_url = 'http://www.reddit.com/r/{sub_name}/comments/{post_id}/'
@@ -255,9 +248,7 @@ class CommentScraper():
         )
 
         comment_texts = [
-            CommentScraper.format_comment_text(
-                unicode(element.text_content())
-            )
+            CommentScraper.format_comment_text(unicode(element.text_content()))
             for element
             in comment_elements
         ]
@@ -267,7 +258,7 @@ class CommentScraper():
             in author_elements
         ]
         score_texts = [
-            unicode(element.text_content().replace(u' points', u''))
+            unicode(element.text_content().replace(u' point', u'').replace(u's', u''))
             for element
             in score_elements
         ]
@@ -353,9 +344,7 @@ class CommentScraper():
             proxies = None
 
         # this is in all reddit pages, so if we don't see this, we failed
-        verify_text = \
-            '<meta name="keywords" content=" reddit, reddit.com, vote, comm' + \
-            'ent, submit " />'
+        verify_text = 'reddit, reddit.com'
 
         failures = 0
         response_text = None
@@ -368,13 +357,13 @@ class CommentScraper():
                     timeout=20,
                 ).text
                 if verify_text in response_text:
-                    self.proxy.on_success()  # raise confidence
+                    self.proxy.on_success()  # increase confidence
                     break
                 else:
                     raise Exception(message='failed to validate')
             except Exception as e:
                 self.log(e.message, level='error')
-                self.proxy.on_failure(e.message)  # lower confidence
+                self.proxy.on_failure(e.message)  # decrease confidence
                 failures += 1
                 if failures > 4:
                     self.swap_proxies()

@@ -17,7 +17,7 @@ def main():
 
     CS.make_scrapers(
         http_proxy_urls=http_proxy_urls,
-        log_level=logging.CRITICAL,
+        log_level=logging.DEBUG,
         verbose=True
     )
 
